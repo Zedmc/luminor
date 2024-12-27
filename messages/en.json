@@ -1,0 +1,292 @@
+{
+  "LocaleSwitcher": {
+    "switchToFrench": "Switch to French",
+    "switchToEnglish": "Switch to English",
+    "en": "EN",
+    "fr": "FR"
+  },
+  "Header": {
+    "services": "Services",
+    "showcase": "Showcase",
+    "contact": "Contact",
+    "bookNow": "Book Now"
+  },
+  "Hero": {
+    "title": "Discover Luxury Cleaning",
+    "subtitle": "Elevate your space with our premium cleaning services",
+    "cta": "Get a Quote"
+  },
+  "Services": {
+    "cta": "Contact Us",
+    "title": "Exceptional Cleaning Services",
+    "basic": {
+      "title": "Basic Cleaning",
+      "description": "Quick, no-fuss cleaning for everyday needs."
+    },
+    "residential": {
+      "title": "Residential Cleaning",
+      "description": "Custom solutions to keep your home spotless and inviting."
+    },
+    "commercial": {
+      "title": "Commercial Cleaning",
+      "description": "Expert cleaning for businesses to impress clients and staff."
+    },
+    "recurring": {
+      "title": "Recurring Plans",
+      "description": "Scheduled services to maintain a consistently pristine space."
+    }
+  },
+  "WhatWeDo": {
+    "title": "What We Do",
+    "description": "At LuxeClean, we redefine the art of cleaning. Our team of experts combines cutting-edge techniques with meticulous attention to detail, ensuring your space is not only spotless but truly luxurious.",
+    "list": {
+      "precision": "Precise cleaning for every surface",
+      "expertise": "Expert handling of delicate materials",
+      "customization": "Cleaning plans customized to your unique needs"
+    },
+    "imageAlt": "Luxury cleaning in action"
+  },
+  "LuxuryShowcase": {
+    "cta":"Contact Us",
+    "title": "Experience Luxury",
+    "image1Alt": "Luxurious living room",
+    "image1Title": "Immaculate Living Spaces",
+    "image1Description": "Step into a world of sophistication where every detail is meticulously curated to create a serene and inviting atmosphere.",
+    "image2Alt": "Spotless kitchen",
+    "image2Title": "Sparkling Kitchens",
+    "image2Description": "Discover culinary excellence in a kitchen that combines functionality with breathtaking aesthetics, designed for the modern chef.",
+    "image3Alt": "Elegant bathroom",
+    "image3Title": "Shining Bathrooms",
+    "image3Description": "Indulge in a spa-like retreat with bathrooms that exude tranquility and elegance, featuring premium finishes and soothing designs.",
+    "image4Alt": "Sophisticated meeting room",
+    "image4Title": "Elegant Meeting Rooms",
+    "image4Description": "Elevate your business gatherings in refined meeting rooms that blend professionalism with comfort, ensuring a productive atmosphere."
+  },
+  "Pricing": {
+    "title": "Our Pricing",
+    "description": "We offer flexible and affordable pricing plans to meet your needs.",
+    "customQuote": "Get a Custom Quote",
+    "customQuoteDescription": "If you have specific requirements, we can provide a personalized quote just for you.",
+    "contactUs": "Contact Us",
+    "services": {
+      "residentialCleaning": {
+        "title": "Residential Cleaning",
+        "description": "Keep your home spotless with our expert residential cleaning services."
+      },
+      "deepCleaning": {
+        "title": "Deep Cleaning",
+        "description": "Get a thorough deep clean for your space, from top to bottom."
+      },
+      "regularMaintenance": {
+        "title": "Regular Maintenance",
+        "description": "Ensure your home stays clean year-round with regular cleaning services."
+      },
+      "bathroomCleaning": {
+        "title": "Bathroom Cleaning",
+        "description": "We specialize in keeping your bathroom sparkling clean."
+      },
+      "officeCleaning": {
+        "title": "Office Cleaning",
+        "description": "Maintain a clean and productive environment with our office cleaning services."
+      },
+      "specializedCleaning": {
+        "title": "Specialized Cleaning",
+        "description": "Get expert cleaning services for unique needs such as post-renovation or special events."
+      }
+    },
+    "features": {
+      "availableAnytime": {
+        "title": "Here When Needed",
+        "description": "We're available frequently to provide excellent service whenever you need it."
+      },
+      "premiumQuality": {
+        "title": "Premium Quality",
+        "description": "Experience the best cleaning services designed just for you."
+      },
+      "fastEfficient": {
+        "title": "Fast & Efficient",
+        "description": "Get your space spotless in no time with our expert team."
+      },
+      "reliableService": {
+        "title": "Reliable Service",
+        "description": "Count on us for consistent, dependable, and top-tier cleaning every time."
+      }
+    }
+  },
+  "Footer": {
+    "about": {
+      "title": "About LuxeClean",
+      "description": "LuxeClean provides premium cleaning services for discerning clients in Montreal, seeking excellence."
+    },
+    "contact": {
+      "title": "Contact Us",
+      "address": "123 Rue de la Luxe, Montreal, QC H3A 2A5",
+      "phone": "+1 (438) 530 3350",
+      "whatsapp": "+1 (438) 530 3350",
+      "email": "info@luxeclean.com",
+      "name": "Name",
+      "message": "Message",
+      "send": "Send",
+      "getInTouch": "Get in Touch",
+      "sending": "Sending..."
+    },
+    "followUs": "Follow Us",
+    "rights": "All rights reserved.",
+    "contactUs": "Contact Us",
+    "contactMethods": {
+      "email": "Send an Email",
+      "whatsapp": "WhatsApp",
+      "phone": "Call Us"
+    },
+    "socialMedia": {
+      "facebook": "Follow us on Facebook",
+      "instagram": "Follow us on Instagram",
+      "twitter": "Follow us on Twitter"
+    },
+    "toasts": {
+      "success": {
+        "title": "Message sent",
+        "description": "We'll get back to you soon!"
+      },
+      "error": {
+        "title": "Error",
+        "description": "Failed to send message. Please try again."
+      }
+    },
+    "errors": {
+      "Name must be at least 2 characters": "Name must be at least 2 characters",
+      "Invalid email address": "Invalid email address",
+      "Message must be at least 10 characters": "Message must be at least 10 characters"
+    }
+  },
+  "About": {
+    "cta": "Contact Us",
+    "title": "About Our Company",
+    "subtitle": "Luxury Cleaning Redefined.",
+    "description": "LuxeClean delivers unmatched cleaning services, transforming homes and workplaces into pristine, elegant spaces. With meticulous attention to detail and a commitment to excellence, we create environments that radiate luxury and comfort.",
+    "learnMore": "Learn More",
+    "image1Alt": "Living room",
+    "image1Title": "Immaculate Living Spaces",
+    "image1Description": "Transform your living room into a pristine sanctuary with our meticulous cleaning techniques.",
+    "image2Alt": "Kitchen",
+    "image2Title": "Sparkling Kitchens",
+    "image2Description": "Experience a kitchen so clean it shines, with every surface carefully sanitized and polished.",
+    "image3Alt": "Bathroom",
+    "image3Title": "Shining Bathrooms",
+    "image3Description": "Elevate your bathroom's hygiene with our comprehensive deep-cleaning approach.",
+    "image4Alt": "Office Space",
+    "image4Title": "Pristine Office Spaces",
+    "image4Description": "Maintain a professional environment with our thorough and efficient office cleaning services."
+  },
+  "WhyChooseUs": {
+    "title": "WHY CHOOSE US",
+    "subtitle": "LuxeClean serves Montreal with a passion for perfection. Choose us for our commitment to quality, efficiency, and care.",
+    "sparklingClean": {
+      "title": "EXCEPTIONAL CLEANLINESS",
+      "description": "We ensure your spaces are spotless and hygienic, with a deep cleaning that targets even the hardest-to-reach areas for a truly fresh environment."
+    },
+    "leadingTech": {
+      "title": "ADVANCED CLEANING SOLUTIONS",
+      "description": "Our use of eco-friendly products and state-of-the-art equipment ensures top-tier results while being gentle on your home and the planet."
+    },
+    "insured": {
+      "title": "FULLY INSURED AND TRUSTED",
+      "description": "With comprehensive insurance and a dedicated, vetted team, we offer peace of mind with every service, protecting your property at all times."
+    },
+    "reliableCrew": {
+      "title": "DEDICATED PROFESSIONALS",
+      "description": "Our experienced cleaning experts are punctual, friendly, and trained to meet your specific cleaning preferences with meticulous attention to detail."
+    },
+    "cta": "Contact Us"
+  },
+  "Priority": {
+    "title": "OUR TOP PRIORITIES",
+    "subtitle": "Our priorities are:",
+    "labels": {
+      "customers": "OUR PARTNERS",
+      "environment": "THE ENVIRONMENT",
+      "communication": "CLEAR COMMUNICATION"
+    },
+    "content": {
+      "customers": "We offer exceptional residential and commercial cleaning services, always listening to our clients and meeting their needs.",
+      "environment": "We use eco-friendly products and sustainable practices to ensure safety for your family, pets, and the environment.",
+      "communication": "Our services are affordable, and if you're not satisfied, we'll return to clean the areas that didn't meet your expectations. Your satisfaction is our priority."
+    }
+  },
+  "LuxuryAppeal": {
+    "title": "The Allure of Immaculate Luxury",
+    "subtitle": "Discover how pristine, opulent spaces captivate and drive success",
+    "benefits": {
+      "visualAppeal": "Captivating Aesthetics",
+      "visualAppealDesc": "Spotless, luxurious environments instantly draw attention and leave lasting impressions",
+      "perception": "Elevated Brand Image",
+      "perceptionDesc": "Impeccable spaces significantly boost your business's perceived value and prestige",
+      "businessGrowth": "Accelerated Growth",
+      "businessGrowthDesc": "Stunning, clean environments attract more clients, driving increased revenue and expansion"
+    },
+    "statistic": "75% Boost",
+    "statisticDesc": "in customer engagement within pristine, luxury spaces"
+  },
+  "ContactForm": {
+    "title": "Contact Form",
+    "description": "Send me a message or contact me via WhatsApp.",
+    "labels": {
+      "name": "Name",
+      "email": "Email",
+      "message": "Message"
+    },
+    "placeholders": {
+      "name": "Enter your name",
+      "email": "Enter your email",
+      "message": "Enter your message"
+    },
+    "errors": {
+      "name": "Name must be at least 2 characters",
+      "email": "Invalid email address",
+      "message": "Message must be at least 10 characters"
+    },
+    "success": {
+      "title": "Message sent!",
+      "description": "Thank you for your message. We'll get back to you soon."
+    },
+    "error": {
+      "title": "Error",
+      "description": "There was a problem sending your message. Please try again."
+    },
+    "buttons": {
+      "sendMessage": "Send Message",
+      "sending": "Sending...",
+      "contactWhatsApp": "Contact via WhatsApp"
+    }
+  },
+
+  "FooterContactForm": {
+    "contactFormTitle": "Contact Us",
+    "contactFormDescription": "Have a question or want to get in touch? Fill out the form below and we'll get back to you as soon as possible.",
+    "namePlaceholder": "Your Name",
+    "emailPlaceholder": "Your Email",
+    "messagePlaceholder": "Your Message",
+    "sendingButton": "Sending...",
+    "sendButton": "Send Message",
+    "successTitle": "Message Sent",
+    "successDescription": "Thank you for reaching out! We'll get back to you shortly.",
+    "errorTitle": "Something Went Wrong",
+    "errorDescription": "There was an issue sending your message. Please try again later.",
+    "getInTouch": "Get in Touch",
+    "emailLabel": "Email",
+    "phoneLabel": "Phone",
+    "whatsappLabel": "WhatsApp",
+    "followUs": "Follow Us",
+    "facebook": "Facebook",
+    "instagram": "Instagram",
+    "twitter": "Twitter",
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
+    "nameMin": "Name must be at least 2 characters long",
+    "emailInvalid": "Please enter a valid email address",
+    "messageMin": "Message must be at least 10 characters long",
+    "nameError": "Please enter your name",
+    "emailError": "Please enter your email",
+    "messageError": "Please enter your message"
+  }
+}

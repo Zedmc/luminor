@@ -1,0 +1,291 @@
+{
+  "LocaleSwitcher": {
+    "switchToFrench": "Passer au français",
+    "switchToEnglish": "Passer à l'anglais",
+    "en": "EN",
+    "fr": "FR"
+  },
+  "Header": {
+    "services": "Services",
+    "showcase": "Vitrine",
+    "contact": "Contact",
+    "bookNow": "Réservez"
+  },
+  "Hero": {
+    "title": "Découvrez le Nettoyage de Luxe",
+    "subtitle": "Sublimez votre espace avec nos services de nettoyage haut de gamme",
+    "cta": "Obtenez un Devis"
+  },
+  "Services": {
+    "cta": "Contactez-Nous",
+    "title": "Nos Services d'Exception",
+    "basic": {
+      "title": "Nettoyage de Base",
+      "description": "Un nettoyage rapide et simple pour les besoins quotidiens."
+    },
+    "residential": {
+      "title": "Nettoyage Résidentiel",
+      "description": "Des solutions sur mesure pour une maison impeccable et accueillante."
+    },
+    "commercial": {
+      "title": "Nettoyage Commercial",
+      "description": "Un service professionnel pour valoriser vos espaces de travail."
+    },
+    "recurring": {
+      "title": "Plans Récurrents",
+      "description": "Des nettoyages programmés pour un espace toujours parfait."
+    }
+  },
+  "WhatWeDo": {
+    "title": "Ce Que Nous Faisons",
+    "description": "Chez LuxeClean, nous redéfinissons l'art du nettoyage. Notre équipe d'experts combine des techniques de pointe avec une attention méticuleuse aux détails, garantissant que votre espace soit non seulement impeccable mais aussi véritablement luxueux.",
+    "list": {
+      "precision": "Nettoyage précis pour chaque surface",
+      "expertise": "Manipulation experte des matériaux délicats",
+      "customization": "Plans de nettoyage personnalisés selon vos besoins uniques"
+    },
+    "imageAlt": "Nettoyage de luxe en action"
+  },
+  "LuxuryShowcase": {
+    "cta": "Contactez-Nous",
+
+    "title": "Vivez le Luxe",
+    "image1Alt": "Salon luxueux",
+    "image1Title": "Espaces de Vie Impeccables",
+    "image1Description": "Entrez dans un monde de sophistication où chaque détail est soigneusement conçu pour créer une atmosphère sereine et accueillante.",
+    "image2Alt": "Cuisine immaculée",
+    "image2Title": "Cuisines Éclatantes",
+    "image2Description": "Découvrez l'excellence culinaire dans une cuisine qui allie fonctionnalité et esthétique époustouflante, conçue pour le chef moderne.",
+    "image3Alt": "Salle de bain élégante",
+    "image3Title": "Salles de Bain Étincelantes",
+    "image3Description": "Offrez-vous un refuge semblable à un spa avec des salles de bain qui dégagent tranquillité et élégance, dotées de finitions haut de gamme et de designs apaisants.",
+    "image4Alt": "Salle de réunion sophistiquée",
+    "image4Title": "Salles de Réunion Élégantes",
+    "image4Description": "Élevez vos réunions d'affaires dans des salles raffinées qui allient professionnalisme et confort, garantissant une atmosphère productive."
+  },
+  "Pricing": {
+    "title": "Nos Tarifs",
+    "description": "Nous proposons des tarifs flexibles et abordables pour répondre à vos besoins.",
+    "customQuote": "Obtenir un Devis Personnalisé",
+    "customQuoteDescription": "Contactez-nous pour un devis personnalisé qui correspond exactement à vos exigences et à votre budget.",
+    "contactUs": "Contactez-Nous",
+    "services": {
+      "residentialCleaning": {
+        "title": "Nettoyage Résidentiel",
+        "description": "Garder votre domicile propre et confortable"
+      },
+      "deepCleaning": {
+        "title": "Nettoyage en Profondeur",
+        "description": "Pour les zones difficiles et les saletés tenaces"
+      },
+      "regularMaintenance": {
+        "title": "Entretien Régulier",
+        "description": "Pour un espace toujours propre et entretenu"
+      },
+      "bathroomCleaning": {
+        "title": "Nettoyage des Salles de Bain",
+        "description": "Des salles de bain impeccables et hygiéniques"
+      },
+      "officeCleaning": {
+        "title": "Nettoyage de Bureaux",
+        "description": "Pour un espace de travail propre et organisé"
+      },
+      "specializedCleaning": {
+        "title": "Nettoyage Spécialisé",
+        "description": "Pour répondre à vos besoins spécifiques"
+      }
+    },
+    "features": {
+      "availableAnytime": {
+        "title": "Toujours Disponible",
+        "description": "Nous sommes souvent disponibles pour vous fournir un service de qualité chaque fois que vous en avez besoin."
+      },
+      "premiumQuality": {
+        "title": "Qualité Premium",
+        "description": "Un service de nettoyage de qualité supérieure."
+      },
+      "fastEfficient": {
+        "title": "Rapide et Efficace",
+        "description": "Un nettoyage rapide et de qualité."
+      },
+      "reliableService": {
+        "title": "Service Fiable",
+        "description": "Comptez sur nous pour un nettoyage constant, fiable et de premier ordre à chaque fois."
+      }
+    }
+  },
+  "Footer": {
+    "about": {
+      "title": "À Propos de LuxeClean",
+      "description": "LuxeClean propose des services de nettoyage haut de gamme pour une clientèle exigeante à Montréal, qui recherche l'excellence."
+    },
+    "contact": {
+      "title": "Contactez-Nous",
+      "address": "123 Rue de la Luxe, Montréal, QC H3A 2A5",
+      "phone": "+1 (438) 530 3350",
+      "whatsapp": "+1 (438) 530 3350",
+      "email": "info@luxeclean.com",
+      "name": "Nom",
+      "message": "Message",
+      "send": "Envoyer",
+      "getInTouch": "Prenez Contact",
+      "sending": "Envoi en cours..."
+    },
+    "followUs": "Suivez-Nous",
+    "rights": "Tous droits réservés.",
+    "contactUs": "Contactez-Nous",
+    "contactMethods": {
+      "email": "Envoyez un Email",
+      "whatsapp": "WhatsApp",
+      "phone": "Appelez-Nous"
+    },
+    "socialMedia": {
+      "facebook": "Suivez-nous sur Facebook",
+      "instagram": "Suivez-nous sur Instagram",
+      "twitter": "Suivez-nous sur Twitter"
+    },
+    "toasts": {
+      "success": {
+        "title": "Message envoyé",
+        "description": "Nous vous répondrons bientôt !"
+      },
+      "error": {
+        "title": "Erreur",
+        "description": "Échec de l'envoi du message. Veuillez réessayer."
+      }
+    },
+    "errors": {
+      "Name must be at least 2 characters": "Le nom doit comporter au moins 2 caractères",
+      "Invalid email address": "Adresse e-mail invalide",
+      "Message must be at least 10 characters": "Le message doit comporter au moins 10 caractères"
+    }
+  },
+  "About": {
+    "cta": "Contactez-Nous",
+    "title": "À Propos De Notre Entreprise",
+    "subtitle": "Le Nettoyage de Luxe Redéfini.",
+    "description": "LuxeClean offre des services de nettoyage incomparables, transformant maisons et lieux de travail en espaces impeccables et élégants. Avec une attention méticuleuse aux détails et un engagement envers l'excellence, nous créons des environnements qui respirent le luxe et le confort.",
+    "image1Alt": "Salon",
+    "image1Title": "Espaces de Vie Impeccables",
+    "image1Description": "Transformez votre salon en un sanctuaire impeccable grâce à nos techniques de nettoyage méticuleuses.",
+    "image2Alt": "Cuisine",
+    "image2Title": "Cuisines Éclatantes",
+    "image2Description": "Profitez d'une cuisine si propre qu'elle brille, avec chaque surface soigneusement désinfectée et polie.",
+    "image3Alt": "Salle de Bain",
+    "image3Title": "Salles de Bain Étincelantes",
+    "image3Description": "Améliorez l'hygiène de votre salle de bain grâce à notre approche de nettoyage en profondeur.",
+    "image4Alt": "Bureau",
+    "image4Title": "Espaces de Bureau Impeccables",
+    "image4Description": "Maintenez un environnement professionnel avec nos services de nettoyage de bureau complets et efficaces."
+  },
+  "WhyChooseUs": {
+    "title": "POURQUOI NOUS CHOISIR",
+    "subtitle": "LuxeClean sert Montréal avec une passion pour la perfection. Choisissez-nous pour notre engagement envers la qualité, l'efficacité et le soin.",
+    "sparklingClean": {
+      "title": "PROPRETÉ EXCEPTIONNELLE",
+      "description": "Nous assurons que vos espaces sont impeccables et hygiéniques, avec un nettoyage en profondeur qui cible même les zones les plus difficiles d'accès pour un environnement véritablement frais."
+    },
+    "leadingTech": {
+      "title": "SOLUTIONS DE NETTOYAGE AVANCÉES",
+      "description": "L'utilisation de produits écologiques et d'équipements de pointe garantit des résultats exceptionnels tout en étant doux pour votre maison et la planète."
+    },
+    "insured": {
+      "title": "ASSURÉ ET FIABLE",
+      "description": "Avec une couverture d'assurance complète et une équipe dédiée, nous vous offrons une tranquillité d'esprit à chaque service, en protégeant votre propriété à tout moment."
+    },
+    "reliableCrew": {
+      "title": "PROFESSIONNELS DÉVOUÉS",
+      "description": "Nos experts en nettoyage expérimentés sont ponctuels, sympathiques et formés pour répondre à vos besoins spécifiques avec une attention méticuleuse aux détails."
+    },
+    "cta": "Contactez-Nous"
+  },
+  "Priority": {
+    "title": "NOS PRIORITÉS ESSENTIELLES",
+    "subtitle": "Nos priorités sont les suivantes :",
+    "labels": {
+      "customers": "NOS PARTENAIRES",
+      "environment": "L'ENVIRONNEMENT",
+      "communication": "COMMUNICATION CLAIRE"
+    },
+    "content": {
+      "customers": "Nous offrons des services de nettoyage résidentiel et commercial exceptionnels. Écouter nos clients et répondre à leurs besoins est notre priorité.",
+      "environment": "Nous utilisons des produits écologiques et des pratiques durables pour garantir la sécurité de votre famille, de vos animaux et de la planète.",
+      "communication": "Nos services sont abordables, et si vous n'êtes pas satisfait, nous reviendrons pour nettoyer les zones concernées. Votre satisfaction est primordiale."
+    }
+  },
+  "LuxuryAppeal": {
+    "title": "L'attrait de la luxure immaculée",
+    "subtitle": "Découvrez comment les espaces immaculés et opulents captivent et favorisent le succès",
+    "benefits": {
+      "visualAppeal": "Esthétique captivante",
+      "visualAppealDesc": "Des environnements impeccables et luxueux attirent instantanément l'attention et laissent des impressions durables",
+      "perception": "Image de marque élevée",
+      "perceptionDesc": "Des espaces irréprochables augmentent considérablement la valeur perçue de votre entreprise et son prestige",
+      "businessGrowth": "Croissance accélérée",
+      "businessGrowthDesc": "Des environnements magnifiques et propres attirent plus de clients, générant ainsi plus de revenus et d'expansion"
+    },
+    "statistic": "Augmentation de 75%",
+    "statisticDesc": "de l'engagement client dans des espaces immaculés et luxueux"
+  },
+  "ContactForm": {
+    "title": "Formulaire de Contact",
+    "description": "Envoyez-nous un message ou contactez-nous via WhatsApp.",
+    "labels": {
+      "name": "Nom",
+      "email": "E-mail",
+      "message": "Message"
+    },
+    "placeholders": {
+      "name": "Entrez votre nom",
+      "email": "Entrez votre e-mail",
+      "message": "Entrez votre message"
+    },
+    "errors": {
+      "name": "Le nom doit contenir au moins 2 caractères",
+      "email": "Adresse e-mail invalide",
+      "message": "Le message doit contenir au moins 10 caractères"
+    },
+    "success": {
+      "title": "Message envoyé !",
+      "description": "Merci pour votre message. Nous vous répondrons bientôt."
+    },
+    "error": {
+      "title": "Erreur",
+      "description": "Il y a eu un problème pour envoyer votre message. Veuillez réessayer."
+    },
+    "buttons": {
+      "sendMessage": "Envoyer le message",
+      "sending": "Envoi...",
+      "contactWhatsApp": "Contacter via WhatsApp"
+    }
+  },
+  "FooterContactForm": {
+    "contactFormTitle": "Contactez-nous",
+    "contactFormDescription": "Vous avez une question ou souhaitez nous contacter ? Remplissez le formulaire ci-dessous et nous vous répondrons dans les plus brefs délais.",
+    "namePlaceholder": "Votre nom",
+    "emailPlaceholder": "Votre e-mail",
+    "messagePlaceholder": "Votre message",
+    "sendingButton": "Envoi en cours...",
+    "sendButton": "Envoyer le message",
+    "successTitle": "Message envoyé",
+    "successDescription": "Merci de nous avoir contactés ! Nous reviendrons vers vous sous peu.",
+    "errorTitle": "Quelque chose a mal tourné",
+    "errorDescription": "Un problème est survenu lors de l'envoi de votre message. Veuillez réessayer plus tard.",
+    "getInTouch": "Contactez-nous",
+    "emailLabel": "E-mail",
+    "phoneLabel": "Téléphone",
+    "whatsappLabel": "WhatsApp",
+    "followUs": "Suivez-nous",
+    "facebook": "Facebook",
+    "instagram": "Instagram",
+    "twitter": "Twitter",
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
+    "nameMin": "Le nom doit comporter au moins 2 caractères",
+    "emailInvalid": "Veuillez entrer une adresse e-mail valide",
+    "messageMin": "Le message doit comporter au moins 10 caractères",
+    "nameError": "Veuillez entrer votre nom",
+    "emailError": "Veuillez entrer votre e-mail",
+    "messageError": "Veuillez entrer votre message"
+  }
+}

@@ -1,0 +1,50 @@
+"use client";
+
+import { useState, useTransition } from "react";
+import { useLocale, useTranslations } from "next-intl";
+import { Button } from "@/components/ui/button";
+import { Locale } from "@/i18n/config";
+import { setUserLocale } from "@/services/locale";
+import { Spinner } from "@/components/ui/spinner";
+
+import { Globe } from "lucide-react";
+
+export function LanguageToggle() {
+  const locale = useLocale() as Locale;
+  const [currentLocale, setCurrentLocale] = useState<Locale>(locale);
+  const [isPending, startTransition] = useTransition();
+
+  const t = useTranslations("LocaleSwitcher");
+  const toggleLocale = () => {
+    const newLocale = currentLocale === "en" ? "fr" : "en";
+    startTransition(() => {
+      setUserLocale(newLocale);
+      setCurrentLocale(newLocale);
+    });
+  };
+  return (
+    <Button
+      size="sm"
+      variant="outline"
+      onClick={toggleLocale}
+      disabled={isPending}
+      className="flex items-center justify-center  text-[#B8860B] border-[#B8860B]  hover:bg-[#B8860B] hover:text-white
+
+      md:h-12 md:px-8 md:py-4
+      
+      "
+    >
+      {isPending ? (
+        <Spinner size="large" />
+      ) : (
+        <>
+          <Globe className="w-6 h-6" />
+          <span className=" text-base  font-semibold uppercase">
+            {t(currentLocale)}
+          </span>
+          <span className="sr-only">Toggle language</span>
+        </>
+      )}
+    </Button>
+  );
+}
