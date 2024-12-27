@@ -48,6 +48,7 @@ export default function LuxuryShowcase() {
                   src={`/images/luxury-interior-${index}.jpg`}
                   alt={t(`image${index}Alt`)}
                   fill
+                  sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, 33vw"
                   style={{ objectFit: "cover" }}
                   className="w-full h-full object-cover"
                 />

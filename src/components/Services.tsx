@@ -31,7 +31,10 @@ export default function Services() {
   const isInView = useInView(ref, { once: true });
 
   return (
-    <section id="services" className="py-16 bg-gradient-to-b from-white via-gray-200 to-gray-200">
+    <section
+      id="services"
+      className="py-16 bg-gradient-to-b from-white via-gray-200 to-gray-200"
+    >
       <motion.div
         ref={ref}
         initial="hidden"
@@ -67,6 +70,8 @@ export default function Services() {
                     src={`/images/interior-services-${index + 1}.jpg`}
                     alt={t(`${service.translationKey}.title`)}
                     fill
+                    priority
+                    sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, 33vw"
                     className="absolute top-0 left-0 w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
                   />
                   <div className="absolute inset-0 bg-black bg-opacity-30 flex items-end p-4">
