@@ -12,15 +12,15 @@ export async function submitContactForm(formData: FormData) {
     const transporter = nodemailer.createTransport({
       service: "hotmail",
       auth: {
-        user: "zie.mc@hotmail.com", // Your email
+        user: "contact.luminor@gmail.com", // Your email
         pass: process.env.EMAIL_PASSWORD, // Your email password or app-specific password
       },
     });
 
     // Email content
     const mailOptions = {
-      from: "zie.mc@hotmail.com",
-      to: "zie.mc@hotmail.com",
+      from: "contact.luminor@gmail.com",
+      to: "contact.luminor@gmail.com",
       subject: `New Contact Form Submission from ${name}`,
       text: `
         Name: ${name}

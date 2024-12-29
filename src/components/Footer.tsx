@@ -14,11 +14,11 @@ import { FaWhatsapp } from "react-icons/fa";
 import {
   Mail,
   Phone,
-  Facebook,
-  Instagram,
-  Twitter,
-  Github,
-  Linkedin,
+  // Facebook,
+  // Instagram,
+  // Twitter,
+  // Github,
+  // Linkedin,
   Send,
 } from "lucide-react";
 import { useTranslations } from "next-intl";
@@ -82,8 +82,8 @@ export function Footer() {
     {
       icon: Mail,
       label: t("emailLabel"),
-      value: "zie.mc@hotmail.com",
-      href: "mailto:zie.mc@hotmail.com",
+      value: "contact.luminor@gmail.com",
+      href: "mailto:contact.luminor@gmail.com",
     },
     {
       icon: Phone,
@@ -99,13 +99,13 @@ export function Footer() {
     },
   ];
 
-  const socialLinks = [
-    { icon: Facebook, href: "#", label: t("facebook") },
-    { icon: Instagram, href: "#", label: t("instagram") },
-    { icon: Twitter, href: "#", label: t("twitter") },
-    { icon: Github, href: "#", label: t("github") },
-    { icon: Linkedin, href: "#", label: t("linkedin") },
-  ];
+  // const socialLinks = [
+  //   { icon: Facebook, href: "#", label: t("facebook") },
+  //   { icon: Instagram, href: "#", label: t("instagram") },
+  //   { icon: Twitter, href: "#", label: t("twitter") },
+  //   { icon: Github, href: "#", label: t("github") },
+  //   { icon: Linkedin, href: "#", label: t("linkedin") },
+  // ];
 
   return (
     <footer
@@ -214,7 +214,7 @@ export function Footer() {
                 </div>
               </div>
 
-              <div className="space-y-4">
+              {/* <div className="space-y-4">
                 <h4 className="text-xl font-semibold text-white">
                   {t("followUs")}
                 </h4>
@@ -238,7 +238,7 @@ export function Footer() {
                     </motion.a>
                   ))}
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </motion.div>

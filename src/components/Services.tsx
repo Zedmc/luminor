@@ -70,7 +70,7 @@ export default function Services() {
                     src={`/images/interior-services-${index + 1}.jpg`}
                     alt={t(`${service.translationKey}.title`)}
                     fill
-                    priority
+                    // priority
                     sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, 33vw"
                     className="absolute top-0 left-0 w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
                   />
