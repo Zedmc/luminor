@@ -82,8 +82,8 @@ export function Footer() {
     {
       icon: Mail,
       label: t("emailLabel"),
-      value: "contact.luminor@gmail.com",
-      href: "mailto:contact.luminor@gmail.com",
+      value: "info@luminor.ca",
+      href: "mailto:info@luminor.ca",
     },
     {
       icon: Phone,
