@@ -209,7 +209,7 @@ export default function Pricing() {
           ))}
         </div>
 
-        <div className="max-w-5xl mx-auto text-center mt-20 px-4">
+        <div className=" mx-auto text-center mt-20 ">
           <div className="bg-[#0A0F1D] p-8 md:p-12 rounded-3xl shadow-2xl border-2 border-[#2A3154]">
             <h3 className="text-4xl font-bold mb-8 text-white">
               {t("customQuote")}
