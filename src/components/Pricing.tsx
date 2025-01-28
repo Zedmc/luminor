@@ -214,7 +214,7 @@ export default function Pricing() {
             <h3 className="text-4xl font-bold mb-8 text-white">
               {t("customQuote")}
             </h3>
-            <p className="mb-10 text-[#A0AEC0] text-xl leading-relaxed max-w-lg mx-auto">
+            <p className="mb-10 text-balance text-[#A0AEC0] text-xl leading-relaxed max-w-lg mx-auto">
               {t("customQuoteDescription")}
             </p>
             <Link href="#contact">
