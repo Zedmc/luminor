@@ -20,6 +20,10 @@ interface MobileMenuProps {
 export function MobileMenu({ links }: MobileMenuProps) {
   const [open, setOpen] = useState(false);
 
+  const closeMenu = () => {
+    setOpen(false);
+  };
+
   return (
     <Sheet open={open} onOpenChange={setOpen}>
       <SheetTrigger asChild>
@@ -36,7 +40,7 @@ export function MobileMenu({ links }: MobileMenuProps) {
         </SheetHeader>
         <nav className="flex flex-col gap-4 mt-8">
           {links.map((link) => (
-            <NavLink key={link.href} href={link.href}>
+            <NavLink key={link.href} href={link.href} onClick={closeMenu}>
               {link.label}
             </NavLink>
           ))}
