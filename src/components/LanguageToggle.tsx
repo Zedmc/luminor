@@ -24,13 +24,11 @@ export function LanguageToggle() {
   };
   return (
     <Button
-      size="sm"
+      size="default"
       variant="outline"
       onClick={toggleLocale}
       disabled={isPending}
-      className="flex items-center justify-center  text-[#B8860B] border-[#B8860B]  hover:bg-[#B8860B] hover:text-white
-
-      md:h-12 md:px-8 md:py-4
+      className="flex items-center justify-center  text-[#B8860B] border-[#B8860B]  hover:bg-[#B8860B] hover:text-white 
       
       "
     >

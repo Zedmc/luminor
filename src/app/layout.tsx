@@ -58,8 +58,8 @@ export const metadata: Metadata = {
     "service de nettoyage professionnel Montréal",
   ],
   icons: {
-    icon: "/favicon.ico",
-    apple: "/apple-touch-icon.png",
+    icon: "/logo-cropped.svg",
+    apple: "/logo-cropped.svg",
   },
 };
 
