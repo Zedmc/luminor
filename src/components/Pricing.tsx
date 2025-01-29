@@ -219,7 +219,7 @@ export default function Pricing() {
             </p>
             <Link href="#contact">
               <Button
-                size="lg"
+                size="default"
                 className="bg-[#B8860B] text-white text-lg rounded-full transition duration-300 ease-in-out transform hover:scale-105 hover:bg-[#DAA520] shadow-lg"
               >
                 {t("contactUs")}

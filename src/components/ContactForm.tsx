@@ -81,7 +81,7 @@ export default function ContactDialog({ label }: { label: string }) {
     <Dialog open={open} onOpenChange={setOpen}>
       <DialogTrigger asChild>
         <Button
-          size="lg"
+          size="default"
           variant="default"
           className="bg-[#B8860B] hover:bg-[#DAA520] duration-300 text-white border-none font-medium text-lg"
         >
@@ -149,7 +149,7 @@ export default function ContactDialog({ label }: { label: string }) {
           </div>
           <DialogFooter className="flex-col space-y-2 sm:flex-row sm:justify-between sm:space-x-2 sm:space-y-0">
             <Button
-              size="lg"
+              size="default"
               type="button"
               variant="outline"
               className="w-full sm:w-auto flex items-center justify-center gap-2 font-semibold text-[#B8860B] border-[#B8860B] hover:bg-[#B8860B] hover:text-white"
@@ -159,7 +159,7 @@ export default function ContactDialog({ label }: { label: string }) {
               <span>{t("buttons.contactWhatsApp")}</span>
             </Button>
             <Button
-              size="lg"
+              size="default"
               type="submit"
               className="w-full sm:w-auto bg-[#B8860B] hover:bg-[#DAA520] text-white transition-colors duration-300 px-6 py-2 rounded-full text-sm font-semibold"
               disabled={isSubmitting}

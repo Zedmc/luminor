@@ -40,7 +40,7 @@ export default function About() {
         <div className="text-center">
           {/* <Link href="#contact" passHref>
             <Button
-              size="lg"
+              size="default"
               className="bg-[#B8860B] text-white shadow-lg px-8 py-4 text-lg transition duration-300 ease-in-out transform hover:scale-105 hover:bg-[#DAA520]"
             >
               {t("learnMore")}

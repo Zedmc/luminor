@@ -77,8 +77,8 @@ export default async function RootLayout({
   return (
     <html lang={locale}>
       <head>
-        <link rel="icon" href="/favicon.ico" />
-        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+        <link rel="icon" href="/logo-cropped.svg" />
+        <link rel="apple-touch-icon" href="/logo-cropped.svg" />
         {Array.isArray(metadata.keywords) && (
           <meta name="keywords" content={metadata.keywords.join(", ")} />
         )}

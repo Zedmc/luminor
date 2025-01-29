@@ -175,7 +175,7 @@ export function Footer() {
                   )}
                 </div>
                 <Button
-                  size="lg"
+                  size="default"
                   type="submit"
                   disabled={isSubmitting}
                   className="w-full h-12 rounded-md bg-[#B8860B]/80 text-white text-base shadow-lg hover:bg-[#DAA520] transition-colors"

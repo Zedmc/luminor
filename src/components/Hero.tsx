@@ -26,7 +26,7 @@ export default function Hero() {
       />
 
       {/* Overlay to darken the image behind the text */}
-      <div className="absolute inset-0 bg-black opacity-60 z-0"></div>
+      <div className="absolute inset-0 bg-black opacity-50 z-0"></div>
 
       {/* Content above the image */}
       <motion.div
