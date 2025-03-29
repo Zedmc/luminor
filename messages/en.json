@@ -7,120 +7,250 @@
   },
   "Header": {
     "services": "Services",
-    "showcase": "Showcase",
+    "showcase": "Luxury Showcase",
     "contact": "Contact",
-    "bookNow": "Book Now"
+    "bookNow": "Book Now",
+    "carpetCleaning": "Carpet Cleaning",
+    "windowCleaning": "Window Cleaning",
+    "carpetCleaningDesc": "Professional deep cleaning service for all types of carpets and rugs.",
+    "windowCleaningDesc": "Spotless window cleaning for residential and commercial properties, leaving your windows sparkling."
   },
   "Hero": {
-    "title": "Discover Luxury Cleaning",
-    "subtitle": "Elevate your space with our premium cleaning services",
+    "title": "Premium Carpet & Window Cleaning You Can Trust",
+    "subtitle": "Refresh your home with expert cleaning that enhances both comfort and clarity",
     "cta": "Get a Quote"
   },
   "Services": {
+    "professionalPrefix": "Professional",
+    "service": "Service",
+    "bookNow": "Book Now",
+    "learnMore": "Learn More",
+    "whyChoose": "Why Choose Our",
+    "ourProcess": "Our",
+    "benefitsOf": "Benefits of Professional",
+    "ourWork": "Our Work",
+    "viewProject": "View Project",
+    "clientsSay": "What Our Clients Say",
+    "readyToExperience": "Ready to Experience Premium",
+    "scheduleToday": "Schedule your service today and discover the CleanPro difference. We guarantee your satisfaction.",
+    "contactUs": "Contact Us Today",
     "cta": "Contact Us",
-    "title": "Exceptional Cleaning Services",
+    "title": "Our Specialized Services",
+
+    "carpetCleaning": "Carpet Cleaning",
+    "windowCleaning": "Window Cleaning",
+    "carpetCleaningDesc": "Revitalize your home with our deep carpet cleaning technology that removes dirt, stains, allergens, and odors.",
+    "windowCleaningDesc": "Transform your space with crystal-clear windows that enhance natural light and improve your property's appearance.",
+
     "basic": {
       "title": "Basic Cleaning",
-      "description": "Quick, no-fuss cleaning for everyday needs."
+      "description": "Quick and efficient cleaning for regular maintenance of carpets and windows."
     },
     "residential": {
       "title": "Residential Cleaning",
-      "description": "Custom solutions to keep your home spotless and inviting."
+      "description": "Comprehensive solutions for all carpets, rugs, and windows in your home."
     },
     "commercial": {
       "title": "Commercial Cleaning",
-      "description": "Expert cleaning for businesses to impress clients and staff."
+      "description": "Professional service for businesses needing pristine carpets and crystal-clear windows."
     },
     "recurring": {
       "title": "Recurring Plans",
-      "description": "Scheduled services to maintain a consistently pristine space."
+      "description": "Scheduled cleanings to maintain impeccable carpets and spotless windows year-round."
+    },
+
+    "carpet": {
+      "features": {
+        "deepCleaning": {
+          "title": "Deep Cleaning Technology",
+          "description": "Advanced extraction methods that remove deeply embedded dirt and allergens"
+        },
+        "stainRemoval": {
+          "title": "Stain Removal",
+          "description": "Specialized treatments for tough stains and high-traffic areas"
+        },
+        "fastDrying": {
+          "title": "Fast Drying",
+          "description": "Powerful equipment that leaves your carpets dry in just a few hours"
+        }
+      },
+      "process": {
+        "inspection": {
+          "title": "Inspection",
+          "description": "We thoroughly assess your carpets to identify stains and high-traffic areas"
+        },
+        "pretreatment": {
+          "title": "Pre-treatment",
+          "description": "Application of specialized cleaning agents to break down soils and stains"
+        },
+        "extraction": {
+          "title": "Deep Extraction",
+          "description": "Hot water extraction to remove dirt, allergens, and cleaning solutions"
+        },
+        "finishing": {
+          "title": "Final Touches",
+          "description": "Grooming and spot treatments to ensure a perfectly clean finish"
+        }
+      },
+      "benefits": {
+        "health": {
+          "title": "Healthier Indoor Environment",
+          "description": "Removal of allergens, dust mites, and bacteria for improved air quality"
+        },
+        "lifespan": {
+          "title": "Extended Carpet Life",
+          "description": "Regular professional cleaning helps preserve carpet fibers and appearance"
+        },
+        "appearance": {
+          "title": "Enhanced Appearance",
+          "description": "Restoration of color and texture for a more inviting living space"
+        }
+      },
+      "testimonials": {
+        "quote1": "The carpet cleaning service exceeded my expectations. Our carpets look brand new again, and the technicians were professional and efficient.",
+        "quote2": "I was amazed at how they removed stains I thought were permanent. My carpet hasn't looked this good since it was installed!",
+        "quote3": "Highly recommend their carpet cleaning service. The team was punctual, thorough, and the results speak for themselves."
+      }
+    },
+    "window": {
+      "features": {
+        "streakFree": {
+          "title": "Streak-Free Results",
+          "description": "Professional cleaning techniques that leave your windows crystal clear"
+        },
+        "complete": {
+          "title": "Interior & Exterior",
+          "description": "Complete cleaning of all window surfaces, frames, and tracks"
+        },
+        "hardWater": {
+          "title": "Hard Water Treatment",
+          "description": "Specialized solutions for mineral deposits and hard water stains"
+        }
+      },
+      "process": {
+        "assessment": {
+          "title": "Assessment",
+          "description": "We evaluate all window surfaces to determine the best cleaning approach"
+        },
+        "preparation": {
+          "title": "Preparation",
+          "description": "Careful removal of debris from frames and tracks before cleaning"
+        },
+        "cleaning": {
+          "title": "Cleaning",
+          "description": "Professional-grade solutions applied and removed with specialized tools"
+        },
+        "polishing": {
+          "title": "Polishing",
+          "description": "Final detailing to ensure a streak-free, crystal-clear finish"
+        }
+      },
+      "benefits": {
+        "light": {
+          "title": "Increased Natural Light",
+          "description": "Clean windows allow up to 40% more natural light into your space"
+        },
+        "preservation": {
+          "title": "Window Preservation",
+          "description": "Removal of damaging contaminants that can deteriorate frames and glass"
+        },
+        "appearance": {
+          "title": "Improved Home Appearance",
+          "description": "Sparkling windows dramatically enhance your property's curb appeal"
+        }
+      },
+      "testimonials": {
+        "quote1": "I'm amazed at how clean my windows are now. The team was thorough and detailed, and the results are truly outstanding.",
+        "quote2": "They cleaned windows I couldn't even reach and removed years of hard water stains. My home feels so much brighter now!",
+        "quote3": "Professional, efficient, and the cleanest windows I've ever had. Will definitely use their services again."
+      }
     }
   },
   "WhatWeDo": {
     "title": "What We Do",
-    "description": "At LuxeClean, we redefine the art of cleaning. Our team of experts combines cutting-edge techniques with meticulous attention to detail, ensuring your space is not only spotless but truly luxurious.",
+    "description": "At CleanPro Montreal, we redefine cleaning excellence. Our expert team combines advanced techniques with meticulous attention to detail, ensuring your carpets and windows are not only clean but restored to their original beauty, enhancing your entire space.",
     "list": {
-      "precision": "Precise cleaning for every surface",
-      "expertise": "Expert handling of delicate materials",
-      "customization": "Cleaning plans customized to your unique needs"
+      "precision": "Specialized cleaning adapted to each surface and material",
+      "expertise": "Expert stain treatment and streak-free window finishes",
+      "customization": "Customized cleaning solutions based on your specific needs"
     },
-    "imageAlt": "Luxury cleaning in action"
+    "imageAlt": "Professional cleaning service"
   },
   "LuxuryShowcase": {
     "cta": "Contact Us",
-    "title": "Experience Luxury",
-    "image1Alt": "Luxurious living room",
-    "image1Title": "Immaculate Living Spaces",
-    "image1Description": "Step into a world of sophistication where every detail is meticulously curated to create a serene and inviting atmosphere.",
-    "image2Alt": "Spotless kitchen",
-    "image2Title": "Sparkling Kitchens",
-    "image2Description": "Discover culinary excellence in a kitchen that combines functionality with breathtaking aesthetics, designed for the modern chef.",
-    "image3Alt": "Elegant bathroom",
-    "image3Title": "Shining Bathrooms",
-    "image3Description": "Indulge in a spa-like retreat with bathrooms that exude tranquility and elegance, featuring premium finishes and soothing designs.",
-    "image4Alt": "Sophisticated meeting room",
-    "image4Title": "Elegant Meeting Rooms",
-    "image4Description": "Elevate your business gatherings in refined meeting rooms that blend professionalism with comfort, ensuring a productive atmosphere."
+    "title": "Experience Excellence",
+    "image1Alt": "Luxurious living room carpet",
+    "image1Title": "Impeccable Residential Carpets",
+    "image1Description": "Discover our premium cleaning service that brings your precious residential carpets back to life, removing deep-seated dirt and allergens.",
+    "image2Alt": "Sparkling clean windows",
+    "image2Title": "Crystal-Clear Windows",
+    "image2Description": "Our streak-free window cleaning transforms your view, maximizing natural light and enhancing your home's appearance inside and out.",
+    "image3Alt": "Cleaned Oriental rug",
+    "image3Title": "Specialized Rug Care",
+    "image3Description": "Delicate treatment for your most precious rugs, preserving their original colors and texture without harsh chemicals.",
+    "image4Alt": "Commercial window cleaning",
+    "image4Title": "Commercial Excellence",
+    "image4Description": "Complete cleaning solutions for professional spaces, ensuring both carpets and windows project the perfect image for your business."
   },
   "Pricing": {
-    "title": "Our Pricing",
-    "description": "We offer flexible and affordable pricing plans to meet your needs.",
+    "title": "Our Rates",
+    "description": "We offer flexible and affordable rates for all your cleaning needs, from carpets to windows and more.",
     "customQuote": "Get a Custom Quote",
-    "customQuoteDescription": "If you have specific requirements, we can provide a personalized quote just for you.",
+    "customQuoteDescription": "Contact us for a personalized quote tailored to your specific needs and budget.",
     "contactUs": "Contact Us",
     "services": {
       "residentialCleaning": {
-        "title": "Residential Cleaning",
-        "description": "Keep your home spotless with our expert residential cleaning services."
+        "title": "Residential Carpet Cleaning",
+        "description": "For clean, fresh carpets that enhance your home environment"
       },
       "deepCleaning": {
         "title": "Deep Cleaning",
-        "description": "Get a thorough deep clean for your space, from top to bottom."
+        "description": "For stubborn stains and complete carpet rejuvenation"
       },
       "regularMaintenance": {
         "title": "Regular Maintenance",
-        "description": "Ensure your home stays clean year-round with regular cleaning services."
+        "description": "To keep your carpets and windows in perfect condition"
       },
       "bathroomCleaning": {
-        "title": "Bathroom Cleaning",
-        "description": "We specialize in keeping your bathroom sparkling clean."
+        "title": "Window Cleaning",
+        "description": "For streak-free, crystal-clear windows that brighten your space"
       },
       "officeCleaning": {
-        "title": "Office Cleaning",
-        "description": "Maintain a clean and productive environment with our office cleaning services."
+        "title": "Commercial Services",
+        "description": "For impeccable professional environments that impress clients"
       },
       "specializedCleaning": {
-        "title": "Specialized Cleaning",
-        "description": "Get expert cleaning services for unique needs such as post-renovation or special events."
+        "title": "Protection Services",
+        "description": "Preventive treatments for carpets and window sealing for long-lasting results"
       }
     },
     "features": {
       "availableAnytime": {
-        "title": "Here When Needed",
-        "description": "We're available frequently to provide excellent service whenever you need it."
+        "title": "Always Available",
+        "description": "Our team is ready to meet your cleaning needs on your schedule."
       },
       "premiumQuality": {
         "title": "Premium Quality",
-        "description": "Experience the best cleaning services designed just for you."
+        "description": "High-end cleaning services with exceptional attention to detail."
       },
       "fastEfficient": {
-        "title": "Fast & Efficient",
-        "description": "Get your space spotless in no time with our expert team."
+        "title": "Fast and Efficient",
+        "description": "Professional cleaning with quick drying and immediate results."
       },
       "reliableService": {
         "title": "Reliable Service",
-        "description": "Count on us for consistent, dependable, and top-tier cleaning every time."
+        "description": "Guaranteed results for all your carpets and windows."
       }
     }
   },
   "Footer": {
     "about": {
-      "title": "About LuxeClean",
-      "description": "LuxeClean provides premium cleaning services for discerning clients in Montreal, seeking excellence."
+      "title": "About CleanPro Montreal",
+      "description": "CleanPro offers high-end carpet and window cleaning services for demanding clients in Montreal who seek excellence in every corner of their space."
     },
     "contact": {
       "title": "Contact Us",
-      "address": "Greater Montreal Area",
+      "address": "Montreal Region",
       "phone": "+1 (438) 530 3350",
       "whatsapp": "+1 (438) 530 3350",
       "email": "info@luminor.ca",
@@ -162,74 +292,73 @@
   "About": {
     "cta": "Contact Us",
     "title": "About Our Company",
-    "subtitle": "Luxury Cleaning Redefined.",
-    "description": "LuxeClean delivers unmatched cleaning services, transforming homes and workplaces into pristine, elegant spaces. With meticulous attention to detail and a commitment to excellence, we create environments that radiate luxury and comfort.",
-    "learnMore": "Learn More",
-    "image1Alt": "Living room",
-    "image1Title": "Immaculate Living Spaces",
-    "image1Description": "Transform your living room into a pristine sanctuary with our meticulous cleaning techniques.",
-    "image2Alt": "Kitchen",
-    "image2Title": "Sparkling Kitchens",
-    "image2Description": "Experience a kitchen so clean it shines, with every surface carefully sanitized and polished.",
-    "image3Alt": "Bathroom",
-    "image3Title": "Shining Bathrooms",
-    "image3Description": "Elevate your bathroom's hygiene with our comprehensive deep-cleaning approach.",
-    "image4Alt": "Office Space",
-    "image4Title": "Pristine Office Spaces",
-    "image4Description": "Maintain a professional environment with our thorough and efficient office cleaning services."
+    "subtitle": "Cleaning Excellence Redefined",
+    "description": "CleanPro Montreal offers unparalleled cleaning services, transforming your carpets and windows into immaculate features that enhance your entire space. With meticulous attention to detail and a commitment to excellence, we create environments that breathe cleanliness, comfort, and clarity.",
+    "image1Alt": "Carpet cleaning",
+    "image1Title": "Pristine Carpets",
+    "image1Description": "Transform your carpets with our professional deep-cleaning techniques that remove allergens and revitalize fibers.",
+    "image2Alt": "Window cleaning",
+    "image2Title": "Crystal Windows",
+    "image2Description": "Experience streak-free window cleaning that maximizes natural light and enhances views.",
+    "image3Alt": "Carpet protection",
+    "image3Title": "Preventive Protection",
+    "image3Description": "Protect your carpets against future stains and your windows against hard water spots.",
+    "image4Alt": "Commercial cleaning",
+    "image4Title": "Commercial Solutions",
+    "image4Description": "Keep your professional spaces immaculate with comprehensive cleaning services."
   },
   "WhyChooseUs": {
     "title": "WHY CHOOSE US",
-    "subtitle": "LuxeClean serves Montreal with a passion for perfection. Choose us for our commitment to quality, efficiency, and care.",
+    "subtitle": "CleanPro serves Montreal with a passion for perfection. Choose us for our expertise in both carpet and window cleaning.",
     "sparklingClean": {
-      "title": "EXCEPTIONAL CLEANLINESS",
-      "description": "We ensure your spaces are spotless and hygienic, with a deep cleaning that targets even the hardest-to-reach areas for a truly fresh environment."
+      "title": "EXCEPTIONAL RESULTS",
+      "description": "We guarantee that your carpets will regain their original luster and your windows will achieve perfect clarity, with thorough cleaning that addresses even the most challenging problems."
     },
     "leadingTech": {
-      "title": "ADVANCED CLEANING SOLUTIONS",
-      "description": "Our use of eco-friendly products and state-of-the-art equipment ensures top-tier results while being gentle on your home and the planet."
+      "title": "ADVANCED TECHNOLOGY",
+      "description": "Our cutting-edge equipment and eco-friendly products ensure exceptional results while protecting your surfaces, your family, and the environment."
     },
     "insured": {
-      "title": "FULLY INSURED AND TRUSTED",
-      "description": "With comprehensive insurance and a dedicated, vetted team, we offer peace of mind with every service, protecting your property at all times."
+      "title": "FULLY INSURED",
+      "description": "With comprehensive insurance coverage, we protect your property during every service, providing peace of mind along with cleanliness."
     },
     "reliableCrew": {
-      "title": "DEDICATED PROFESSIONALS",
-      "description": "Our experienced cleaning experts are punctual, friendly, and trained to meet your specific cleaning preferences with meticulous attention to detail."
+      "title": "CERTIFIED EXPERTS",
+      "description": "Our cleaning specialists are trained in the latest techniques and certified to treat all types of carpets and window surfaces."
     },
     "cta": "Contact Us"
   },
   "Priority": {
-    "title": "OUR TOP PRIORITIES",
+    "title": "OUR ESSENTIAL PRIORITIES",
     "subtitle": "Our priorities are:",
     "labels": {
-      "customers": "OUR PARTNERS",
+      "customers": "YOUR SATISFACTION",
       "environment": "THE ENVIRONMENT",
-      "communication": "CLEAR COMMUNICATION"
+      "communication": "LASTING RESULTS"
     },
     "content": {
-      "customers": "We offer exceptional residential and commercial cleaning services, always listening to our clients and meeting their needs.",
-      "environment": "We use eco-friendly products and sustainable practices to ensure safety for your family, pets, and the environment.",
-      "communication": "Our services are affordable, and if you're not satisfied, we'll return to clean the areas that didn't meet your expectations. Your satisfaction is our priority."
+      "customers": "We treat each home and business with the utmost care, using methods adapted to your specific surfaces and needs.",
+      "environment": "Our cleaning products are eco-friendly and safe for your family, pets, and the planet.",
+      "communication": "Your satisfaction is guaranteed. If you're not completely satisfied with our work, we'll return at no additional charge."
     }
   },
   "LuxuryAppeal": {
-    "title": "The Allure of Immaculate Luxury",
-    "subtitle": "Discover how pristine, opulent spaces captivate and drive success",
+    "title": "The appeal of immaculate spaces",
+    "subtitle": "Discover how perfectly maintained carpets and windows transform your environment",
     "benefits": {
-      "visualAppeal": "Captivating Aesthetics",
-      "visualAppealDesc": "Spotless, luxurious environments instantly draw attention and leave lasting impressions",
-      "perception": "Elevated Brand Image",
-      "perceptionDesc": "Impeccable spaces significantly boost your business's perceived value and prestige",
-      "businessGrowth": "Accelerated Growth",
-      "businessGrowthDesc": "Stunning, clean environments attract more clients, driving increased revenue and expansion"
+      "visualAppeal": "Enhanced aesthetics",
+      "visualAppealDesc": "Clean carpets and sparkling windows instantly elevate your interior's appearance",
+      "perception": "Healthier environment",
+      "perceptionDesc": "Professional cleaning removes allergens and pollutants for a healthier, more prestigious space",
+      "businessGrowth": "Increased longevity",
+      "businessGrowthDesc": "Regular maintenance extends the life of your carpets and prevents window deterioration"
     },
-    "statistic": "75% Boost",
-    "statisticDesc": "in customer engagement within pristine, luxury spaces"
+    "statistic": "Up to 75% improvement",
+    "statisticDesc": "in indoor air quality and natural light with regular professional cleaning"
   },
   "ContactForm": {
     "title": "Contact Form",
-    "description": "Send me a message or contact me via WhatsApp.",
+    "description": "Send us a message or contact us via WhatsApp for a quote or to schedule service.",
     "labels": {
       "name": "Name",
       "email": "Email",
@@ -241,9 +370,9 @@
       "message": "Enter your message"
     },
     "errors": {
-      "name": "Name must be at least 2 characters",
+      "name": "Name must contain at least 2 characters",
       "email": "Invalid email address",
-      "message": "Message must be at least 10 characters"
+      "message": "Message must contain at least 10 characters"
     },
     "success": {
       "title": "Message sent!",
@@ -254,37 +383,36 @@
       "description": "There was a problem sending your message. Please try again."
     },
     "buttons": {
-      "sendMessage": "Send Message",
+      "sendMessage": "Send message",
       "sending": "Sending...",
       "contactWhatsApp": "Contact via WhatsApp"
     }
   },
-
   "FooterContactForm": {
-    "contactFormTitle": "Contact Us",
-    "contactFormDescription": "Have a question or want to get in touch? Fill out the form below and we'll get back to you as soon as possible.",
-    "namePlaceholder": "Your Name",
-    "emailPlaceholder": "Your Email",
-    "messagePlaceholder": "Your Message",
+    "contactFormTitle": "Contact us",
+    "contactFormDescription": "Questions about our cleaning services? Fill out the form below to get more information or schedule a free consultation.",
+    "namePlaceholder": "Your name",
+    "emailPlaceholder": "Your email",
+    "messagePlaceholder": "Your message",
     "sendingButton": "Sending...",
-    "sendButton": "Send Message",
-    "successTitle": "Message Sent",
-    "successDescription": "Thank you for reaching out! We'll get back to you shortly.",
-    "errorTitle": "Something Went Wrong",
-    "errorDescription": "There was an issue sending your message. Please try again later.",
-    "getInTouch": "Get in Touch",
+    "sendButton": "Send message",
+    "successTitle": "Message sent",
+    "successDescription": "Thank you for contacting us! We'll get back to you soon.",
+    "errorTitle": "Something went wrong",
+    "errorDescription": "There was a problem sending your message. Please try again later.",
+    "getInTouch": "How to Reach Us",
     "emailLabel": "Email",
     "phoneLabel": "Phone",
     "whatsappLabel": "WhatsApp",
-    "followUs": "Follow Us",
+    "followUs": "Follow us",
     "facebook": "Facebook",
     "instagram": "Instagram",
     "twitter": "Twitter",
     "github": "GitHub",
     "linkedin": "LinkedIn",
-    "nameMin": "Name must be at least 2 characters long",
+    "nameMin": "Name must be at least 2 characters",
     "emailInvalid": "Please enter a valid email address",
-    "messageMin": "Message must be at least 10 characters long",
+    "messageMin": "Message must be at least 10 characters",
     "nameError": "Please enter your name",
     "emailError": "Please enter your email",
     "messageError": "Please enter your message"

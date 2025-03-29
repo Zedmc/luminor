@@ -4,6 +4,8 @@ import { getLocale, getMessages } from "next-intl/server";
 import { Toaster } from "@/components/ui/toaster";
 import localFont from "next/font/local";
 import "@/styles/globals.css";
+import Header from "@/components/global/Header";
+import { Footer } from "@/components/global/Footer";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -83,12 +85,15 @@ export default async function RootLayout({
           <meta name="keywords" content={metadata.keywords.join(", ")} />
         )}
       </head>
+
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <NextIntlClientProvider locale={locale} messages={messages}>
+          <Header />
           {children}
           <Toaster />
+          <Footer />
         </NextIntlClientProvider>
       </body>
     </html>

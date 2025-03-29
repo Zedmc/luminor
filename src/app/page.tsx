@@ -1,18 +1,17 @@
-import Header from "@/components/Header";
-import Hero from "@/components/Hero";
-import About from "@/components/About";
-import WhyChooseUs from "@/components/WhyChooseUs";
-import Services from "@/components/Services";
-import PrioritySection from "@/components/PrioritySection";
-import LuxuryShowcase from "@/components/LuxuryShowcase";
-import Pricing from "@/components/Pricing";
-import { Footer } from "@/components/Footer";
-import LuxuryAppealSection from "@/components/LuxuryAppealSection";
+import Header from "@/components/global/Header";
+import Hero from "@/components/global/Hero";
+import About from "@/components/global/About";
+import WhyChooseUs from "@/components/global/WhyChooseUs";
+import Services from "@/components/global/Services";
+import PrioritySection from "@/components/global/PrioritySection";
+import LuxuryShowcase from "@/components/global/LuxuryShowcase";
+import Pricing from "@/components/global/Pricing";
+import { Footer } from "@/components/global/Footer";
+import LuxuryAppealSection from "@/components/global/LuxuryAppealSection";
 
 export default async function Home() {
   return (
     <div className="min-h-screen bg-gray-50">
-      <Header />
       <main>
         <Hero />
         <About />
@@ -23,7 +22,6 @@ export default async function Home() {
         <Pricing />
         <LuxuryAppealSection />
       </main>
-      <Footer />
     </div>
   );
 }

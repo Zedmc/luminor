@@ -18,7 +18,7 @@ export default function Hero() {
         src="/images/luxury-home.jpg"
         alt="Luxury home image"
         fill
-        priority // If this is an above-the-fold image
+        // priority // If this is an above-the-fold image
         // sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" // Responsive sizing
         quality={100} // Set image quality for better clarity
         style={{ objectFit: "cover" }}
@@ -41,7 +41,7 @@ export default function Hero() {
         className="relative container mx-auto px-4 z-10"
       >
         <div className="text-center max-w-4xl mx-auto">
-          <h1 className="text-4xl text-pretty md:text-6xl font-bold mb-6">
+          <h1 className="text-4xl text-balance md:text-6xl font-bold mb-6">
             {t("title")}
           </h1>
           <p className="text-xl text-balance mb-8 max-w-xs sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl mx-auto">
