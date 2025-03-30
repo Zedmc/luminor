@@ -7,253 +7,123 @@
   },
   "Header": {
     "services": "Services",
-    "showcase": "Vitrine de Luxe",
+    "showcase": "Galerie",
     "contact": "Contact",
-    "bookNow": "Réserver",
-    "carpetCleaning": "Nettoyage de Tapis",
-    "windowCleaning": "Nettoyage de Vitres",
-    "carpetCleaningDesc": "Service de nettoyage professionnel en profondeur pour tous types de tapis et moquettes.",
-    "windowCleaningDesc": "Nettoyage impeccable des vitres pour les propriétés résidentielles et commerciales, laissant vos fenêtres étincelantes."
+    "bookNow": "Réservez"
   },
   "Hero": {
-    "title": "Nettoyage Premium de Tapis et Vitres de Confiance",
-    "subtitle": "Rafraîchissez votre maison avec un nettoyage expert qui améliore à la fois le confort et la clarté",
+    "title": "Nettoyage de Vitres Premium",
+    "subtitle": "Une vue cristalline avec nos services professionnels de nettoyage de vitres",
     "cta": "Obtenir un Devis"
   },
   "Services": {
-    "professionalPrefix": "Professionnel",
-    "service": "Service",
-    "bookNow": "Réserver Maintenant",
-    "learnMore": "En Savoir Plus",
-    "whyChoose": "Pourquoi Choisir Notre",
-    "ourProcess": "Notre",
-    "benefitsOf": "Avantages du Nettoyage Professionnel",
-    "ourWork": "Notre Travail",
-    "viewProject": "Voir le Projet",
-    "clientsSay": "Ce que Disent Nos Clients",
-    "readyToExperience": "Prêt à Découvrir un Service Premium",
-    "scheduleToday": "Planifiez votre service aujourd'hui et découvrez la différence CleanPro. Nous garantissons votre satisfaction.",
-    "contactUs": "Contactez-Nous Aujourd'hui",
     "cta": "Contactez-Nous",
-    "title": "Nos Services Spécialisés",
-
-    "carpetCleaning": "Nettoyage de Tapis",
-    "windowCleaning": "Nettoyage de Vitres",
-    "carpetCleaningDesc": "Revitalisez votre maison avec notre technologie de nettoyage en profondeur qui élimine la saleté, les taches, les allergènes et les odeurs.",
-    "windowCleaningDesc": "Transformez votre espace avec des fenêtres cristallines qui améliorent la lumière naturelle et l'apparence de votre propriété.",
-
+    "title": "Services de Vitres d'Exception",
     "basic": {
-      "title": "Nettoyage de Base",
-      "description": "Nettoyage rapide et efficace pour l'entretien régulier des tapis et des fenêtres."
+      "title": "Nettoyage Standard de Vitres",
+      "description": "Nettoyage complet pour vitres résidentielles, intérieur et extérieur."
     },
     "residential": {
-      "title": "Nettoyage Résidentiel",
-      "description": "Solutions complètes pour tous les tapis, moquettes et fenêtres de votre maison."
+      "title": "Immeubles Résidentiels",
+      "description": "Solutions spécialisées pour appartements et condominiums à toute hauteur."
     },
     "commercial": {
-      "title": "Nettoyage Commercial",
-      "description": "Service professionnel pour les entreprises nécessitant des tapis impeccables et des vitres cristallines."
+      "title": "Vitres Commerciales",
+      "description": "Nettoyage professionnel pour vitrines, immeubles de bureaux et propriétés commerciales."
     },
     "recurring": {
-      "title": "Plans Récurrents",
-      "description": "Nettoyages programmés pour maintenir des tapis impeccables et des fenêtres sans taches toute l'année."
-    },
-
-    "carpet": {
-      "features": {
-        "deepCleaning": {
-          "title": "Technologie de Nettoyage en Profondeur",
-          "description": "Méthodes d'extraction avancées qui éliminent la saleté et les allergènes profondément incrustés"
-        },
-        "stainRemoval": {
-          "title": "Élimination des Taches",
-          "description": "Traitements spécialisés pour les taches tenaces et les zones à fort trafic"
-        },
-        "fastDrying": {
-          "title": "Séchage Rapide",
-          "description": "Équipement puissant qui laisse vos tapis secs en seulement quelques heures"
-        }
-      },
-      "process": {
-        "inspection": {
-          "title": "Inspection",
-          "description": "Nous évaluons minutieusement vos tapis pour identifier les taches et les zones à fort trafic"
-        },
-        "pretreatment": {
-          "title": "Pré-traitement",
-          "description": "Application d'agents nettoyants spécialisés pour décomposer les saletés et les taches"
-        },
-        "extraction": {
-          "title": "Extraction en Profondeur",
-          "description": "Extraction à l'eau chaude pour éliminer la saleté, les allergènes et les solutions de nettoyage"
-        },
-        "finishing": {
-          "title": "Touches Finales",
-          "description": "Brossage et traitements localisés pour assurer une finition parfaitement propre"
-        }
-      },
-      "benefits": {
-        "health": {
-          "title": "Environnement Intérieur Plus Sain",
-          "description": "Élimination des allergènes, acariens et bactéries pour une meilleure qualité de l'air"
-        },
-        "lifespan": {
-          "title": "Durée de Vie Prolongée du Tapis",
-          "description": "Le nettoyage professionnel régulier aide à préserver les fibres et l'apparence du tapis"
-        },
-        "appearance": {
-          "title": "Apparence Améliorée",
-          "description": "Restauration de la couleur et de la texture pour un espace de vie plus accueillant"
-        }
-      },
-      "testimonials": {
-        "quote1": "Le service de nettoyage de tapis a dépassé mes attentes. Nos tapis paraissent comme neufs, et les techniciens étaient professionnels et efficaces.",
-        "quote2": "J'ai été étonné de la façon dont ils ont éliminé des taches que je croyais permanentes. Mon tapis n'a jamais été aussi beau depuis son installation !",
-        "quote3": "Je recommande vivement leur service de nettoyage de tapis. L'équipe était ponctuelle, minutieuse, et les résultats parlent d'eux-mêmes."
-      }
-    },
-    "window": {
-      "features": {
-        "streakFree": {
-          "title": "Résultats Sans Traces",
-          "description": "Techniques de nettoyage professionnelles qui laissent vos fenêtres parfaitement transparentes"
-        },
-        "complete": {
-          "title": "Intérieur & Extérieur",
-          "description": "Nettoyage complet de toutes les surfaces vitrées, cadres et rails"
-        },
-        "hardWater": {
-          "title": "Traitement Anti-Calcaire",
-          "description": "Solutions spécialisées pour les dépôts minéraux et les taches d'eau dure"
-        }
-      },
-      "process": {
-        "assessment": {
-          "title": "Évaluation",
-          "description": "Nous évaluons toutes les surfaces vitrées pour déterminer la meilleure approche de nettoyage"
-        },
-        "preparation": {
-          "title": "Préparation",
-          "description": "Élimination soigneuse des débris des cadres et des rails avant le nettoyage"
-        },
-        "cleaning": {
-          "title": "Nettoyage",
-          "description": "Solutions de qualité professionnelle appliquées et retirées avec des outils spécialisés"
-        },
-        "polishing": {
-          "title": "Polissage",
-          "description": "Finition détaillée pour garantir un résultat sans traces et parfaitement transparent"
-        }
-      },
-      "benefits": {
-        "light": {
-          "title": "Augmentation de la Lumière Naturelle",
-          "description": "Des fenêtres propres permettent jusqu'à 40% de lumière naturelle supplémentaire dans votre espace"
-        },
-        "preservation": {
-          "title": "Préservation des Fenêtres",
-          "description": "Élimination des contaminants nocifs qui peuvent détériorer les cadres et le verre"
-        },
-        "appearance": {
-          "title": "Amélioration de l'Apparence",
-          "description": "Des fenêtres étincelantes améliorent considérablement l'attrait extérieur de votre propriété"
-        }
-      },
-      "testimonials": {
-        "quote1": "Je suis impressionné par la propreté de mes fenêtres maintenant. L'équipe a été minutieuse et détaillée, et les résultats sont vraiment exceptionnels.",
-        "quote2": "Ils ont nettoyé des fenêtres que je ne pouvais même pas atteindre et ont éliminé des années de taches d'eau dure. Ma maison semble tellement plus lumineuse maintenant !",
-        "quote3": "Professionnels, efficaces, et les fenêtres les plus propres que j'ai jamais eues. Je ferai certainement appel à leurs services à nouveau."
-      }
+      "title": "Plans d'Entretien",
+      "description": "Services programmés pour maintenir des vitres impeccables toute l'année."
     }
   },
   "WhatWeDo": {
-    "title": "Ce Que Nous Faisons",
-    "description": "Chez CleanPro Montréal, nous redéfinissons l'excellence du nettoyage. Notre équipe d'experts combine des techniques avancées avec une attention méticuleuse aux détails, assurant que vos tapis et fenêtres sont non seulement propres mais restaurés à leur beauté originale, améliorant tout votre espace.",
+    "title": "Notre Approche",
+    "description": "Chez VueClaire, nous élevons le nettoyage de vitres au rang d'art. Nos spécialistes utilisent des techniques avancées et des solutions premium pour garantir des vitres sans traces et cristallines qui transforment votre espace et maximisent la lumière naturelle.",
     "list": {
-      "precision": "Nettoyage spécialisé adapté à chaque surface et matériau",
-      "expertise": "Traitement expert des taches et finitions sans traces pour les fenêtres",
-      "customization": "Solutions de nettoyage personnalisées selon vos besoins spécifiques"
+      "precision": "Attention méticuleuse aux cadres, rails et rebords",
+      "expertise": "Manipulation sécuritaire des verres délicats ou spéciaux",
+      "customization": "Plans de nettoyage personnalisés pour votre propriété unique"
     },
-    "imageAlt": "Service de nettoyage professionnel"
+    "imageAlt": "Nettoyage professionnel de vitres en action"
   },
   "LuxuryShowcase": {
     "cta": "Contactez-Nous",
-    "title": "Expérimentez l'Excellence",
-    "image1Alt": "Tapis de salon luxueux",
-    "image1Title": "Tapis Résidentiels Impeccables",
-    "image1Description": "Découvrez notre service de nettoyage premium qui redonne vie à vos précieux tapis résidentiels, en éliminant la saleté profonde et les allergènes.",
-    "image2Alt": "Fenêtres parfaitement propres",
-    "image2Title": "Fenêtres Cristallines",
-    "image2Description": "Notre nettoyage de vitres sans traces transforme votre vue, maximisant la lumière naturelle et améliorant l'apparence de votre maison à l'intérieur comme à l'extérieur.",
-    "image3Alt": "Tapis oriental nettoyé",
-    "image3Title": "Soins Spécialisés pour Tapis",
-    "image3Description": "Traitement délicat pour vos tapis les plus précieux, préservant leurs couleurs originales et leur texture sans produits chimiques agressifs.",
-    "image4Alt": "Nettoyage de vitres commercial",
-    "image4Title": "Excellence Commerciale",
-    "image4Description": "Solutions de nettoyage complètes pour espaces professionnels, assurant que les tapis et les fenêtres projettent l'image parfaite pour votre entreprise."
+    "title": "Voyez la Différence",
+    "image1Alt": "Vitres résidentielles impeccables",
+    "image1Title": "Excellence Résidentielle",
+    "image1Description": "Découvrez le luxe de vitres parfaitement nettoyées qui encadrent votre vue et inondent votre maison de lumière naturelle.",
+    "image2Alt": "Vitrines commerciales",
+    "image2Title": "Clarté Commerciale",
+    "image2Description": "Faites bonne impression avec des vitrines impeccables qui présentent votre entreprise sous son meilleur jour.",
+    "image3Alt": "Nettoyage de vitres en hauteur",
+    "image3Title": "Maîtrise des Hauteurs",
+    "image3Description": "Faites confiance à nos techniciens qualifiés pour accéder en toute sécurité et nettoyer parfaitement les vitres à n'importe quelle hauteur.",
+    "image4Alt": "Nettoyage de vitres spéciales",
+    "image4Title": "Solutions pour Verres Spéciaux",
+    "image4Description": "Des vitraux aux puits de lumière, nous avons l'expertise pour nettoyer et protéger vos vitres les plus précieuses et uniques."
   },
   "Pricing": {
-    "title": "Nos Tarifs",
-    "description": "Nous offrons des tarifs flexibles et abordables pour tous vos besoins de nettoyage, des tapis aux fenêtres et plus encore.",
+    "title": "Nos Services",
+    "description": "Nous proposons des forfaits complets de nettoyage de vitres adaptés à vos besoins spécifiques.",
     "customQuote": "Obtenir un Devis Personnalisé",
-    "customQuoteDescription": "Contactez-nous pour un devis personnalisé adapté à vos besoins spécifiques et à votre budget.",
+    "customQuoteDescription": "Pour les propriétés avec des exigences particulières, nous fournissons des estimations détaillées et personnalisées.",
     "contactUs": "Contactez-Nous",
     "services": {
       "residentialCleaning": {
-        "title": "Nettoyage de Tapis Résidentiel",
-        "description": "Pour des tapis propres et frais qui améliorent votre environnement domestique"
+        "title": "Vitres Intérieures & Extérieures",
+        "description": "Service complet de nettoyage pour maisons de toutes tailles."
       },
       "deepCleaning": {
-        "title": "Nettoyage en Profondeur",
-        "description": "Pour les taches tenaces et une régénération complète des tapis"
+        "title": "Nettoyage des Moustiquaires & Rails",
+        "description": "Nettoyage détaillé des rails, cadres et moustiquaires pour un fonctionnement optimal."
       },
       "regularMaintenance": {
-        "title": "Entretien Régulier",
-        "description": "Pour maintenir vos tapis et fenêtres en parfait état"
+        "title": "Entretien Saisonnier",
+        "description": "Plans de service réguliers pour garder vos vitres impeccables à chaque saison."
       },
       "bathroomCleaning": {
-        "title": "Nettoyage de Vitres",
-        "description": "Pour des fenêtres cristallines sans traces qui illuminent votre espace"
+        "title": "Portes de Douche en Verre",
+        "description": "Nettoyage spécialisé pour les vitres de salle de bain et cabines de douche."
       },
       "officeCleaning": {
-        "title": "Services Commerciaux",
-        "description": "Pour des environnements professionnels impeccables qui impressionnent les clients"
+        "title": "Vitres Commerciales",
+        "description": "Nettoyage professionnel pour entreprises, vitrines et immeubles de bureaux."
       },
       "specializedCleaning": {
-        "title": "Services de Protection",
-        "description": "Traitements préventifs pour tapis et scellement de fenêtres pour des résultats durables"
+        "title": "Services Spécialisés",
+        "description": "Solutions pour puits de lumière, lustres, vitraux et fenêtres difficiles d'accès."
       }
     },
     "features": {
       "availableAnytime": {
-        "title": "Toujours Disponible",
-        "description": "Notre équipe est prête à répondre à vos besoins de nettoyage selon votre horaire."
+        "title": "Horaires Flexibles",
+        "description": "Nous travaillons selon votre emploi du temps pour fournir un service avec un minimum de perturbations."
       },
       "premiumQuality": {
-        "title": "Qualité Premium",
-        "description": "Services de nettoyage haut de gamme avec une attention exceptionnelle aux détails."
+        "title": "Résultats Supérieurs",
+        "description": "Nous utilisons des outils et solutions de qualité professionnelle pour une perfection sans traces."
       },
       "fastEfficient": {
-        "title": "Rapide et Efficace",
-        "description": "Nettoyage professionnel avec séchage rapide et résultats immédiats."
+        "title": "Service Efficace",
+        "description": "Nos techniciens experts travaillent rapidement sans sacrifier l'attention aux détails."
       },
       "reliableService": {
-        "title": "Service Fiable",
-        "description": "Résultats garantis pour tous vos tapis et fenêtres."
+        "title": "Satisfaction Garantie",
+        "description": "Nous garantissons notre travail avec une garantie de satisfaction à 100% sur tous nos services."
       }
     }
   },
   "Footer": {
     "about": {
-      "title": "À Propos de CleanPro Montréal",
-      "description": "CleanPro offre des services de nettoyage de tapis et de vitres haut de gamme pour des clients exigeants à Montréal qui recherchent l'excellence dans chaque recoin de leur espace."
+      "title": "À Propos de VueClaire",
+      "description": "VueClaire propose des services premium de nettoyage de vitres pour une clientèle exigeante à Montréal, assurant une clarté parfaite et des vues impeccables."
     },
     "contact": {
       "title": "Contactez-Nous",
       "address": "Région de Montréal",
       "phone": "+1 (438) 530 3350",
       "whatsapp": "+1 (438) 530 3350",
-      "email": "info@luminor.ca",
+      "email": "info@vueclaire.ca",
       "name": "Nom",
       "message": "Message",
       "send": "Envoyer",
@@ -264,7 +134,7 @@
     "rights": "Tous droits réservés.",
     "contactUs": "Contactez-Nous",
     "contactMethods": {
-      "email": "Envoyer un Email",
+      "email": "Envoyez un Email",
       "whatsapp": "WhatsApp",
       "phone": "Appelez-Nous"
     },
@@ -284,94 +154,94 @@
       }
     },
     "errors": {
-      "Name must be at least 2 characters": "Le nom doit contenir au moins 2 caractères",
-      "Invalid email address": "Adresse email invalide",
-      "Message must be at least 10 characters": "Le message doit contenir au moins 10 caractères"
+      "Name must be at least 2 characters": "Le nom doit comporter au moins 2 caractères",
+      "Invalid email address": "Adresse e-mail invalide",
+      "Message must be at least 10 characters": "Le message doit comporter au moins 10 caractères"
     }
   },
   "About": {
     "cta": "Contactez-Nous",
-    "title": "À Propos de Notre Entreprise",
-    "subtitle": "L'Excellence du Nettoyage Redéfinie",
-    "description": "CleanPro Montréal offre des services de nettoyage inégalés, transformant vos tapis et fenêtres en éléments impeccables qui améliorent tout votre espace. Avec une attention méticuleuse aux détails et un engagement envers l'excellence, nous créons des environnements qui respirent la propreté, le confort et la clarté.",
-    "image1Alt": "Nettoyage de tapis",
-    "image1Title": "Tapis Impeccables",
-    "image1Description": "Transformez vos tapis avec nos techniques de nettoyage en profondeur qui éliminent les allergènes et revitalisent les fibres.",
-    "image2Alt": "Nettoyage de vitres",
-    "image2Title": "Fenêtres Cristallines",
-    "image2Description": "Profitez d'un nettoyage de vitres sans traces qui maximise la lumière naturelle et améliore la vue.",
-    "image3Alt": "Protection de tapis",
-    "image3Title": "Protection Préventive",
-    "image3Description": "Protégez vos tapis contre les futures taches et vos fenêtres contre les taches d'eau dure.",
-    "image4Alt": "Nettoyage commercial",
-    "image4Title": "Solutions Commerciales",
-    "image4Description": "Gardez vos espaces professionnels impeccables avec des services de nettoyage complets."
+    "title": "À Propos De Notre Entreprise",
+    "subtitle": "L'Excellence en Nettoyage de Vitres.",
+    "description": "VueClaire offre des services incomparables de nettoyage de vitres, transformant maisons et entreprises avec des vitres cristallines qui maximisent la lumière naturelle et améliorent vos vues. Avec une attention méticuleuse aux détails et un engagement envers la sécurité, nous créons des fenêtres brillamment propres qui subliment tout votre espace.",
+    "image1Alt": "Vitres résidentielles",
+    "image1Title": "Excellence Résidentielle",
+    "image1Description": "Transformez votre maison avec des vitres impeccablement propres qui améliorent la vue et augmentent la lumière naturelle.",
+    "image2Alt": "Vitres commerciales",
+    "image2Title": "Excellence Commerciale",
+    "image2Description": "Faites bonne impression avec des vitrines et fenêtres de bureau impeccables qui mettent en valeur votre entreprise.",
+    "image3Alt": "Vitres en hauteur",
+    "image3Title": "Spécialistes des Grandes Hauteurs",
+    "image3Description": "Faites confiance à nos techniciens experts pour nettoyer en toute sécurité les vitres à n'importe quelle hauteur avec un équipement spécialisé.",
+    "image4Alt": "Verre spécial",
+    "image4Title": "Entretien de Verres Spéciaux",
+    "image4Description": "Des puits de lumière aux vitraux, nous avons l'expertise pour nettoyer et protéger vos fenêtres spéciales."
   },
   "WhyChooseUs": {
     "title": "POURQUOI NOUS CHOISIR",
-    "subtitle": "CleanPro sert Montréal avec une passion pour la perfection. Choisissez-nous pour notre expertise dans le nettoyage de tapis et de vitres.",
+    "subtitle": "VueClaire sert Montréal avec une expertise en nettoyage de vitres. Choisissez-nous pour notre équipement professionnel, nos normes de sécurité et notre attention aux détails.",
     "sparklingClean": {
-      "title": "RÉSULTATS EXCEPTIONNELS",
-      "description": "Nous garantissons que vos tapis retrouveront leur éclat d'origine et que vos fenêtres atteindront une clarté parfaite, avec un nettoyage approfondi qui résout même les problèmes les plus difficiles."
+      "title": "RÉSULTATS SANS TRACES",
+      "description": "Nos techniques spécialisées et solutions premium garantissent des vitres parfaitement claires, sans traces, qui maximisent la lumière naturelle et améliorent vos vues."
     },
     "leadingTech": {
-      "title": "TECHNOLOGIE AVANCÉE",
-      "description": "Notre équipement de pointe et nos produits écologiques assurent des résultats exceptionnels tout en protégeant vos surfaces, votre famille et l'environnement."
+      "title": "ÉQUIPEMENT AVANCÉ",
+      "description": "Nous utilisons des systèmes de purification d'eau, des outils de qualité professionnelle et des solutions écologiques qui offrent des résultats supérieurs tout en protégeant votre propriété."
     },
     "insured": {
-      "title": "ENTIÈREMENT ASSURÉ",
-      "description": "Avec une couverture d'assurance complète, nous protégeons votre propriété pendant chaque service, offrant tranquillité d'esprit et propreté."
+      "title": "SERVICE ENTIÈREMENT ASSURÉ",
+      "description": "Avec une couverture d'assurance complète et des protocoles de sécurité stricts, nous vous offrons une tranquillité d'esprit à chaque service, notamment pour les fenêtres en hauteur et spéciales."
     },
     "reliableCrew": {
-      "title": "EXPERTS CERTIFIÉS",
-      "description": "Nos spécialistes du nettoyage sont formés aux dernières techniques et certifiés pour traiter tous types de tapis et de surfaces vitrées."
+      "title": "TECHNICIENS EXPERTS",
+      "description": "Nos spécialistes des vitres sont formés aux techniques avancées, aux procédures de sécurité et à la manipulation appropriée de tous les types de fenêtres pour des résultats cohérents et exceptionnels."
     },
     "cta": "Contactez-Nous"
   },
   "Priority": {
-    "title": "NOS PRIORITÉS ESSENTIELLES",
-    "subtitle": "Nos priorités sont :",
+    "title": "NOS VALEURS FONDAMENTALES",
+    "subtitle": "Ce qui nous motive :",
     "labels": {
-      "customers": "VOTRE SATISFACTION",
-      "environment": "L'ENVIRONNEMENT",
-      "communication": "DES RÉSULTATS DURABLES"
+      "customers": "SATISFACTION CLIENT",
+      "environment": "RESPONSABILITÉ ENVIRONNEMENTALE",
+      "communication": "SERVICE TRANSPARENT"
     },
     "content": {
-      "customers": "Nous traitons chaque maison et entreprise avec le plus grand soin, en utilisant des méthodes adaptées à vos surfaces et besoins spécifiques.",
-      "environment": "Nos produits de nettoyage sont écologiques et sans danger pour votre famille, vos animaux et la planète.",
-      "communication": "Votre satisfaction est garantie. Si vous n'êtes pas entièrement satisfait de notre travail, nous reviendrons sans frais supplémentaires."
+      "customers": "Nous fournissons un nettoyage de vitres exceptionnel pour maisons et entreprises, toujours à l'écoute de nos clients et dépassant les attentes à chaque service.",
+      "environment": "Nous utilisons des solutions de nettoyage écologiques et biodégradables ainsi que des techniques de conservation de l'eau pour protéger votre propriété et l'environnement.",
+      "communication": "Nos tarifs sont clairs et compétitifs, et nous garantissons notre travail avec une garantie de satisfaction. Si vous n'êtes pas entièrement satisfait, nous reviendrons pour résoudre tout problème."
     }
   },
   "LuxuryAppeal": {
-    "title": "L'attrait des espaces impeccables",
-    "subtitle": "Découvrez comment des tapis et des fenêtres parfaitement entretenus transforment votre environnement",
+    "title": "L'Impact des Vitres Cristallines",
+    "subtitle": "Découvrez comment des fenêtres parfaitement propres transforment les espaces et créent des impressions durables",
     "benefits": {
-      "visualAppeal": "Esthétique améliorée",
-      "visualAppealDesc": "Des tapis propres et des fenêtres étincelantes rehaussent instantanément l'apparence de votre intérieur",
-      "perception": "Environnement plus sain",
-      "perceptionDesc": "Le nettoyage professionnel élimine les allergènes et les polluants pour un espace plus sain et prestigieux",
-      "businessGrowth": "Longévité accrue",
-      "businessGrowthDesc": "L'entretien régulier prolonge la durée de vie de vos tapis et prévient la détérioration des fenêtres"
+      "visualAppeal": "Esthétique Améliorée",
+      "visualAppealDesc": "Des vitres impeccables améliorent considérablement l'apparence de toute propriété, à l'intérieur comme à l'extérieur",
+      "perception": "Valeur Immobilière Accrue",
+      "perceptionDesc": "Des fenêtres bien entretenues augmentent significativement la valeur perçue et l'attrait extérieur",
+      "businessGrowth": "Avantage Commercial",
+      "businessGrowthDesc": "Pour les entreprises, des vitres impeccables créent une image professionnelle qui attire clients et prospects"
     },
-    "statistic": "Jusqu'à 75% d'amélioration",
-    "statisticDesc": "de la qualité de l'air intérieur et de la lumière naturelle avec un nettoyage professionnel régulier"
+    "statistic": "50% Plus",
+    "statisticDesc": "de lumière naturelle entre par des fenêtres nettoyées professionnellement"
   },
   "ContactForm": {
     "title": "Formulaire de Contact",
-    "description": "Envoyez-nous un message ou contactez-nous via WhatsApp pour un devis ou pour planifier un service.",
+    "description": "Envoyez-nous un message ou contactez-nous via WhatsApp pour un devis gratuit.",
     "labels": {
       "name": "Nom",
-      "email": "Email",
+      "email": "E-mail",
       "message": "Message"
     },
     "placeholders": {
       "name": "Entrez votre nom",
-      "email": "Entrez votre email",
+      "email": "Entrez votre e-mail",
       "message": "Entrez votre message"
     },
     "errors": {
       "name": "Le nom doit contenir au moins 2 caractères",
-      "email": "Adresse email invalide",
+      "email": "Adresse e-mail invalide",
       "message": "Le message doit contenir au moins 10 caractères"
     },
     "success": {
@@ -380,28 +250,28 @@
     },
     "error": {
       "title": "Erreur",
-      "description": "Un problème est survenu lors de l'envoi de votre message. Veuillez réessayer."
+      "description": "Il y a eu un problème pour envoyer votre message. Veuillez réessayer."
     },
     "buttons": {
       "sendMessage": "Envoyer le message",
-      "sending": "Envoi en cours...",
+      "sending": "Envoi...",
       "contactWhatsApp": "Contacter via WhatsApp"
     }
   },
   "FooterContactForm": {
     "contactFormTitle": "Contactez-nous",
-    "contactFormDescription": "Des questions sur nos services de nettoyage ? Remplissez le formulaire ci-dessous pour obtenir plus d'informations ou planifier une consultation gratuite.",
+    "contactFormDescription": "Vous avez une question ou souhaitez planifier un nettoyage de vitres ? Remplissez le formulaire ci-dessous et nous vous répondrons dans les plus brefs délais.",
     "namePlaceholder": "Votre nom",
-    "emailPlaceholder": "Votre email",
+    "emailPlaceholder": "Votre e-mail",
     "messagePlaceholder": "Votre message",
     "sendingButton": "Envoi en cours...",
     "sendButton": "Envoyer le message",
     "successTitle": "Message envoyé",
-    "successDescription": "Merci de nous avoir contactés ! Nous vous répondrons bientôt.",
-    "errorTitle": "Un problème est survenu",
+    "successDescription": "Merci de nous avoir contactés ! Nous reviendrons vers vous sous peu avec un devis.",
+    "errorTitle": "Quelque chose a mal tourné",
     "errorDescription": "Un problème est survenu lors de l'envoi de votre message. Veuillez réessayer plus tard.",
-    "getInTouch": "Comment Nous Joindre",
-    "emailLabel": "Email",
+    "getInTouch": "Contactez-nous",
+    "emailLabel": "E-mail",
     "phoneLabel": "Téléphone",
     "whatsappLabel": "WhatsApp",
     "followUs": "Suivez-nous",
@@ -410,11 +280,11 @@
     "twitter": "Twitter",
     "github": "GitHub",
     "linkedin": "LinkedIn",
-    "nameMin": "Le nom doit contenir au moins 2 caractères",
-    "emailInvalid": "Veuillez entrer une adresse email valide",
-    "messageMin": "Le message doit contenir au moins 10 caractères",
+    "nameMin": "Le nom doit comporter au moins 2 caractères",
+    "emailInvalid": "Veuillez entrer une adresse e-mail valide",
+    "messageMin": "Le message doit comporter au moins 10 caractères",
     "nameError": "Veuillez entrer votre nom",
-    "emailError": "Veuillez entrer votre email",
+    "emailError": "Veuillez entrer votre e-mail",
     "messageError": "Veuillez entrer votre message"
   }
 }
