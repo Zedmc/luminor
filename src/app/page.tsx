@@ -1,4 +1,3 @@
-import Header from "@/components/global/Header";
 import Hero from "@/components/global/Hero";
 import About from "@/components/global/About";
 import WhyChooseUs from "@/components/global/WhyChooseUs";
@@ -6,7 +5,6 @@ import Services from "@/components/global/Services";
 import PrioritySection from "@/components/global/PrioritySection";
 import LuxuryShowcase from "@/components/global/LuxuryShowcase";
 import Pricing from "@/components/global/Pricing";
-import { Footer } from "@/components/global/Footer";
 import LuxuryAppealSection from "@/components/global/LuxuryAppealSection";
 
 export default async function Home() {

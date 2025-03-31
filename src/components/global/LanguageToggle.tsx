@@ -36,7 +36,7 @@ export function LanguageToggle() {
         <Spinner size="large" />
       ) : (
         <>
-          <Globe className="w-6 h-6" />
+          <Globe className="hidden md:block w-6 h-6" />
           <span className=" text-base  font-semibold uppercase">
             {t(currentLocale)}
           </span>

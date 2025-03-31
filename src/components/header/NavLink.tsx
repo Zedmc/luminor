@@ -1,8 +1,6 @@
 "use client";
 
 import Link from "next/link";
-import { useRouter } from "next/navigation";
-import { motion } from "framer-motion";
 
 interface NavLinkProps {
   href: string;
@@ -12,7 +10,6 @@ interface NavLinkProps {
 }
 
 export function NavLink({ href, children, onClick, className }: NavLinkProps) {
-  const router = useRouter();
 
   const handleClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
     // Check if this is an anchor link

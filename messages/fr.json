@@ -38,7 +38,7 @@
   },
   "WhatWeDo": {
     "title": "Notre Approche",
-    "description": "Chez VueClaire, nous élevons le nettoyage de vitres au rang d'art. Nos spécialistes utilisent des techniques avancées et des solutions premium pour garantir des vitres sans traces et cristallines qui transforment votre espace et maximisent la lumière naturelle.",
+    "description": "Chez Luminor, nous élevons le nettoyage de vitres au rang d'art. Nos spécialistes utilisent des techniques avancées et des solutions premium pour garantir des vitres sans traces et cristallines qui transforment votre espace et maximisent la lumière naturelle.",
     "list": {
       "precision": "Attention méticuleuse aux cadres, rails et rebords",
       "expertise": "Manipulation sécuritaire des verres délicats ou spéciaux",
@@ -115,15 +115,15 @@
   },
   "Footer": {
     "about": {
-      "title": "À Propos de VueClaire",
-      "description": "VueClaire propose des services premium de nettoyage de vitres pour une clientèle exigeante à Montréal, assurant une clarté parfaite et des vues impeccables."
+      "title": "À Propos de Luminor",
+      "description": "Luminor propose des services premium de nettoyage de vitres pour une clientèle exigeante à Montréal, assurant une clarté parfaite et des vues impeccables."
     },
     "contact": {
       "title": "Contactez-Nous",
       "address": "Région de Montréal",
       "phone": "+1 (438) 530 3350",
       "whatsapp": "+1 (438) 530 3350",
-      "email": "info@vueclaire.ca",
+      "email": "info@luminor.ca",
       "name": "Nom",
       "message": "Message",
       "send": "Envoyer",
@@ -163,7 +163,7 @@
     "cta": "Contactez-Nous",
     "title": "À Propos De Notre Entreprise",
     "subtitle": "L'Excellence en Nettoyage de Vitres.",
-    "description": "VueClaire offre des services incomparables de nettoyage de vitres, transformant maisons et entreprises avec des vitres cristallines qui maximisent la lumière naturelle et améliorent vos vues. Avec une attention méticuleuse aux détails et un engagement envers la sécurité, nous créons des fenêtres brillamment propres qui subliment tout votre espace.",
+    "description": "Luminor offre des services incomparables de nettoyage de vitres, transformant maisons et entreprises avec des vitres cristallines qui maximisent la lumière naturelle et améliorent vos vues. Avec une attention méticuleuse aux détails et un engagement envers la sécurité, nous créons des fenêtres brillamment propres qui subliment tout votre espace.",
     "image1Alt": "Vitres résidentielles",
     "image1Title": "Excellence Résidentielle",
     "image1Description": "Transformez votre maison avec des vitres impeccablement propres qui améliorent la vue et augmentent la lumière naturelle.",
@@ -179,7 +179,7 @@
   },
   "WhyChooseUs": {
     "title": "POURQUOI NOUS CHOISIR",
-    "subtitle": "VueClaire sert Montréal avec une expertise en nettoyage de vitres. Choisissez-nous pour notre équipement professionnel, nos normes de sécurité et notre attention aux détails.",
+    "subtitle": "Luminor sert Montréal avec une expertise en nettoyage de vitres. Choisissez-nous pour notre équipement professionnel, nos normes de sécurité et notre attention aux détails.",
     "sparklingClean": {
       "title": "RÉSULTATS SANS TRACES",
       "description": "Nos techniques spécialisées et solutions premium garantissent des vitres parfaitement claires, sans traces, qui maximisent la lumière naturelle et améliorent vos vues."
