@@ -1,6 +1,7 @@
 import tailwindcssAnimate from "tailwindcss-animate";
 import type { Config } from "tailwindcss";
 
+/** @type {import('tailwindcss').Config} */
 const tailwindConfig: Config = {
   darkMode: ["class"],
   content: [
@@ -57,10 +58,6 @@ const tailwindConfig: Config = {
           5: "hsl(var(--chart-5))",
         },
       },
-      animation: {
-        "accordion-down": "accordion-down 0.2s ease-out",
-        "accordion-up": "accordion-up 0.2s ease-out",
-      },
       keyframes: {
         "accordion-down": {
           from: { height: "0" },
@@ -70,6 +67,10 @@ const tailwindConfig: Config = {
           from: { height: "var(--radix-accordion-content-height)" },
           to: { height: "0" },
         },
+      },
+      animation: {
+        "accordion-down": "accordion-down 0.2s ease-out",
+        "accordion-up": "accordion-up 0.2s ease-out",
       },
     },
   },

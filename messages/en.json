@@ -19,21 +19,38 @@
   "Services": {
     "cta": "Contact Us",
     "title": "Exceptional Window Services",
-    "basic": {
-      "title": "Standard Window Cleaning",
-      "description": "Thorough cleaning for residential windows, inside and out."
-    },
+    "subtitle": "Tailored solutions for all your window cleaning needs",
     "residential": {
-      "title": "High-Rise Residential",
-      "description": "Specialized solutions for apartment and condominium windows at any height."
+      "title": "Residential Window Cleaning",
+      "imageAlt": "Residential window cleaning service",
+      "description": "A complete service to keep your home windows spotless all year round.",
+      "benefit1": "Gentle techniques for all types of glass",
+      "benefit2": "Eco-friendly and safe cleaning products",
+      "benefit3": "Satisfaction guaranteed"
     },
     "commercial": {
-      "title": "Commercial Windows",
-      "description": "Professional cleaning for storefronts, office buildings, and commercial properties."
+      "title": "Commercial Window Cleaning",
+      "imageAlt": "Commercial window cleaning service",
+      "description": "Professional solutions for office and storefront windows.",
+      "benefit1": "Industrial-grade equipment for large buildings",
+      "benefit2": "Flexible scheduling tailored to your business needs",
+      "benefit3": "Experienced and certified teams"
     },
     "recurring": {
-      "title": "Maintenance Plans",
-      "description": "Scheduled services to maintain spotless windows year-round."
+      "title": "Recurring Services",
+      "imageAlt": "Recurring window maintenance service",
+      "description": "Schedule periodic maintenance for consistently pristine windows.",
+      "benefit1": "Affordable monthly or quarterly packages",
+      "benefit2": "Automatic reminders for every appointment",
+      "benefit3": "Discounted rates for annual contracts"
+    },
+    "specialized": {
+      "title": "Specialized Window Cleaning",
+      "imageAlt": "Specialized window cleaning service",
+      "description": "Expert solutions for unique window cleaning needs.",
+      "benefit1": "Tailored cleaning for hard-to-reach windows",
+      "benefit2": "Skylights, stained glass, and specialty glass care",
+      "benefit3": "Safe and efficient service by trained professionals"
     }
   },
   "WhatWeDo": {
@@ -49,33 +66,37 @@
   "LuxuryShowcase": {
     "cta": "Contact Us",
     "title": "See the Difference",
+    "subtitle": "Exquisite spaces that redefine luxury living",
+
     "image1Alt": "Spotless home windows",
     "image1Title": "Residential Excellence",
     "image1Description": "Experience the luxury of perfectly cleaned windows that frame your view and flood your home with natural light.",
     "image2Alt": "Commercial storefront windows",
     "image2Title": "Commercial Clarity",
     "image2Description": "Make the right impression with immaculate storefront windows that showcase your business in the best possible light.",
-    "image3Alt": "High-rise window cleaning",
-    "image3Title": "Heights Mastered",
-    "image3Description": "Trust our skilled technicians to safely access and perfectly clean windows at any height with specialized equipment.",
+    "image3Alt": "Interior window detail cleaning",
+    "image3Title": "Interior Detailing",
+    "image3Description": "Enjoy immaculate frames, sills, and tracks with our comprehensive interior detailing that ensures every component of your window system is pristine.",
     "image4Alt": "Specialty window cleaning",
     "image4Title": "Specialty Glass Solutions",
     "image4Description": "From stained glass to skylights, we have the expertise to clean and protect your most valuable and unique windows."
   },
   "Pricing": {
-    "title": "Our Services",
-    "description": "We offer comprehensive window cleaning packages to meet your specific needs.",
+    "title": "Window Cleaning Options",
+    "description": "Explore our different cleaning services; we offer comprehensive packages to meet your specific needs.",
     "customQuote": "Get a Custom Quote",
     "customQuoteDescription": "For properties with unique requirements, we provide detailed, personalized estimates.",
     "contactUs": "Contact Us",
+    "freeQuote": "FREE QUOTE",
+    "learnMore": "Learn More",
     "services": {
       "residentialCleaning": {
         "title": "Interior & Exterior Windows",
         "description": "Complete window cleaning service for homes of all sizes."
       },
       "deepCleaning": {
-        "title": "Screen & Track Cleaning",
-        "description": "Detailed cleaning of window tracks, frames, and screens for optimal function."
+        "title": "Intensive Window Cleaning",
+        "description": "Thorough cleaning for tracks, frames, and screens."
       },
       "regularMaintenance": {
         "title": "Seasonal Maintenance",
@@ -90,8 +111,8 @@
         "description": "Professional cleaning for businesses, storefronts, and office buildings."
       },
       "specializedCleaning": {
-        "title": "Specialty Services",
-        "description": "Solutions for skylights, chandeliers, stained glass, and hard-to-reach windows."
+        "title": "Detailed Window Cleaning",
+        "description": "Extra attention for windows needing special care."
       }
     },
     "features": {
@@ -160,23 +181,24 @@
     }
   },
   "About": {
-    "cta": "Contact Us",
-    "title": "About Our Company",
-    "subtitle": "Window Cleaning Excellence.",
-    "description": "Luminor delivers unparalleled window cleaning services, transforming homes and businesses with crystal-clear glass that maximizes natural light and enhances views. With meticulous attention to detail and a commitment to safety, we create brilliantly clean windows that elevate your entire space.",
-    "learnMore": "Learn More",
-    "image1Alt": "Residential windows",
-    "image1Title": "Residential Brilliance",
-    "image1Description": "Transform your home with spotlessly clean windows that enhance views and increase natural light.",
-    "image2Alt": "Commercial windows",
-    "image2Title": "Commercial Excellence",
-    "image2Description": "Make the right impression with immaculate storefront and office windows that showcase your business.",
-    "image3Alt": "High-rise windows",
-    "image3Title": "High-Rise Specialists",
-    "image3Description": "Trust our expert technicians to safely clean windows at any height with specialized equipment.",
-    "image4Alt": "Specialty glass",
-    "image4Title": "Specialty Glass Care",
-    "image4Description": "From skylights to stained glass, we have the expertise to clean and protect your specialty windows."
+    "title": "Our Vision for Window Care",
+    "mission": "At Luminor, we're redefining window cleaning through innovative techniques and an unwavering commitment to quality. Our mission is to transform spaces with clarity that lasts.",
+    "ourStory": "OUR STORY",
+    "foundersAlt": "Luminor founders team photo",
+    "foundersTitle": "Built on Expertise",
+    "foundersDescription": "Founded by industry veterans with decades of combined experience, Luminor was created to challenge conventional window cleaning standards.",
+    "foundersFact1": "30+ years combined industry experience",
+    "foundersFact2": "Pioneers in eco-friendly cleaning solutions",
+    "foundersFact3": "Locally owned and operated since 2015",
+    "valuesTitle": "Our Guiding Principles",
+    "valuesSubtitle": "The foundation of everything we do",
+    "value1Title": "Precision Craftsmanship",
+    "value1Description": "Every window receives meticulous attention using specialized techniques developed through years of refinement.",
+    "value2Title": "Innovative Approach",
+    "value2Description": "We continuously evolve our methods, integrating the latest technology to achieve flawless results.",
+    "value3Title": "Sustainable Commitment",
+    "value3Description": "Environmentally responsible solutions that protect both your property and our planet.",
+    "learnMore": "Learn more"
   },
   "WhyChooseUs": {
     "title": "WHY CHOOSE US",
@@ -259,7 +281,6 @@
       "contactWhatsApp": "Contact via WhatsApp"
     }
   },
-
   "FooterContactForm": {
     "contactFormTitle": "Contact Us",
     "contactFormDescription": "Have a question or want to schedule window cleaning? Fill out the form below and we'll get back to you as soon as possible.",

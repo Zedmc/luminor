@@ -9,134 +9,154 @@
     "services": "Services",
     "showcase": "Galerie",
     "contact": "Contact",
-    "bookNow": "Réservez"
+    "bookNow": "Réserver"
   },
   "Hero": {
-    "title": "Nettoyage de Vitres Premium",
-    "subtitle": "Une vue cristalline avec nos services professionnels de nettoyage de vitres",
+    "title": "Nettoyage de Fenêtres Haut de Gamme",
+    "subtitle": "Des vues cristallines grâce à nos services professionnels de nettoyage de fenêtres",
     "cta": "Obtenir un Devis"
   },
   "Services": {
-    "cta": "Contactez-Nous",
-    "title": "Services de Vitres d'Exception",
-    "basic": {
-      "title": "Nettoyage Standard de Vitres",
-      "description": "Nettoyage complet pour vitres résidentielles, intérieur et extérieur."
-    },
+    "cta": "Contactez-nous",
+    "title": "Services de Fenêtres Exceptionnels",
+    "subtitle": "Solutions sur mesure pour tous vos besoins en nettoyage de fenêtres",
     "residential": {
-      "title": "Immeubles Résidentiels",
-      "description": "Solutions spécialisées pour appartements et condominiums à toute hauteur."
+      "title": "Nettoyage de Fenêtres Résidentielles",
+      "imageAlt": "Service de nettoyage de fenêtres résidentielles",
+      "description": "Un service complet pour garder les fenêtres de votre maison impeccables toute l'année.",
+      "benefit1": "Techniques douces pour tous types de verre",
+      "benefit2": "Produits de nettoyage écologiques et sûrs",
+      "benefit3": "Satisfaction garantie"
     },
     "commercial": {
-      "title": "Vitres Commerciales",
-      "description": "Nettoyage professionnel pour vitrines, immeubles de bureaux et propriétés commerciales."
+      "title": "Nettoyage de Fenêtres Commerciales",
+      "imageAlt": "Service de nettoyage de fenêtres commerciales",
+      "description": "Solutions professionnelles pour les fenêtres de bureaux et de devantures de magasins.",
+      "benefit1": "Équipement de qualité industrielle pour les grands bâtiments",
+      "benefit2": "Planification flexible adaptée aux besoins de votre entreprise",
+      "benefit3": "Équipes expérimentées et certifiées"
     },
     "recurring": {
-      "title": "Plans d'Entretien",
-      "description": "Services programmés pour maintenir des vitres impeccables toute l'année."
+      "title": "Services Récurrents",
+      "imageAlt": "Service d'entretien de fenêtres récurrent",
+      "description": "Planifiez un entretien périodique pour des fenêtres toujours impeccables.",
+      "benefit1": "Forfaits mensuels ou trimestriels abordables",
+      "benefit2": "Rappels automatiques pour chaque rendez-vous",
+      "benefit3": "Tarifs réduits pour les contrats annuels"
+    },
+    "specialized": {
+      "title": "Nettoyage de Fenêtres Spécialisées",
+      "imageAlt": "Service de nettoyage de fenêtres spécialisées",
+      "description": "Solutions expertes pour les besoins uniques en nettoyage de fenêtres.",
+      "benefit1": "Nettoyage sur mesure pour les fenêtres difficiles d'accès",
+      "benefit2": "Puits de lumière, vitraux et entretien de verre spécialisé",
+      "benefit3": "Service sûr et efficace par des professionnels qualifiés"
     }
   },
   "WhatWeDo": {
     "title": "Notre Approche",
-    "description": "Chez Luminor, nous élevons le nettoyage de vitres au rang d'art. Nos spécialistes utilisent des techniques avancées et des solutions premium pour garantir des vitres sans traces et cristallines qui transforment votre espace et maximisent la lumière naturelle.",
+    "description": "Chez Luminor, nous élevons le nettoyage de fenêtres au rang d'art. Nos spécialistes utilisent des techniques avancées et des solutions haut de gamme pour garantir des fenêtres sans traces, cristallines, qui transforment votre espace et maximisent la lumière naturelle.",
     "list": {
-      "precision": "Attention méticuleuse aux cadres, rails et rebords",
-      "expertise": "Manipulation sécuritaire des verres délicats ou spéciaux",
+      "precision": "Attention méticuleuse aux cadres, rails et seuils",
+      "expertise": "Manipulation sûre du verre délicat ou spécialisé",
       "customization": "Plans de nettoyage personnalisés pour votre propriété unique"
     },
-    "imageAlt": "Nettoyage professionnel de vitres en action"
+    "imageAlt": "Nettoyage de fenêtres professionnel en action"
   },
   "LuxuryShowcase": {
-    "cta": "Contactez-Nous",
+    "cta": "Contactez-nous",
     "title": "Voyez la Différence",
-    "image1Alt": "Vitres résidentielles impeccables",
+    "subtitle": "Espaces exquis qui redéfinissent la vie de luxe",
+    "image1Alt": "Fenêtres de maison impeccables",
     "image1Title": "Excellence Résidentielle",
-    "image1Description": "Découvrez le luxe de vitres parfaitement nettoyées qui encadrent votre vue et inondent votre maison de lumière naturelle.",
-    "image2Alt": "Vitrines commerciales",
+    "image1Description": "Découvrez le luxe de fenêtres parfaitement nettoyées qui encadrent votre vue et inondent votre maison de lumière naturelle.",
+    "image2Alt": "Fenêtres de devanture de magasin commerciales",
     "image2Title": "Clarté Commerciale",
-    "image2Description": "Faites bonne impression avec des vitrines impeccables qui présentent votre entreprise sous son meilleur jour.",
-    "image3Alt": "Nettoyage de vitres en hauteur",
-    "image3Title": "Maîtrise des Hauteurs",
-    "image3Description": "Faites confiance à nos techniciens qualifiés pour accéder en toute sécurité et nettoyer parfaitement les vitres à n'importe quelle hauteur.",
-    "image4Alt": "Nettoyage de vitres spéciales",
-    "image4Title": "Solutions pour Verres Spéciaux",
-    "image4Description": "Des vitraux aux puits de lumière, nous avons l'expertise pour nettoyer et protéger vos vitres les plus précieuses et uniques."
+    "image2Description": "Faites bonne impression avec des fenêtres de devanture de magasin impeccables qui mettent en valeur votre entreprise sous le meilleur jour possible.",
+    "image3Alt": "Nettoyage détaillé des fenêtres intérieures",
+    "image3Title": "Détails Intérieurs",
+    "image3Description": "Profitez de cadres, de seuils et de rails impeccables grâce à notre nettoyage intérieur complet qui garantit que chaque composant de votre système de fenêtres est impeccable.",
+    "image4Alt": "Nettoyage de fenêtres spécialisées",
+    "image4Title": "Solutions de Verre Spécialisées",
+    "image4Description": "Des vitraux aux puits de lumière, nous avons l'expertise nécessaire pour nettoyer et protéger vos fenêtres les plus précieuses et uniques."
   },
   "Pricing": {
-    "title": "Nos Services",
-    "description": "Nous proposons des forfaits complets de nettoyage de vitres adaptés à vos besoins spécifiques.",
+    "title": "Options de Nettoyage de Fenêtres",
+    "description": "Explorez nos différents services de nettoyage; nous offrons des forfaits complets pour répondre à vos besoins spécifiques.",
     "customQuote": "Obtenir un Devis Personnalisé",
-    "customQuoteDescription": "Pour les propriétés avec des exigences particulières, nous fournissons des estimations détaillées et personnalisées.",
-    "contactUs": "Contactez-Nous",
+    "customQuoteDescription": "Pour les propriétés ayant des exigences uniques, nous fournissons des estimations détaillées et personnalisées.",
+    "contactUs": "Contactez-nous",
+    "freeQuote": "DEVIS GRATUIT",
+    "learnMore": "En savoir plus",
     "services": {
       "residentialCleaning": {
-        "title": "Vitres Intérieures & Extérieures",
-        "description": "Service complet de nettoyage pour maisons de toutes tailles."
+        "title": "Fenêtres Intérieures et Extérieures",
+        "description": "Service complet de nettoyage de fenêtres pour les maisons de toutes tailles."
       },
       "deepCleaning": {
-        "title": "Nettoyage des Moustiquaires & Rails",
-        "description": "Nettoyage détaillé des rails, cadres et moustiquaires pour un fonctionnement optimal."
+        "title": "Nettoyage de Fenêtres Intensif",
+        "description": "Nettoyage en profondeur des rails, des cadres et des moustiquaires."
       },
       "regularMaintenance": {
         "title": "Entretien Saisonnier",
-        "description": "Plans de service réguliers pour garder vos vitres impeccables à chaque saison."
+        "description": "Plans de service réguliers pour garder les fenêtres impeccables à chaque saison."
       },
       "bathroomCleaning": {
         "title": "Portes de Douche en Verre",
-        "description": "Nettoyage spécialisé pour les vitres de salle de bain et cabines de douche."
+        "description": "Nettoyage spécialisé pour le verre de salle de bain et les enceintes de douche."
       },
       "officeCleaning": {
-        "title": "Vitres Commerciales",
-        "description": "Nettoyage professionnel pour entreprises, vitrines et immeubles de bureaux."
+        "title": "Fenêtres Commerciales",
+        "description": "Nettoyage professionnel pour les entreprises, les devantures de magasins et les immeubles de bureaux."
       },
       "specializedCleaning": {
-        "title": "Services Spécialisés",
-        "description": "Solutions pour puits de lumière, lustres, vitraux et fenêtres difficiles d'accès."
+        "title": "Nettoyage de Fenêtres Détaillé",
+        "description": "Une attention particulière pour les fenêtres nécessitant des soins spéciaux."
       }
     },
     "features": {
       "availableAnytime": {
-        "title": "Horaires Flexibles",
-        "description": "Nous travaillons selon votre emploi du temps pour fournir un service avec un minimum de perturbations."
+        "title": "Planification Flexible",
+        "description": "Nous nous adaptons à votre emploi du temps pour fournir un service avec un minimum de perturbations."
       },
       "premiumQuality": {
         "title": "Résultats Supérieurs",
-        "description": "Nous utilisons des outils et solutions de qualité professionnelle pour une perfection sans traces."
+        "description": "Nous utilisons des outils et des solutions de qualité professionnelle pour une perfection sans traces."
       },
       "fastEfficient": {
         "title": "Service Efficace",
-        "description": "Nos techniciens experts travaillent rapidement sans sacrifier l'attention aux détails."
+        "description": "Des techniciens experts travaillent rapidement sans sacrifier l'attention aux détails."
       },
       "reliableService": {
         "title": "Satisfaction Garantie",
-        "description": "Nous garantissons notre travail avec une garantie de satisfaction à 100% sur tous nos services."
+        "description": "Nous garantissons notre travail avec une garantie de satisfaction à 100% sur tous les services."
       }
     }
   },
   "Footer": {
     "about": {
       "title": "À Propos de Luminor",
-      "description": "Luminor propose des services premium de nettoyage de vitres pour une clientèle exigeante à Montréal, assurant une clarté parfaite et des vues impeccables."
+      "description": "Luminor fournit des services de nettoyage de fenêtres haut de gamme pour les clients exigeants de Montréal, assurant une clarté parfaite et des vues impeccables."
     },
     "contact": {
-      "title": "Contactez-Nous",
-      "address": "Région de Montréal",
+      "title": "Contactez-nous",
+      "address": "Grand Montréal",
       "phone": "+1 (438) 530 3350",
       "whatsapp": "+1 (438) 530 3350",
       "email": "info@luminor.ca",
       "name": "Nom",
       "message": "Message",
       "send": "Envoyer",
-      "getInTouch": "Prenez Contact",
+      "getInTouch": "Contactez-nous",
       "sending": "Envoi en cours..."
     },
-    "followUs": "Suivez-Nous",
+    "followUs": "Suivez-nous",
     "rights": "Tous droits réservés.",
-    "contactUs": "Contactez-Nous",
+    "contactUs": "Contactez-nous",
     "contactMethods": {
-      "email": "Envoyez un Email",
+      "email": "Envoyer un Courriel",
       "whatsapp": "WhatsApp",
-      "phone": "Appelez-Nous"
+      "phone": "Appelez-nous"
     },
     "socialMedia": {
       "facebook": "Suivez-nous sur Facebook",
@@ -154,49 +174,51 @@
       }
     },
     "errors": {
-      "Name must be at least 2 characters": "Le nom doit comporter au moins 2 caractères",
+      "Name must be at least 2 characters": "Le nom doit contenir au moins 2 caractères",
       "Invalid email address": "Adresse e-mail invalide",
-      "Message must be at least 10 characters": "Le message doit comporter au moins 10 caractères"
+      "Message must be at least 10 characters": "Le message doit contenir au moins 10 caractères"
     }
   },
   "About": {
-    "cta": "Contactez-Nous",
-    "title": "À Propos De Notre Entreprise",
-    "subtitle": "L'Excellence en Nettoyage de Vitres.",
-    "description": "Luminor offre des services incomparables de nettoyage de vitres, transformant maisons et entreprises avec des vitres cristallines qui maximisent la lumière naturelle et améliorent vos vues. Avec une attention méticuleuse aux détails et un engagement envers la sécurité, nous créons des fenêtres brillamment propres qui subliment tout votre espace.",
-    "image1Alt": "Vitres résidentielles",
-    "image1Title": "Excellence Résidentielle",
-    "image1Description": "Transformez votre maison avec des vitres impeccablement propres qui améliorent la vue et augmentent la lumière naturelle.",
-    "image2Alt": "Vitres commerciales",
-    "image2Title": "Excellence Commerciale",
-    "image2Description": "Faites bonne impression avec des vitrines et fenêtres de bureau impeccables qui mettent en valeur votre entreprise.",
-    "image3Alt": "Vitres en hauteur",
-    "image3Title": "Spécialistes des Grandes Hauteurs",
-    "image3Description": "Faites confiance à nos techniciens experts pour nettoyer en toute sécurité les vitres à n'importe quelle hauteur avec un équipement spécialisé.",
-    "image4Alt": "Verre spécial",
-    "image4Title": "Entretien de Verres Spéciaux",
-    "image4Description": "Des puits de lumière aux vitraux, nous avons l'expertise pour nettoyer et protéger vos fenêtres spéciales."
+    "title": "Notre Vision des Soins des Fenêtres",
+    "mission": "Chez Luminor, nous redéfinissons le nettoyage de fenêtres grâce à des techniques innovantes et un engagement inébranlable envers la qualité. Notre mission est de transformer les espaces avec une clarté qui dure.",
+    "ourStory": "NOTRE HISTOIRE",
+    "foundersAlt": "Photo de l'équipe des fondateurs de Luminor",
+    "foundersTitle": "Construit sur l'Expertise",
+    "foundersDescription": "Fondée par des vétérans de l'industrie avec des décennies d'expérience combinée, Luminor a été créée pour remettre en question les normes conventionnelles de nettoyage de fenêtres.",
+    "foundersFact1": "Plus de 30 ans d'expérience combinée dans l'industrie",
+    "foundersFact2": "Pionniers dans les solutions de nettoyage écologiques",
+    "foundersFact3": "Entreprise locale depuis 2015",
+    "valuesTitle": "Nos Principes Directeurs",
+    "valuesSubtitle": "Le fondement de tout ce que nous faisons",
+    "value1Title": "Artisanat de Précision",
+    "value1Description": "Chaque fenêtre reçoit une attention méticuleuse en utilisant des techniques spécialisées développées au fil des années de perfectionnement.",
+    "value2Title": "Approche Innovante",
+    "value2Description": "Nous faisons constamment évoluer nos méthodes, en intégrant les dernières technologies pour obtenir des résultats impeccables.",
+    "value3Title": "Engagement Durable",
+    "value3Description": "Solutions écologiquement responsables qui protègent à la fois votre propriété et notre planète.",
+    "learnMore": "En savoir plus"
   },
   "WhyChooseUs": {
     "title": "POURQUOI NOUS CHOISIR",
-    "subtitle": "Luminor sert Montréal avec une expertise en nettoyage de vitres. Choisissez-nous pour notre équipement professionnel, nos normes de sécurité et notre attention aux détails.",
+    "subtitle": "Luminor dessert Montréal avec une expertise en nettoyage de fenêtres. Choisissez-nous pour notre équipement professionnel, nos normes de sécurité et notre attention aux détails.",
     "sparklingClean": {
       "title": "RÉSULTATS SANS TRACES",
-      "description": "Nos techniques spécialisées et solutions premium garantissent des vitres parfaitement claires, sans traces, qui maximisent la lumière naturelle et améliorent vos vues."
+      "description": "Nos techniques spécialisées et nos solutions haut de gamme garantissent des fenêtres parfaitement claires et sans traces qui maximisent la lumière naturelle et améliorent vos vues."
     },
     "leadingTech": {
       "title": "ÉQUIPEMENT AVANCÉ",
-      "description": "Nous utilisons des systèmes de purification d'eau, des outils de qualité professionnelle et des solutions écologiques qui offrent des résultats supérieurs tout en protégeant votre propriété."
+      "description": "Nous utilisons des systèmes de purification de l'eau, des outils de qualité professionnelle et des solutions écologiques qui offrent des résultats supérieurs tout en protégeant votre propriété."
     },
     "insured": {
       "title": "SERVICE ENTIÈREMENT ASSURÉ",
-      "description": "Avec une couverture d'assurance complète et des protocoles de sécurité stricts, nous vous offrons une tranquillité d'esprit à chaque service, notamment pour les fenêtres en hauteur et spéciales."
+      "description": "Avec une couverture d'assurance complète et des protocoles de sécurité stricts, nous offrons une tranquillité d'esprit à chaque service, en particulier pour les fenêtres en hauteur et spécialisées."
     },
     "reliableCrew": {
       "title": "TECHNICIENS EXPERTS",
-      "description": "Nos spécialistes des vitres sont formés aux techniques avancées, aux procédures de sécurité et à la manipulation appropriée de tous les types de fenêtres pour des résultats cohérents et exceptionnels."
+      "description": "Nos spécialistes des fenêtres sont formés aux techniques avancées, aux procédures de sécurité et à la manipulation appropriée de tous les types de fenêtres pour des résultats constants et exceptionnels."
     },
-    "cta": "Contactez-Nous"
+    "cta": "Contactez-nous"
   },
   "Priority": {
     "title": "NOS VALEURS FONDAMENTALES",
@@ -207,36 +229,36 @@
       "communication": "SERVICE TRANSPARENT"
     },
     "content": {
-      "customers": "Nous fournissons un nettoyage de vitres exceptionnel pour maisons et entreprises, toujours à l'écoute de nos clients et dépassant les attentes à chaque service.",
-      "environment": "Nous utilisons des solutions de nettoyage écologiques et biodégradables ainsi que des techniques de conservation de l'eau pour protéger votre propriété et l'environnement.",
-      "communication": "Nos tarifs sont clairs et compétitifs, et nous garantissons notre travail avec une garantie de satisfaction. Si vous n'êtes pas entièrement satisfait, nous reviendrons pour résoudre tout problème."
+      "customers": "Nous offrons un nettoyage de fenêtres exceptionnel pour les maisons et les entreprises, en écoutant toujours nos clients et en dépassant leurs attentes à chaque service.",
+      "environment": "Nous utilisons des solutions de nettoyage écologiques et biodégradables et des techniques de conservation de l'eau pour protéger votre propriété et l'environnement.",
+      "communication": "Nos prix sont clairs et compétitifs, et nous garantissons notre travail avec une garantie de satisfaction. Si vous n'êtes pas entièrement satisfait, nous reviendrons pour répondre à toute préoccupation."
     }
   },
   "LuxuryAppeal": {
-    "title": "L'Impact des Vitres Cristallines",
+    "title": "L'Impact des Fenêtres Cristallines",
     "subtitle": "Découvrez comment des fenêtres parfaitement propres transforment les espaces et créent des impressions durables",
     "benefits": {
       "visualAppeal": "Esthétique Améliorée",
-      "visualAppealDesc": "Des vitres impeccables améliorent considérablement l'apparence de toute propriété, à l'intérieur comme à l'extérieur",
-      "perception": "Valeur Immobilière Accrue",
-      "perceptionDesc": "Des fenêtres bien entretenues augmentent significativement la valeur perçue et l'attrait extérieur",
+      "visualAppealDesc": "Des fenêtres impeccables améliorent considérablement l'apparence de toute propriété, à l'intérieur comme à l'extérieur",
+      "perception": "Valeur Immobilière Améliorée",
+      "perceptionDesc": "Des fenêtres bien entretenues augmentent considérablement la valeur perçue et l'attrait extérieur",
       "businessGrowth": "Avantage Commercial",
-      "businessGrowthDesc": "Pour les entreprises, des vitres impeccables créent une image professionnelle qui attire clients et prospects"
+      "businessGrowthDesc": "Pour les entreprises, des fenêtres impeccables créent une image professionnelle qui attire les clients"
     },
-    "statistic": "50% Plus",
-    "statisticDesc": "de lumière naturelle entre par des fenêtres nettoyées professionnellement"
+    "statistic": "50% De Plus",
+    "statisticDesc": "de lumière naturelle entre par les fenêtres nettoyées par des professionnels"
   },
   "ContactForm": {
     "title": "Formulaire de Contact",
-    "description": "Envoyez-nous un message ou contactez-nous via WhatsApp pour un devis gratuit.",
+    "description": "Envoyez-nous un message ou contactez-nous via WhatsApp pour une estimation gratuite.",
     "labels": {
       "name": "Nom",
-      "email": "E-mail",
+      "email": "Courriel",
       "message": "Message"
     },
     "placeholders": {
       "name": "Entrez votre nom",
-      "email": "Entrez votre e-mail",
+      "email": "Entrez votre courriel",
       "message": "Entrez votre message"
     },
     "errors": {
@@ -250,28 +272,28 @@
     },
     "error": {
       "title": "Erreur",
-      "description": "Il y a eu un problème pour envoyer votre message. Veuillez réessayer."
+      "description": "Il y a eu un problème lors de l'envoi de votre message. Veuillez réessayer."
     },
     "buttons": {
-      "sendMessage": "Envoyer le message",
-      "sending": "Envoi...",
+      "sendMessage": "Envoyer le Message",
+      "sending": "Envoi en cours...",
       "contactWhatsApp": "Contacter via WhatsApp"
     }
   },
   "FooterContactForm": {
     "contactFormTitle": "Contactez-nous",
-    "contactFormDescription": "Vous avez une question ou souhaitez planifier un nettoyage de vitres ? Remplissez le formulaire ci-dessous et nous vous répondrons dans les plus brefs délais.",
-    "namePlaceholder": "Votre nom",
-    "emailPlaceholder": "Votre e-mail",
-    "messagePlaceholder": "Votre message",
+    "contactFormDescription": "Vous avez une question ou souhaitez planifier un nettoyage de fenêtres ? Remplissez le formulaire ci-dessous et nous vous répondrons dès que possible.",
+    "namePlaceholder": "Votre Nom",
+    "emailPlaceholder": "Votre Courriel",
+    "messagePlaceholder": "Votre Message",
     "sendingButton": "Envoi en cours...",
-    "sendButton": "Envoyer le message",
-    "successTitle": "Message envoyé",
-    "successDescription": "Merci de nous avoir contactés ! Nous reviendrons vers vous sous peu avec un devis.",
-    "errorTitle": "Quelque chose a mal tourné",
-    "errorDescription": "Un problème est survenu lors de l'envoi de votre message. Veuillez réessayer plus tard.",
+    "sendButton": "Envoyer le Message",
+    "successTitle": "Message Envoyé",
+    "successDescription": "Merci de nous avoir contactés ! Nous vous répondrons sous peu avec un devis.",
+    "errorTitle": "Quelque Chose S'est Mal Passé",
+    "errorDescription": "Il y a eu un problème lors de l'envoi de votre message. Veuillez réessayer plus tard.",
     "getInTouch": "Contactez-nous",
-    "emailLabel": "E-mail",
+    "emailLabel": "Courriel",
     "phoneLabel": "Téléphone",
     "whatsappLabel": "WhatsApp",
     "followUs": "Suivez-nous",
@@ -280,11 +302,11 @@
     "twitter": "Twitter",
     "github": "GitHub",
     "linkedin": "LinkedIn",
-    "nameMin": "Le nom doit comporter au moins 2 caractères",
-    "emailInvalid": "Veuillez entrer une adresse e-mail valide",
-    "messageMin": "Le message doit comporter au moins 10 caractères",
+    "nameMin": "Le nom doit contenir au moins 2 caractères",
+    "emailInvalid": "Veuillez entrer une adresse courriel valide",
+    "messageMin": "Le message doit contenir au moins 10 caractères",
     "nameError": "Veuillez entrer votre nom",
-    "emailError": "Veuillez entrer votre e-mail",
+    "emailError": "Veuillez entrer votre courriel",
     "messageError": "Veuillez entrer votre message"
   }
 }

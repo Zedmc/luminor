@@ -21,38 +21,43 @@ export default function PrioritySection() {
       id: "customers" as Priority,
       icon: Users2,
       label: "customers",
+      color: "from-amber-500 to-yellow-300",
     },
     {
       id: "environment" as Priority,
       icon: Leaf,
       label: "environment",
+      color: "from-emerald-500 to-teal-300",
     },
     {
       id: "communication" as Priority,
       icon: MessageCircle,
       label: "communication",
+      color: "from-blue-500 to-cyan-300",
     },
   ];
 
   return (
-    <section className="relative py-16">
-      {/* Background image with dark overlay */}
-      <div className="absolute inset-0 z-0">
+    <section className="relative py-20 md:py-28 overflow-hidden">
+      {/* Darker background with stronger overlay */}
+      <motion.div
+        className="absolute inset-0 z-0"
+        initial={{ scale: 1.1 }}
+        animate={{ scale: 1 }}
+        transition={{ duration: 1.5 }}
+      >
         <Image
-          loading="lazy"
           src="/images/luxury-interior.jpg"
-          alt="Background"
+          alt="Luxury interior background"
           fill
-          style={{ objectFit: "cover" }}
+          priority
           quality={100}
           className="object-cover w-full h-full"
-          sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, 33vw"
+          sizes="100vw"
         />
-        <div className="absolute inset-0 bg-black/70 z-10" />{" "}
-        {/* Dark overlay */}
-      </div>
+        <div className="absolute inset-0 bg-black/80 z-10" />
+      </motion.div>
 
-      {/* Main content */}
       <motion.div
         ref={ref}
         initial="hidden"
@@ -61,45 +66,102 @@ export default function PrioritySection() {
           hidden: { opacity: 0 },
           visible: { opacity: 1 },
         }}
-        transition={{ duration: 0.5 }}
-        className="relative z-20 container mx-auto px-6 md:px-12 text-white"
+        transition={{ duration: 0.8 }}
+        className="relative z-20 container mx-auto px-4 sm:px-6 text-white"
       >
-        <div className="max-w-4xl mx-auto text-center px-6 sm:px-8">
-          <h2 className="text-4xl md:text-5xl font-bold mb-10">{t("title")}</h2>
-          <p className="text-lg md:text-xl mb-14">{t("subtitle")}</p>
+        <div className="max-w-4xl mx-auto px-4">
+          {/* Title with solid white color */}
+          <div className="mb-12 text-center">
+            <h2 className="text-4xl md:text-5xl font-bold mb-6 text-white">
+              {t("title")}
+            </h2>
+            <div className="w-24 h-1 bg-[#B8860B] mx-auto mb-6 rounded-full" />
+            <p className="text-lg md:text-xl text-white/90 leading-relaxed max-w-2xl mx-auto">
+              {t("subtitle")}
+            </p>
+          </div>
 
-          {/* Priority buttons */}
-          <div className="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-3 gap-4 justify-center items-center mb-14">
+          {/* Interactive priority cards */}
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 mb-16 text-center">
             {priorities.map((priority) => (
-              <button
+              <motion.div
                 key={priority.id}
-                onClick={() => setActivePriority(priority.id)}
-                className={cn(
-                  "flex flex-col items-center justify-center transition-all duration-300",
-                  activePriority === priority.id
-                    ? "transform scale-110 bg-white/10 shadow-lg"
-                    : "opacity-70",
-                  "w-full sm:w-32 md:w-36 p-6 rounded-lg"
-                )}
+                whileHover={{ y: -5 }}
+                transition={{ type: "spring", stiffness: 300 }}
+                className="flex justify-center"
               >
-                <priority.icon className="w-10 sm:w-14 h-10 sm:h-14 mb-4" />
-                <span className="uppercase text-base sm:text-base tracking-wide">
-                  {t(`labels.${priority.label}`)}
-                </span>
-              </button>
+                <button
+                  onClick={() => setActivePriority(priority.id)}
+                  className={cn(
+                    "flex flex-col items-center justify-center transition-all duration-500 w-full",
+                    "group rounded-xl p-8 backdrop-blur-sm",
+                    "bg-white/5 border border-white/10",
+                    "hover:bg-white/10 hover:border-white/20",
+                    activePriority === priority.id
+                      ? `bg-gradient-to-br ${priority.color}/20 border-transparent shadow-xl`
+                      : "opacity-90"
+                  )}
+                >
+                  <div
+                    className={cn(
+                      "p-4 rounded-full mb-6 transition-all duration-500",
+                      "group-hover:shadow-lg",
+                      activePriority === priority.id
+                        ? `bg-gradient-to-br ${priority.color} shadow-lg`
+                        : "bg-white/10"
+                    )}
+                  >
+                    <priority.icon
+                      className={cn(
+                        "w-8 h-8 transition-all duration-500",
+                        activePriority === priority.id
+                          ? "text-white scale-110"
+                          : "text-white/80"
+                      )}
+                    />
+                  </div>
+                  <span
+                    className={cn(
+                      "uppercase text-sm font-medium tracking-wider",
+                      "transition-all duration-500",
+                      activePriority === priority.id
+                        ? "text-white"
+                        : "text-white/80"
+                    )}
+                  >
+                    {t(`labels.${priority.label}`)}
+                  </span>
+                </button>
+              </motion.div>
             ))}
           </div>
 
-          {/* Content */}
+          {/* Left-aligned content panel */}
           <motion.div
             key={activePriority}
-            initial={{ opacity: 0, y: 20 }}
+            initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.3 }}
-            className="text-lg text-balance leading-relaxed"
-            style={{ minHeight: "120px" }} // Prevents height changes on content switch
+            transition={{ duration: 0.6, ease: "easeOut" }}
+            className={cn(
+              "text-lg leading-relaxed px-6 py-8 rounded-xl",
+              "backdrop-blur-sm bg-white/5 border border-white/10",
+              "max-w-3xl mx-auto text-left" // Changed to text-left here
+            )}
           >
-            {t(`content.${activePriority}`)}
+            <div className="flex items-center mb-4">
+              <div
+                className={cn(
+                  "w-3 h-3 rounded-full mr-3",
+                  activePriority === "customers" && "bg-amber-400",
+                  activePriority === "environment" && "bg-emerald-400",
+                  activePriority === "communication" && "bg-blue-400"
+                )}
+              />
+              <h3 className="text-xl font-medium text-white">
+                {t(`labels.${activePriority}`)}
+              </h3>
+            </div>
+            <p className="text-white/90">{t(`content.${activePriority}`)}</p>
           </motion.div>
         </div>
       </motion.div>
