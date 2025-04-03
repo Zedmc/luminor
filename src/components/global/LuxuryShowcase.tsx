@@ -10,7 +10,7 @@ export default function LuxuryShowcase() {
   const [activeIndex, setActiveIndex] = useState<number | null>(null);
 
   const projects = [1, 2, 3, 4].map((i) => ({
-    image: `/images/luxury-interior-${i}.jpg`,
+    image: `/images/interior-${i}.jpg`,
     title: t(`image${i}Title`),
     description: t(`image${i}Description`),
     alt: t(`image${i}Alt`),

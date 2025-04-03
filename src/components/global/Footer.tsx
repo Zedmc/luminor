@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import {  useState } from "react";
+import { useState } from "react";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { z } from "zod";
@@ -114,15 +114,45 @@ export function Footer() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
         >
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 lg:gap-20">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 lg:gap-20 items-center">
+            {/* Contact Information */}
+            <div className="space-y-12 md:pr-8 lg:pr-12">
+              {" "}
+              {/* Add right padding */}
+              <div className="space-y-6">
+                <h3 className="text-5xl font-bold text-white border-b pb-4 border-[#DAA520]">
+                  {" "}
+                  {/* Larger heading, underline */}
+                  {t("getInTouch")}
+                </h3>
+                <p className="text-white/60">{t("contactFormDescription")}</p>{" "}
+                {/* Added description here */}
+                <div className="space-y-4">
+                  {contactItems.map((item, index) => (
+                    <motion.a
+                      key={item.label}
+                      href={item.href}
+                      initial={{ opacity: 0, y: 20 }}
+                      animate={{ opacity: 1, y: 0 }}
+                      transition={{ delay: index * 0.1 }}
+                      className="flex items-center py-4 px-4 space-x-3 text-white/80 hover:text-white bg-[#0A0F1D]/60 backdrop-blur-sm rounded-xl border border-[#2A3154]/50 shadow-md transition-colors group" // Added padding, background, rounded corners, border, shadow
+                    >
+                      <item.icon className="w-6 h-6 group-hover:text-[#DAA520] transition-colors" />{" "}
+                      {/* Larger icons */}
+                      <span className="text-lg">{item.value}</span>{" "}
+                      {/* Larger text */}
+                    </motion.a>
+                  ))}
+                </div>
+              </div>
+            </div>
             {/* Contact Form */}
             <div className="space-y-6">
-              <h2 className="text-4xl font-bold text-white">
+              <h2 className="text-5xl font-bold text-white">
                 <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#B8860B] via-[#DAA520] to-[#B8860B]">
                   {t("contactFormTitle")}
                 </span>
               </h2>
-              <p className="text-white/60">{t("contactFormDescription")}</p>
               <form
                 onSubmit={handleSubmit(onSubmit)}
                 className="space-y-4 bg-[#0A0F1D]/80 backdrop-blur-sm p-6 rounded-2xl border border-[#2A3154]/50 shadow-lg"
@@ -196,36 +226,6 @@ export function Footer() {
                   )}
                 </Button>
               </form>
-            </div>
-
-            {/* Contact Information */}
-            <div className="space-y-12 md:pl-8 lg:pl-12">
-              {" "}
-              {/* Add left padding */}
-              <div className="space-y-6">
-                <h3 className="text-3xl font-bold text-white border-b pb-4 border-[#DAA520]">
-                  {" "}
-                  {/* Larger heading, underline */}
-                  {t("getInTouch")}
-                </h3>
-                <div className="space-y-4">
-                  {contactItems.map((item, index) => (
-                    <motion.a
-                      key={item.label}
-                      href={item.href}
-                      initial={{ opacity: 0, y: 20 }}
-                      animate={{ opacity: 1, y: 0 }}
-                      transition={{ delay: index * 0.1 }}
-                      className="flex items-center py-3 px-4 space-x-3 text-white/80 hover:text-white bg-[#0A0F1D]/60 backdrop-blur-sm rounded-xl border border-[#2A3154]/50 shadow-md transition-colors group" // Added padding, background, rounded corners, border, shadow
-                    >
-                      <item.icon className="w-6 h-6 group-hover:text-[#DAA520] transition-colors" />{" "}
-                      {/* Larger icons */}
-                      <span className="text-lg">{item.value}</span>{" "}
-                      {/* Larger text */}
-                    </motion.a>
-                  ))}
-                </div>
-              </div>
             </div>
           </div>
         </motion.div>

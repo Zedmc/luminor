@@ -24,22 +24,22 @@ export default function Services() {
 
   const services = {
     residential: {
-      image: `/images/interior-services-1.jpg`, // Restored image source
+      image: `/images/services-1.jpg`, // Restored image source
       alt: t("residential.imageAlt"),
       icon: <Home className="size-5" />, // Increased icon size
     },
     commercial: {
-      image: `/images/interior-services-2.jpg`, // Restored image source
+      image: `/images/services-2.jpg`, // Restored image source
       alt: t("commercial.imageAlt"),
       icon: <Building className="size-5" />, // Increased icon size
     },
     recurring: {
-      image: `/images/interior-services-3.jpg`, // Restored image source
+      image: `/images/services-3.jpg`, // Restored image source
       alt: t("recurring.imageAlt"),
       icon: <Calendar className="size-5" />, // Increased icon size
     },
     specialized: {
-      image: `/images/interior-services-4.jpg`, // Restored image source
+      image: `/images/services-4.jpg`, // Restored image source
       alt: t("specialized.imageAlt"),
       icon: <Sparkles className="size-5" />, // Increased icon size
     },

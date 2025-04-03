@@ -81,6 +81,22 @@
     "image4Title": "Specialty Glass Solutions",
     "image4Description": "From stained glass to skylights, we have the expertise to clean and protect your most valuable and unique windows."
   },
+ "ParallaxScroll": {
+    "title": "Expert Window Care & Design Enhancement",
+    "subtitle": "Transforming Spaces Through Precision and Elegance",
+    "image1Alt": "Storefront window cleaning service",
+    "image1Title": "Crystal Clear Commercial Displays",
+    "image1Description": "Professional storefront window washing for maximum curb appeal and spotless presentation.",
+    "image2Alt": "Exterior window maintenance",
+    "image2Title": "Streak-Free Storefronts",
+    "image2Description": "Interior and exterior window cleaning to enhance natural light and maintain pristine views for your business.",
+    "image3Alt": "High-rise window maintenance",
+    "image3Title": "Elevated Glass Solutions",
+    "image3Description": "Specialized techniques for high-rise buildings and challenging architectural features.",
+    "image4Alt": "Luxury mirror and glass care",
+    "image4Title": "Reflective Perfection",
+    "image4Description": "Expert mirror polishing and specialty glass treatments for flawless surfaces."
+  },
   "Pricing": {
     "title": "Window Cleaning Options",
     "description": "Explore our different cleaning services; we offer comprehensive packages to meet your specific needs.",
