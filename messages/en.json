@@ -5,8 +5,12 @@
     "en": "EN",
     "fr": "FR"
   },
+  "CTA": {
+    "label": "Get Started"
+  },
   "Header": {
     "services": "Services",
+    "pricing": "Pricing",
     "showcase": "Gallery",
     "contact": "Contact",
     "bookNow": "Book Now"
@@ -81,8 +85,8 @@
     "image4Title": "Specialty Glass Solutions",
     "image4Description": "From stained glass to skylights, we have the expertise to clean and protect your most valuable and unique windows."
   },
- "ParallaxScroll": {
-    "title": "Expert Window Care & Design Enhancement",
+  "ParallaxScroll": {
+    "title": "Expert Window Care",
     "subtitle": "Transforming Spaces Through Precision and Elegance",
     "image1Alt": "Storefront window cleaning service",
     "image1Title": "Crystal Clear Commercial Displays",
@@ -149,6 +153,12 @@
         "description": "We stand behind our work with a 100% satisfaction guarantee on all services."
       }
     }
+  },
+  "WindowCTA": {
+    "title": "Crystal Clear Windows Guaranteed",
+    "description": "Professional window cleaning services using eco-friendly solutions. Get streak-free results and enjoy sparkling views today!",
+    "cta": "Request Free Quote",
+    "learnMore": "View Services"
   },
   "Footer": {
     "about": {
@@ -235,7 +245,8 @@
       "title": "EXPERT TECHNICIANS",
       "description": "Our window specialists are trained in advanced techniques, safety procedures, and proper handling of all window types for consistent, exceptional results."
     },
-    "cta": "Contact Us"
+    "cta": "Contact Us",
+    "learnMore": "Learn More"
   },
   "Priority": {
     "title": "OUR CORE VALUES",

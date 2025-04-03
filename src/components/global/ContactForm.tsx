@@ -1,6 +1,5 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 "use client";
-
 import { useState } from "react";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
@@ -10,7 +9,6 @@ import {
   Dialog,
   DialogContent,
   DialogDescription,
-  DialogFooter,
   DialogHeader,
   DialogTitle,
   DialogTrigger,
@@ -21,6 +19,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { useToast } from "@/hooks/use-toast";
 import { FaWhatsapp } from "react-icons/fa";
 import { useTranslations } from "next-intl";
+import { motion, AnimatePresence } from "framer-motion";
 
 const contactFormSchema = z.object({
   name: z.string().min(2, "Name must be at least 2 characters"),
@@ -32,6 +31,7 @@ type ContactFormData = z.infer<typeof contactFormSchema>;
 
 export default function ContactDialog({ label }: { label: string }) {
   const [open, setOpen] = useState(false);
+  const [isHovered, setIsHovered] = useState(false);
   const { toast } = useToast();
   const [isSubmitting, setIsSubmitting] = useState(false);
   const t = useTranslations("ContactForm");
@@ -56,9 +56,7 @@ export default function ContactDialog({ label }: { label: string }) {
         body: JSON.stringify(data),
       });
 
-      if (!response.ok) {
-        throw new Error("Failed to send message");
-      }
+      if (!response.ok) throw new Error("Failed to send message");
 
       toast({
         title: t("success.title"),
@@ -83,90 +81,103 @@ export default function ContactDialog({ label }: { label: string }) {
         <Button
           size="default"
           variant="default"
-          className="bg-[#B8860B] hover:bg-[#DAA520] duration-300 text-white border-none font-medium text-lg"
+          className="bg-[#B8860B] hover:bg-[#DAA520] text-white border-none font-medium text-xl"
         >
           {label}
         </Button>
       </DialogTrigger>
-      <DialogContent className="w-[90vw] max-w-[90vw] md:w-[60vw] md:max-w-[60vw] lg:w-[50vw] lg:max-w-[50vw] xl:w-[40vw] xl:max-w-[40vw]">
-        <DialogHeader>
-          <DialogTitle className="text-[#B8860B]">{t("title")}</DialogTitle>
-          <DialogDescription className="text-gray-600">
+
+      <DialogContent className="w-[90vw] max-w-[90vw] md:w-[60vw] md:max-w-[60vw] lg:w-[50vw] lg:max-w-[50vw] xl:w-[40vw] xl:max-w-[40vw] !rounded-2xl bg-gradient-to-br from-[#14213D] to-[#0A0F1D] p-0 overflow-hidden">
+        <div className="absolute top-0 right-0 w-24 h-24 overflow-hidden">
+          <div className="absolute transform rotate-45 translate-x-12 -translate-y-12 w-24 h-24 bg-[#B8860B]" />
+        </div>
+
+        <DialogHeader className="px-8 pt-8">
+          <DialogTitle className="text-3xl md:text-4xl bg-clip-text text-transparent bg-gradient-to-r from-[#B8860B] to-[#DAA520]">
+            {t("title")}
+          </DialogTitle>
+          <DialogDescription className="text-base md:text-lg text-[#A0AEC0]">
             {t("description")}
           </DialogDescription>
         </DialogHeader>
-        <form onSubmit={handleSubmit(onSubmit)}>
+
+        <form onSubmit={handleSubmit(onSubmit)} className="px-8 pb-8">
           <div className="grid gap-6 py-4">
             <div className="grid gap-2">
-              <Label htmlFor="name" className="text-[#B8860B]">
+              <Label className="text-[#B8860B] font-medium text-base md:text-lg">
                 {t("labels.name")}
               </Label>
               <Input
-                id="name"
                 placeholder={t("placeholders.name")}
                 {...register("name")}
-                className={`h-12 ${
-                  errors.name ? "border-red-500" : "border-[#090f1c]"
-                }`}
+                className={`h-12 bg-[#232742] border-2 ${
+                  errors.name ? "border-red-500" : "border-[#2A3154]"
+                } text-white text-base md:text-lg focus:ring-2 focus:ring-[#B8860B] focus:border-[#B8860B] placeholder:text-gray-400 placeholder:text-base md:placeholder:text-lg`}
               />
               {errors.name && (
-                <p className="text-sm text-red-500">{t("errors.name")}</p>
+                <p className="text-sm md:text-base text-red-500">
+                  {t("errors.name")}
+                </p>
               )}
             </div>
+
             <div className="grid gap-2">
-              <Label htmlFor="email" className="text-[#B8860B]">
+              <Label className="text-[#B8860B] font-medium text-base md:text-lg">
                 {t("labels.email")}
               </Label>
               <Input
-                id="email"
                 type="email"
                 placeholder={t("placeholders.email")}
                 {...register("email")}
-                className={`h-12 ${
-                  errors.email ? "border-red-500" : "border-[#090f1c]"
-                }`}
+                className={`h-12 bg-[#232742] border-2 ${
+                  errors.email ? "border-red-500" : "border-[#2A3154]"
+                } text-white text-base md:text-lg focus:ring-2 focus:ring-[#B8860B] focus:border-[#B8860B] placeholder:text-gray-400 placeholder:text-base md:placeholder:text-lg`}
               />
               {errors.email && (
-                <p className="text-sm text-red-500">{t("errors.email")}</p>
+                <p className="text-sm md:text-base text-red-500">
+                  {t("errors.email")}
+                </p>
               )}
             </div>
+
             <div className="grid gap-2">
-              <Label htmlFor="message" className="text-[#B8860B]">
+              <Label className="text-[#B8860B] font-medium text-base md:text-lg">
                 {t("labels.message")}
               </Label>
               <Textarea
-                id="message"
                 placeholder={t("placeholders.message")}
                 {...register("message")}
-                className={`min-h-[150px] ${
-                  errors.message ? "border-red-500" : "border-[#090f1c]"
-                }`}
+                className={`min-h-[150px] bg-[#232742] border-2 ${
+                  errors.message ? "border-red-500" : "border-[#2A3154]"
+                } text-white text-base md:text-lg focus:ring-2 focus:ring-[#B8860B] focus:border-[#B8860B] placeholder:text-gray-400 placeholder:text-base md:placeholder:text-lg`}
               />
               {errors.message && (
-                <p className="text-sm text-red-500">{t("errors.message")}</p>
+                <p className="text-sm md:text-base text-red-500">
+                  {t("errors.message")}
+                </p>
               )}
             </div>
           </div>
-          <DialogFooter className="flex-col space-y-2 sm:flex-row sm:justify-between sm:space-x-2 sm:space-y-0">
+
+          <div className="flex flex-col gap-4 sm:flex-row sm:justify-between">
             <Button
-              size="default"
               type="button"
               variant="outline"
-              className="w-full sm:w-auto flex items-center justify-center gap-2 font-semibold text-[#B8860B] border-[#B8860B] hover:bg-[#B8860B] hover:text-white"
+              className="w-full sm:w-auto flex items-center gap-2 border-[#B8860B] text-[#B8860B] hover:bg-[#B8860B] hover:text-white transition-all text-base md:text-lg"
               onClick={() => window.open("https://wa.me/14385303350", "_blank")}
             >
-              <FaWhatsapp className="h-5 w-5" />
+              <FaWhatsapp className="w-4 h-4 md:w-5 md:h-5" />
               <span>{t("buttons.contactWhatsApp")}</span>
             </Button>
+
             <Button
-              size="default"
               type="submit"
-              className="w-full sm:w-auto bg-[#B8860B] hover:bg-[#DAA520] text-white transition-colors duration-300 px-6 py-2 rounded-full text-sm font-semibold"
+              className="w-full sm:w-auto bg-gradient-to-r from-[#B8860B] to-[#DAA520] hover:from-[#DAA520] hover:to-[#B8860B] text-white shadow-lg hover:shadow-[#B8860B]/50 transition-all text-base md:text-lg"
               disabled={isSubmitting}
             >
               {isSubmitting ? t("buttons.sending") : t("buttons.sendMessage")}
             </Button>
-          </DialogFooter>
+          </div>
         </form>
       </DialogContent>
     </Dialog>

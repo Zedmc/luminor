@@ -85,7 +85,7 @@ const About = () => {
                 {t("ourStory")}
               </div>
 
-              <h2 className="text-3xl md:text-4xl font-bold text-gray-900">
+              <h2 className="text-4xl md:text-5xl font-bold text-gray-900">
                 {t("foundersTitle")}
               </h2>
 
@@ -122,7 +122,7 @@ const About = () => {
             className="mt-28"
           >
             <div className="max-w-2xl mx-auto text-center mb-16">
-              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+              <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
                 {t("valuesTitle")}
               </h2>
               <div className="w-16 h-0.5 bg-[#B8860B] mx-auto mb-6" />

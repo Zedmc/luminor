@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Diamond, Home, Umbrella, Users } from "lucide-react";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
+import ContactForm from "./ContactForm";
 
 export default function WhyChooseUs() {
   const t = useTranslations("WhyChooseUs");
@@ -29,10 +30,17 @@ export default function WhyChooseUs() {
     {
       icon: Users,
       title: "reliableCrew.title",
-      description: "reliableCrew.description",
+      "description": "reliableCrew.description",
       image: "/images/why-choose-us-4.jpg",
     },
   ];
+
+  const handleLearnMoreClick = () => {
+    const pricingSection = document.getElementById("pricing");
+    if (pricingSection) {
+      pricingSection.scrollIntoView({ behavior: "smooth" });
+    }
+  };
 
   return (
     <section className="py-24 bg-white">
@@ -47,11 +55,15 @@ export default function WhyChooseUs() {
             <p className="text-lg text-gray-600 md:text-xl">{t("subtitle")}</p>
 
             <div className="mt-8 flex flex-col gap-4 lg:flex-row">
-              <Button className="gap-2" size="lg">
-                {t("cta")}
+              <Button asChild size="lg" className="gap-2">
+                <ContactForm label={t("cta")} />
               </Button>
-              <Button variant="outline" size="lg" className="gap-2">
-                Learn More
+              <Button
+                variant="outline"
+                className="gap-2 text-lg text-[#B8860B] border-[#B8860B] hover:bg-[#B8860B] hover:text-white duration-300"
+                onClick={handleLearnMoreClick}
+              >
+                {t("learnMore")}
               </Button>
             </div>
           </div>

@@ -39,21 +39,25 @@ export const ParallaxScroll = () => {
   const thirdPart = images.slice(2 * third);
 
   return (
-    <section ref={sectionRef} id="parallax" className="py-12 md:py-12 bg-white">
+    <section
+      ref={sectionRef}
+      id="parallax"
+      className="py-12 md:py-12 mx-auto px-6 md:px-12 lg:px-20 bg-white"
+    >
       <div className="w-full">
         {/* Enhanced Page Title */}
         <h2 className="text-4xl md:text-5xl font-bold text-center mb-6 text-gray-800">
           {t("title")}
           <div className="w-32 h-1 bg-[#B8860B] mx-auto mt-6"></div>
         </h2>
-        <p className="text-lg md:text-xl text-gray-600 text-center max-w-3xl mx-auto mb-12 md:mb-16">
+        <p className="text-lg md:text-xl text-gray-600 text-center max-w-3xl mx-auto ">
           {t("subtitle")}
         </p>
 
         <div className="w-full">
           {/* Reduced gap-8 instead of gap-10 to accommodate wider cards */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-start max-w-6xl mx-auto gap-8 py-20 px-6">
-            <div className="grid gap-10">
+            <div className="hidden md:grid gap-10">
               {firstPart.map((image, idx) => (
                 <motion.div
                   style={{
@@ -106,7 +110,7 @@ export const ParallaxScroll = () => {
                 </motion.div>
               ))}
             </div>
-            <div className="grid gap-10">
+            <div className="hidden md:grid gap-10">
               {thirdPart.map((image, idx) => (
                 <motion.div
                   style={{

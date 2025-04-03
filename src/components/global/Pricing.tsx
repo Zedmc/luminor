@@ -254,7 +254,9 @@ export default function Pricing() {
           {/* <span className="inline-block px-4 py-1 rounded-full text-[#B8860B] bg-[#B8860B]/10 border border-[#B8860B]/20 text-sm font-medium mb-4">
             PREMIUM SERVICES
           </span> */}
-          <h2 className="text-6xl font-bold text-white mb-6">{t("title")}</h2>
+          <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
+            {t("title")}
+          </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-[#B8860B] to-[#DAA520] mx-auto mb-6" />
 
           <div className="max-w-2xl mx-auto text-center">

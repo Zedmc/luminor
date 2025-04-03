@@ -7,6 +7,7 @@ import LuxuryShowcase from "@/components/global/LuxuryShowcase";
 import Pricing from "@/components/global/Pricing";
 import LuxuryAppealSection from "@/components/global/LuxuryAppealSection";
 import ParallaxScroll from "@/components/global/ParallaxScroll";
+import  CTA  from "@/components/global/CTA";
 
 export default async function Home() {
   return (
@@ -20,6 +21,7 @@ export default async function Home() {
         <ParallaxScroll />
         <PrioritySection />
         <Pricing />
+        <CTA />
         <LuxuryAppealSection />
       </main>
     </div>

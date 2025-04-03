@@ -28,9 +28,7 @@ export function LanguageToggle() {
       variant="outline"
       onClick={toggleLocale}
       disabled={isPending}
-      className="flex items-center justify-center  text-[#B8860B] border-[#B8860B]  hover:bg-[#B8860B] hover:text-white 
-      
-      "
+      className="flex items-center justify-center   text-[#B8860B] border-[#B8860B] hover:bg-[#B8860B] hover:text-white duration-300"
     >
       {isPending ? (
         <Spinner size="large" />

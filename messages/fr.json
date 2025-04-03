@@ -5,9 +5,13 @@
     "en": "EN",
     "fr": "FR"
   },
+  "CTA": {
+    "label": "Commencer"
+  },
   "Header": {
     "services": "Services",
-    "showcase": "Galerie",
+    "pricing": "Plans",
+    "showcase": "Vitrine",
     "contact": "Contact",
     "bookNow": "Réserver"
   },
@@ -80,8 +84,8 @@
     "image4Title": "Solutions de Verre Spécialisées",
     "image4Description": "Des vitraux aux puits de lumière, nous avons l'expertise nécessaire pour nettoyer et protéger vos fenêtres les plus précieuses et uniques."
   },
-"ParallaxScroll": {
-    "title": "Services Experts de Nettoyage Vitré & Mise en Valeur",
+  "ParallaxScroll": {
+    "title": "Services Experts de Nettoyage Vitré",
     "subtitle": "Transformer les Espaces par la Précision et l'Élégance",
     "image1Alt": "Nettoyage de vitrines commerciales",
     "image1Title": "Vitrines Commerciales Impeccables",
@@ -148,6 +152,12 @@
         "description": "Nous garantissons notre travail avec une garantie de satisfaction à 100% sur tous les services."
       }
     }
+  },
+  "WindowCTA": {
+    "title": "Vitres Cristallines Garanties",
+    "description": "Services professionnels de nettoyage de vitres utilisant des solutions écologiques. Obtenez des résultats sans traces et profitez de vues étincelantes dès aujourd'hui !",
+    "cta": "Demander un Devis Gratuit",
+    "learnMore": "Découvrir nos Services"
   },
   "Footer": {
     "about": {
@@ -234,7 +244,8 @@
       "title": "TECHNICIENS EXPERTS",
       "description": "Nos spécialistes des fenêtres sont formés aux techniques avancées, aux procédures de sécurité et à la manipulation appropriée de tous les types de fenêtres pour des résultats constants et exceptionnels."
     },
-    "cta": "Contactez-nous"
+    "cta": "Contactez-nous",
+    "learnMore": "En Savoir Plus"
   },
   "Priority": {
     "title": "NOS VALEURS FONDAMENTALES",

@@ -76,7 +76,7 @@ export default function LuxuryAppealSection() {
             className="mb-16 flex justify-center"
           >
             <div className="backdrop-blur-lg bg-gradient-to-br from-[#B8860B]/30 to-[#DAA520]/20 border border-[#DAA520]/30 p-8 rounded-2xl shadow-2xl max-w-md">
-              <p className="text-3xl md:text-4xl font-semibold mb-3 text-center">
+              <p className="text-4xl md:text-5xl font-semibold mb-3 text-center">
                 {t("statistic")}
               </p>
               <div className="w-16 h-0.5 bg-[#B8860B] mx-auto mb-4" />
