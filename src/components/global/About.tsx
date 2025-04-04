@@ -155,8 +155,8 @@ const About = () => {
                   initial={{ opacity: 0, y: 40 }}
                   animate={isInView ? { opacity: 1, y: 0 } : {}}
                   transition={{ duration: 0.5, delay: item.delay }}
-                  whileHover={{ y: -8 }}
-                  className="group relative overflow-hidden bg-white rounded-2xl border border-gray-100 transition-all duration-300 hover:border-[#B8860B]/20"
+                  whileHover={{ y: -4 }}
+                  className="group relative overflow-hidden bg-white rounded-2xl border border-[#B8860B]/20 transition-all duration-300 hover:border-[#B8860B]/30"
                 >
                   <div className="absolute inset-0 bg-gradient-to-br from-white via-[#F8F4E8] to-white opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
 

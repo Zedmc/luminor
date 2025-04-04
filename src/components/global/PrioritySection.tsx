@@ -94,7 +94,7 @@ export default function PrioritySection() {
                   onClick={() => setActivePriority(priority.id)}
                   className={cn(
                     "flex flex-col items-center justify-center transition-all duration-500 w-full",
-                    "group rounded-xl p-8 backdrop-blur-sm",
+                    "group rounded-3xl p-8 backdrop-blur-sm",
                     "bg-white/5 border border-white/10",
                     "hover:bg-white/10 hover:border-white/20",
                     activePriority === priority.id

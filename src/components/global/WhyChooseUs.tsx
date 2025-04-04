@@ -13,7 +13,8 @@ export default function WhyChooseUs() {
       icon: Diamond,
       title: "sparklingClean.title",
       description: "sparklingClean.description",
-      image: "/images/why-choose-us-1.jpg",
+      // image: "/images/why-choose-us-1.jpg",
+      image: "/images/parallax-3.jpg",
     },
     {
       icon: Home,
@@ -30,7 +31,7 @@ export default function WhyChooseUs() {
     {
       icon: Users,
       title: "reliableCrew.title",
-      "description": "reliableCrew.description",
+      description: "reliableCrew.description",
       image: "/images/why-choose-us-4.jpg",
     },
   ];
@@ -55,7 +56,7 @@ export default function WhyChooseUs() {
             <p className="text-lg text-gray-600 md:text-xl">{t("subtitle")}</p>
 
             <div className="mt-8 flex flex-col gap-4 lg:flex-row">
-              <Button asChild size="lg" className="gap-2">
+              <Button asChild className="gap-2">
                 <ContactForm label={t("cta")} />
               </Button>
               <Button
@@ -68,31 +69,40 @@ export default function WhyChooseUs() {
             </div>
           </div>
 
-          {/* Right Column - Feature Cards */}
+          {/* Right Column - Enhanced Feature Cards */}
           <div className="flex flex-col gap-12 md:gap-16">
             {features.map((feature, index) => (
               <div
                 key={index}
-                className="group rounded-xl border border-gray-200 p-2 transition-all hover:shadow-lg"
+                className="group relative rounded-3xl border border-gray-200 p-2 transition-all hover:border-[#B8860B]/30 hover:shadow-lg overflow-hidden"
               >
-                <div className="relative aspect-video w-full overflow-hidden rounded-lg">
+                {/* Image with gradient overlay */}
+                <div className="relative aspect-video w-full overflow-hidden rounded-2xl">
                   <Image
                     src={feature.image}
                     alt={t(feature.title)}
                     fill
-                    className="object-cover transition-transform duration-300 group-hover:scale-105"
+                    className="object-cover transition-transform duration-300 group-hover:scale-110"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent" />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-black/20 to-transparent" />
                 </div>
 
-                <div className="p-6">
-                  <div className="flex items-center gap-4 mb-4">
-                    <feature.icon className="w-8 h-8 text-[#B8860B]" />
-                    <h3 className="text-2xl font-semibold text-gray-900">
-                      {t(feature.title)}
-                    </h3>
-                  </div>
-                  <p className="text-gray-600">{t(feature.description)}</p>
+                {/* Floating icon container */}
+                <div className="absolute top-4 right-4 p-3 bg-white/90 backdrop-blur-sm rounded-full shadow-sm">
+                  <feature.icon className="w-6 h-6 text-[#B8860B]" />
+                </div>
+
+                {/* Content */}
+                <div className="p-6 bg-white/95 backdrop-blur-sm relative">
+                  <h3 className="text-2xl font-semibold text-gray-900 mb-3">
+                    {t(feature.title)}
+                  </h3>
+                  <p className="text-gray-600 leading-relaxed">
+                    {t(feature.description)}
+                  </p>
+
+                  {/* Animated underline */}
+                  <div className="mt-4 w-12 h-0.5 bg-gradient-to-r from-[#B8860B] to-[#DAA520] transition-all duration-300 group-hover:w-1/2" />
                 </div>
               </div>
             ))}

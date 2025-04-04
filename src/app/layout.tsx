@@ -18,52 +18,76 @@ const geistMono = localFont({
   weight: "100 900",
 });
 
-export const metadata: Metadata = {
-  title: "Luminor | Premium Cleaning Service in Montreal & South Shore",
-  description:
-    "Luminor offers premium cleaning services in Montreal, Brossard, Greenfield Park, St-Lambert, and St-Hubert. We specialize in cleaning luxury and high-end spaces, including Airbnb rentals, short-term rentals, luxury rooms, and apartments. Trusted, efficient, and eco-friendly solutions for homes and businesses.",
-  keywords: [
-    // English keywords
-    "premium cleaning service Montreal",
-    "Montreal cleaning company",
-    "eco-friendly cleaning services",
-    "Brossard cleaning services",
-    "Greenfield Park cleaning services",
-    "St-Lambert cleaning services",
-    "St-Hubert cleaning company",
-    "South Shore cleaning services",
-    "luxury cleaning service",
-    "high-end cleaning Montreal",
-    "Airbnb cleaning Montreal",
-    "short-term rental cleaning",
-    "luxury room cleaning",
-    "luxury apartment cleaning",
-    "business cleaning Montreal",
-    "professional cleaning Montreal",
+export async function generateMetadata(): Promise<Metadata> {
+  const locale = await getLocale();
+  const isEnglish = locale === "en";
 
-    // French keywords
-    "service de nettoyage premium Montréal",
-    "entreprise de nettoyage Montréal",
-    "services de nettoyage écologique",
-    "nettoyage Brossard",
-    "services de nettoyage Greenfield Park",
-    "nettoyage St-Lambert",
-    "entreprise de nettoyage St-Hubert",
-    "services de nettoyage Rive-Sud",
-    "service de nettoyage de luxe",
-    "nettoyage haut de gamme Montréal",
-    "nettoyage Airbnb Montréal",
-    "nettoyage location à court terme",
-    "nettoyage de chambres de luxe",
-    "nettoyage d'appartements de luxe",
-    "nettoyage commercial Montréal",
-    "service de nettoyage professionnel Montréal",
-  ],
-  icons: {
-    icon: "/logo-cropped.svg",
-    apple: "/logo-cropped.svg",
-  },
-};
+  return {
+    title: isEnglish
+      ? "Luminor | Premium Window & Glass Cleaning Service in Montreal & South Shore"
+      : "Luminor | Service Premium de Nettoyage de Vitres et Verre à Montréal et Rive-Sud",
+    description: isEnglish
+      ? "Luminor offers professional window and glass cleaning services in Montreal, Brossard, Greenfield Park, St-Lambert, and St-Hubert. We specialize in residential and commercial glass cleaning for luxury homes, high-rise buildings, storefronts, shower doors, and glass partitions. Crystal-clear results with eco-friendly solutions."
+      : "Luminor offre des services professionnels de nettoyage de vitres et de verre à Montréal, Brossard, Greenfield Park, St-Lambert et St-Hubert. Nous sommes spécialisés dans le nettoyage résidentiel et commercial pour maisons de luxe, immeubles à étages, vitrines, portes de douche et cloisons en verre. Résultats impeccables avec des solutions écologiques.",
+    keywords: isEnglish
+      ? [
+          "window cleaning Montreal",
+          "glass cleaning service Montreal",
+          "professional window washing Montreal",
+          "residential window cleaning South Shore",
+          "commercial window cleaning Montreal",
+          "high-rise window cleaning service",
+          "storefront window cleaning Montreal",
+          "glass partition cleaning Montreal",
+          "shower door cleaning service",
+          "streak-free window cleaning",
+          "glass surface cleaning Montreal",
+          "mirror cleaning service",
+          "window cleaning Brossard",
+          "Greenfield Park window washing",
+          "St-Lambert window cleaning services",
+          "St-Hubert window cleaners",
+          "luxury home glass cleaning",
+          "glass table cleaning service",
+          "Airbnb window cleaning Montreal",
+          "eco-friendly glass cleaning",
+          "window cleaning for businesses",
+          "exterior window cleaning Montreal",
+          "interior glass washing service",
+          "window and glass cleaning specialists Montreal",
+        ]
+      : [
+          "nettoyage de vitres Montréal",
+          "service de nettoyage de verre Montréal",
+          "lavage de fenêtres professionnel Montréal",
+          "nettoyage de fenêtres résidentiel Rive-Sud",
+          "nettoyage de vitres commercial Montréal",
+          "service de nettoyage de vitres d'immeubles",
+          "nettoyage de vitrines Montréal",
+          "nettoyage de cloisons en verre Montréal",
+          "service de nettoyage de portes de douche",
+          "nettoyage de vitres sans traces",
+          "nettoyage de surfaces en verre Montréal",
+          "service de nettoyage de miroirs",
+          "nettoyage de fenêtres Brossard",
+          "lavage de vitres Greenfield Park",
+          "services de nettoyage de vitres St-Lambert",
+          "nettoyeurs de fenêtres St-Hubert",
+          "nettoyage de verre maisons de luxe",
+          "service de nettoyage de tables en verre",
+          "nettoyage de vitres Airbnb Montréal",
+          "nettoyage de verre écologique",
+          "nettoyage de vitres pour entreprises",
+          "nettoyage de fenêtres extérieures Montréal",
+          "service de lavage de verre intérieur",
+          "spécialistes en nettoyage de vitres et verre Montréal",
+        ],
+    icons: {
+      icon: "/logo-cropped.svg",
+      apple: "/logo-cropped.svg",
+    },
+  };
+}
 
 export default async function RootLayout({
   children,
@@ -81,9 +105,6 @@ export default async function RootLayout({
       <head>
         <link rel="icon" href="/logo-cropped.svg" />
         <link rel="apple-touch-icon" href="/logo-cropped.svg" />
-        {Array.isArray(metadata.keywords) && (
-          <meta name="keywords" content={metadata.keywords.join(", ")} />
-        )}
       </head>
 
       <body
