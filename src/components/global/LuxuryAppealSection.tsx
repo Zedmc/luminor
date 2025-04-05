@@ -36,7 +36,7 @@ export default function LuxuryAppealSection() {
       <div className="absolute inset-0 z-0">
         <Image
           loading="lazy"
-          src="/images/luxury-facts.jpg"
+          src="/images/luxury-window.jpg"
           alt="Luxury Interior"
           fill
           style={{ objectFit: "cover" }}
@@ -96,14 +96,14 @@ export default function LuxuryAppealSection() {
                 transition={{ delay: 0.4 + index * 0.2, duration: 0.6 }}
                 className="group"
               >
-                <div className="h-full backdrop-blur-md bg-gradient-to-br from-white/10 to-white/5 border border-white/20 rounded-2xl overflow-hidden shadow-xl transition-all duration-300 hover:shadow-[#DAA520]/20 hover:border-[#DAA520]/30">
+                <div className="h-full backdrop-blur-md bg-gradient-to-br from-white/10 to-white/5 border border-white/20 rounded-2xl overflow-hidden shadow-xl transition-all duration-300 hover:shadow-[#DAA520]/20 hover:border-[#DAA520]/30 relative">
                   <div className="p-6">
                     <div className="flex items-center justify-between mb-4">
                       <div className="bg-gradient-to-br from-[#B8860B] to-[#DAA520] p-3 rounded-xl shadow-lg">
                         <benefit.icon className="w-6 h-6 text-white" />
                       </div>
                       <div className="h-12 w-12 rounded-full bg-white/5 backdrop-blur-md flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                        <span className="text-xs font-light text-[#DAA520]">
+                        <span className="text-base font-light text-[#DAA520]">
                           0{index + 1}
                         </span>
                       </div>
@@ -115,7 +115,7 @@ export default function LuxuryAppealSection() {
                       {t(`benefits.${benefit.description}`)}
                     </p>
                   </div>
-                  <div className="h-1 w-0 group-hover:w-full bg-gradient-to-r from-[#B8860B] to-[#DAA520] transition-all duration-500"></div>
+                  <div className="h-1 w-0 group-hover:w-full bg-gradient-to-r from-[#B8860B] to-[#DAA520] transition-all duration-500 absolute bottom-0 left-0"></div>
                 </div>
               </motion.div>
             ))}

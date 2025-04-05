@@ -13,7 +13,7 @@ const Wrapper = React.forwardRef<HTMLElement, Props>(
       <section
         id={id}
         className={cn(
-          "h-full mx-auto w-full px-6 md:px-12 lg:px-4 py-16 md:py-24",
+          "h-full mx-auto w-full px-6 md:px-12 lg:px-36 py-16 md:py-24",
           className
         )}
         ref={ref}

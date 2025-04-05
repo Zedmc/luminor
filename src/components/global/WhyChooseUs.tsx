@@ -61,7 +61,7 @@ export default function WhyChooseUs() {
             </Button>
             <Button
               variant="outline"
-              className="gap-2 text-lg text-[#B8860B] border-[#B8860B] hover:bg-[#B8860B] hover:text-white duration-300"
+              className="gap-2 font-medium text-lg text-[#B8860B] border-[#B8860B] hover:bg-[#B8860B] hover:text-white duration-300"
               onClick={handleLearnMoreClick}
             >
               {t("learnMore")}

@@ -33,7 +33,7 @@ export default function CTA() {
           </Button>
           <Button
             variant="outline"
-            className="gap-2 text-lg text-[#B8860B] border-[#B8860B] hover:bg-[#B8860B] hover:text-white duration-300 rounded-full"
+            className="gap-2 text-lg font-medium capitalize text-[#B8860B] border-[#B8860B] hover:bg-[#B8860B] hover:text-white duration-300 rounded-full"
             onClick={handleLearnMoreClick}
           >
             {t("learnMore")}
@@ -48,7 +48,7 @@ export default function CTA() {
           src="/images/interior-3.jpg"
           alt="Platform showcase"
           fill
-          className="object-cover rounded-bl-3xl rounded-br-3xl md:rounded-tr-3xl md:rounded-br-3xl"
+          className="object-cover bg-black rounded-bl-3xl rounded-br-3xl md:rounded-tr-3xl md:rounded-br-3xl md:rounded-bl-none md:rounded-tl-none"
         />
       </div>
     </div>

@@ -97,7 +97,7 @@ export function Footer() {
       className="relative bg-gradient-to-b from-[#050914] to-[#0A0F1D] pt-20 pb-10 overflow-hidden"
     >
       {/* Background Decoration */}
-      <div className="absolute inset-0 opacity-5">
+      <div className="absolute inset-0 opacity-[0.025]">
         <Image
           src="/images/parallax-2.jpg"
           alt="Footer Background"
@@ -114,20 +114,17 @@ export function Footer() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
         >
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 lg:gap-20 items-center">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 lg:gap-20 items-stretch">
             {/* Contact Information */}
-            <div className="space-y-12 md:pr-8 lg:pr-12">
-              {" "}
-              {/* Add right padding */}
+            <div className="space-y-12 md:pr-8 lg:pr-12 flex flex-col justify-between h-full pt-4">
               <div className="space-y-6">
-                <h3 className="text-5xl font-bold text-white border-b pb-4 border-[#DAA520]">
-                  {" "}
-                  {/* Larger heading, underline */}
+                <h3 className="text-5xl font-bold text-white border-b pb-8 border-[#DAA520]">
                   {t("getInTouch")}
                 </h3>
-                <p className="text-white/60">{t("contactFormDescription")}</p>{" "}
-                {/* Added description here */}
-                <div className="space-y-4">
+                <p className="text-white/60 text-lg">
+                  {t("contactFormDescription")}
+                </p>
+                <div className="space-y-4 mt-8">
                   {contactItems.map((item, index) => (
                     <motion.a
                       key={item.label}
@@ -135,19 +132,18 @@ export function Footer() {
                       initial={{ opacity: 0, y: 20 }}
                       animate={{ opacity: 1, y: 0 }}
                       transition={{ delay: index * 0.1 }}
-                      className="flex items-center py-4 px-4 space-x-3 text-white/80 hover:text-white bg-[#0A0F1D]/60 backdrop-blur-sm rounded-xl border border-[#2A3154]/50 shadow-md transition-colors group" // Added padding, background, rounded corners, border, shadow
+                      className="flex items-center py-4 px-4 space-x-3 text-white/70 hover:text-white bg-[#0A0F1D]/60 backdrop-blur-sm rounded-xl border border-[#2A3154]/50 shadow-md transition-all duration-300 group hover:shadow-md hover:shadow-[#DAA520]/20 hover:border-[#DAA520]/40 hover:-translate-y-1"
                     >
-                      <item.icon className="w-6 h-6 group-hover:text-[#DAA520] transition-colors" />{" "}
-                      {/* Larger icons */}
-                      <span className="text-lg">{item.value}</span>{" "}
-                      {/* Larger text */}
+                      <item.icon className="w-6 h-6 group-hover:text-[#DAA520] transition-colors" />
+                      <span className="text-lg">{item.value}</span>
                     </motion.a>
                   ))}
                 </div>
               </div>
             </div>
+
             {/* Contact Form */}
-            <div className="space-y-6">
+            <div className="space-y-6 flex flex-col justify-between h-full pt-2">
               <h2 className="text-5xl font-bold text-white">
                 <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#B8860B] via-[#DAA520] to-[#B8860B]">
                   {t("contactFormTitle")}
@@ -164,7 +160,7 @@ export function Footer() {
                     placeholder={t("namePlaceholder")}
                     {...register("name")}
                     className={cn(
-                      "h-12 bg-white/5 border-white/10 text-white placeholder:text-white/50 rounded-lg shadow-sm focus:ring-offset-gray-900 focus:ring-[#B8860B]",
+                      "h-12 bg-white/5 border-white/10 text-white text-lg placeholder:text-white/50 placeholder:text-lg rounded-lg shadow-sm focus:ring-offset-gray-900 focus:ring-[#B8860B]",
                       errors.name && "border-red-500 focus-visible:ring-red-500"
                     )}
                   />
@@ -174,6 +170,7 @@ export function Footer() {
                     </p>
                   )}
                 </div>
+
                 {/* Email Input */}
                 <div className="space-y-2">
                   <Input
@@ -181,7 +178,7 @@ export function Footer() {
                     placeholder={t("emailPlaceholder")}
                     {...register("email")}
                     className={cn(
-                      "h-12 bg-white/5 border-white/10 text-white placeholder:text-white/50 rounded-lg shadow-sm focus:ring-offset-gray-900 focus:ring-[#B8860B]",
+                      "h-12 bg-white/5 border-white/10 text-white text-lg placeholder:text-white/50 placeholder:text-lg rounded-lg shadow-sm focus:ring-offset-gray-900 focus:ring-[#B8860B]",
                       errors.email &&
                         "border-red-500 focus-visible:ring-red-500"
                     )}
@@ -192,13 +189,14 @@ export function Footer() {
                     </p>
                   )}
                 </div>
+
                 {/* Message Textarea */}
                 <div className="space-y-2">
                   <Textarea
                     placeholder={t("messagePlaceholder")}
                     {...register("message")}
                     className={cn(
-                      "min-h-[120px] bg-white/5 border-white/10 text-white placeholder:text-white/50 resize-none rounded-lg shadow-sm focus:ring-offset-gray-900 focus:ring-[#B8860B]",
+                      "min-h-[120px] bg-white/5 border-white/10 text-white text-lg placeholder:text-white/50 placeholder:text-lg resize-none rounded-lg shadow-sm focus:ring-offset-gray-900 focus:ring-[#B8860B]",
                       errors.message &&
                         "border-red-500 focus-visible:ring-red-500"
                     )}
@@ -214,7 +212,7 @@ export function Footer() {
                   size="default"
                   type="submit"
                   disabled={isSubmitting}
-                  className="w-full h-12 rounded-md bg-gradient-to-r from-[#B8860B] to-[#DAA520] text-white text-base shadow-lg hover:bg-[#DAA520] transition-transform hover:-translate-y-[2px]"
+                  className="w-full h-12 rounded-md bg-gradient-to-r from-[#B8860B] to-[#DAA520] text-white text-lg shadow-lg hover:bg-[#DAA520] transition-transform hover:-translate-y-[2px]"
                 >
                   {isSubmitting ? (
                     t("sendingButton")

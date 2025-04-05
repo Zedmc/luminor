@@ -81,7 +81,7 @@ export default function ContactDialog({ label }: { label: string }) {
         <Button
           size="default"
           variant="default"
-          className="bg-[#B8860B] hover:bg-[#DAA520] text-white border-none font-medium text-xl"
+          className="bg-[#B8860B] hover:bg-[#DAA520] text-white border-none font-medium text-lg"
         >
           {label}
         </Button>

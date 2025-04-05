@@ -35,10 +35,11 @@ export function LanguageToggle() {
       ) : (
         <>
           <Globe className="hidden md:block w-6 h-6" />
-          <span className=" text-base  font-semibold uppercase">
+          <span className=" text-base  font-medium uppercase">
             {t(currentLocale)}
           </span>
           <span className="sr-only">Toggle language</span>
+          <span className="sr-only">Changement de langues</span>
         </>
       )}
     </Button>

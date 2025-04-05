@@ -5,41 +5,12 @@ import Link from "next/link";
 interface NavLinkProps {
   href: string;
   children: React.ReactNode;
-  onClick?: () => void;
   className?: string;
 }
 
-export function NavLink({ href, children, onClick, className }: NavLinkProps) {
-
-  const handleClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
-    // Check if this is an anchor link
-    if (href.startsWith("#")) {
-      e.preventDefault();
-
-      // If we're on the home page, just scroll to the section
-      if (window.location.pathname === "/" || window.location.pathname === "") {
-        const element = document.getElementById(href.substring(1));
-        if (element) {
-          element.scrollIntoView({ behavior: "smooth" });
-        }
-      } else {
-        // We're on another page, so navigate to home with the hash
-        window.location.href = "/" + href;
-      }
-
-      // Call the original onClick if provided
-      if (onClick) onClick();
-    } else if (onClick) {
-      onClick();
-    }
-  };
-
+export function NavLink({ href, children, className }: NavLinkProps) {
   return (
-    <Link
-      href={href}
-      onClick={handleClick}
-      className={`relative group ${className || ""}`}
-    >
+    <Link href={href} className={`relative group ${className || ""}`}>
       <span className="text-lg text-gray-600 group-hover:text-[#B8860B] transition-colors duration-300">
         {children}
       </span>

@@ -53,7 +53,7 @@ export default function Services() {
     >
       <div className="mx-auto max-w-5xl space-y-10 md:space-y-16 lg:space-y-20">
         <div className="relative z-10 mx-auto max-w-3xl space-y-8 text-center">
-          <h2 className="text-balance text-4xl font-semibold text-gray-900 lg:text-5xl">
+          <h2 className="text-balance capitalize text-4xl font-semibold text-gray-900 lg:text-5xl">
             {t("title")}
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-[#B8860B] to-[#DAA520] mx-auto mb-6" />{" "}
@@ -189,7 +189,7 @@ export default function Services() {
             </AccordionItem>
           </Accordion>
 
-          <div className="relative flex overflow-hidden rounded-3xl border border-[#B8860B]/30 p-4 transition-all hover:border-[#B8860B]/50 shadow-md hover:shadow-lg bg-white p-4">
+          <div className="relative flex overflow-hidden rounded-3xl border border-[#B8860B]/30 p-4 transition-all hover:border-[#B8860B]/50 shadow-md hover:shadow-lg bg-white">
             <div className="aspect-[4/3] relative w-full rounded-2xl overflow-hidden">
               <AnimatePresence mode="wait">
                 <motion.div
