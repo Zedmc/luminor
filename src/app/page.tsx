@@ -7,11 +7,11 @@ import LuxuryShowcase from "@/components/global/LuxuryShowcase";
 import Pricing from "@/components/global/Pricing";
 import LuxuryAppealSection from "@/components/global/LuxuryAppealSection";
 import ParallaxScroll from "@/components/global/ParallaxScroll";
-import  CTA  from "@/components/global/CTA";
+import CTA from "@/components/global/CTA";
 
 export default async function Home() {
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen bg-transparent">
       <main>
         <Hero />
         <About />

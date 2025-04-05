@@ -4,6 +4,7 @@ import { useRef } from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
+import Wrapper from "./Wrapper";
 
 export const ParallaxScroll = () => {
   const t = useTranslations("ParallaxScroll");
@@ -39,10 +40,10 @@ export const ParallaxScroll = () => {
   const thirdPart = images.slice(2 * third);
 
   return (
-    <section
+    <Wrapper
       ref={sectionRef}
       id="parallax"
-      className="py-12 md:py-12 mx-auto px-6 md:px-12 lg:px-20 bg-white"
+      className="md:py-12 mx-auto md:px-12 lg:px-20 bg-white"
     >
       <div className="w-full">
         {/* Enhanced Page Title */}
@@ -142,7 +143,7 @@ export const ParallaxScroll = () => {
           </div>
         </div>
       </div>
-    </section>
+    </Wrapper>
   );
 };
 

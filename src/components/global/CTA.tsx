@@ -43,7 +43,7 @@ export default function CTA() {
 
       {/* Image Section */}
       <div className="flex-1 relative min-h-[300px] md:min-h-[400px]">
-        <div className="absolute inset-0 bg-gradient-to-b md:bg-gradient-to-r from-gray-50 via-transparent to-transparent z-10" />
+        <div className="absolute inset-0 bg-gradient-to-b md:bg-gradient-to-r from-white from-20% md:from-5% via-gray-50/50 via-60% to-transparent z-10" />
         <Image
           src="/images/interior-3.jpg"
           alt="Platform showcase"

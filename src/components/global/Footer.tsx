@@ -99,7 +99,7 @@ export function Footer() {
       {/* Background Decoration */}
       <div className="absolute inset-0 opacity-5">
         <Image
-          src="/images/footer-bg.jpg"
+          src="/images/parallax-2.jpg"
           alt="Footer Background"
           fill
           quality={100}

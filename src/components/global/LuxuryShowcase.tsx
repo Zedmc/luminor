@@ -4,6 +4,7 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import { useTranslations } from "next-intl";
 import { cn } from "@/lib/utils";
+import Wrapper from "./Wrapper";
 
 export default function LuxuryShowcase() {
   const t = useTranslations("LuxuryShowcase");
@@ -17,10 +18,10 @@ export default function LuxuryShowcase() {
   }));
 
   return (
-    <section id="gallery" className="py-12 md:py-20 bg-white">
-      <div className="container mx-auto px-4 md:px-6">
+    <Wrapper id="gallery" className="lg:px-0 py-12 md:py-20 bg-white">
+      <div className="container mx-auto">
         {/* Enhanced Page Title */}
-        <h2 className="text-4xl md:text-5xl font-bold text-center mb-6 text-gray-800">
+        <h2 className="text-4xl md:text-5xl font-bold text-center mb-6 text-gray-900 captilize">
           {t("title")}
           <div className="w-32 h-1 bg-[#B8860B] mx-auto mt-6"></div>
         </h2>
@@ -150,6 +151,6 @@ export default function LuxuryShowcase() {
           ))}
         </div>
       </div>
-    </section>
+    </Wrapper>
   );
 }

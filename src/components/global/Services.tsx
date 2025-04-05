@@ -16,6 +16,7 @@ import Image from "next/image";
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { useTranslations } from "next-intl";
+import Wrapper from "./Wrapper";
 
 export default function Services() {
   const t = useTranslations("Services");
@@ -46,7 +47,10 @@ export default function Services() {
   };
 
   return (
-    <section id="services" className="py-16 md:py-24 bg-gradient-to-b from-white via-gray-50 to-white">
+    <Wrapper
+      id="services"
+      className="bg-gradient-to-b from-white via-gray-50 to-white"
+    >
       <div className="mx-auto max-w-5xl space-y-10 md:space-y-16 lg:space-y-20">
         <div className="relative z-10 mx-auto max-w-3xl space-y-8 text-center">
           <h2 className="text-balance text-4xl font-semibold text-gray-900 lg:text-5xl">
@@ -185,7 +189,7 @@ export default function Services() {
             </AccordionItem>
           </Accordion>
 
-          <div className="relative flex overflow-hidden rounded-3xl border border-gray-200 bg-white p-2 shadow-lg">
+          <div className="relative flex overflow-hidden rounded-3xl border border-[#B8860B]/30 p-4 transition-all hover:border-[#B8860B]/50 shadow-md hover:shadow-lg bg-white p-4">
             <div className="aspect-[4/3] relative w-full rounded-2xl overflow-hidden">
               <AnimatePresence mode="wait">
                 <motion.div
@@ -210,6 +214,6 @@ export default function Services() {
           </div>
         </div>
       </div>
-    </section>
+    </Wrapper>
   );
 }
