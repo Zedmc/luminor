@@ -33,7 +33,7 @@ export function MobileMenu({ links }: MobileMenuProps) {
           <SheetTitle>
             <Logo />
           </SheetTitle>
-          <SheetDescription>Website navigation menu</SheetDescription>
+          <SheetDescription className="sr-only">Website navigation menu</SheetDescription>
         </SheetHeader>
         <nav className="flex flex-col gap-4 mt-8">
           {links.map((link) => (

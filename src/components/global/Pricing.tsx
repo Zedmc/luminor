@@ -265,7 +265,6 @@ export default function Pricing() {
             {t("title")}
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-[#B8860B] to-[#DAA520] mx-auto mb-6" />
-          ...{" "}
           <div className="max-w-2xl mx-auto text-center">
             <p className="text-xl text-balance text-[#A0AEC0] leading-relaxed">
               {t("description")}
