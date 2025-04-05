@@ -75,11 +75,11 @@ const SheetContent = React.forwardRef<
           <span className="sr-only">Close</span>
         </SheetPrimitive.Close>
         {React.Children.map(children, (child) => {
-          if (React.isValidElement(child)) {
-            return React.cloneElement(child as React.ReactElement<any>, {
+          if (React.isValidElement(child) && typeof child.type !== "string") {
+            return React.cloneElement(child, {
               id: titleId,
               "aria-describedby": descriptionId,
-            });
+            } as Record<string, unknown>);
           }
           return child;
         })}
