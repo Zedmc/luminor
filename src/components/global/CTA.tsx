@@ -16,7 +16,7 @@ export default function CTA() {
   };
 
   return (
-    <div className="flex flex-col md:flex-row md:w-[80%] mx-auto bg-inherit overflow-hidden shadow-sm p-8 md:p-16">
+    <div className="flex flex-col md:flex-row md:w-[100%] lg:w-[80%] mx-auto bg-inherit overflow-hidden shadow-sm p-8 md:p-16">
       {/* Text Section */}
       <div className="flex-1 p-6 md:p-12 flex flex-col justify-center text-center md:text-left">
         <h2 className="text-4xl md:text-5xl font-semibold text-gray-900 mb-4">

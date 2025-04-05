@@ -4,15 +4,11 @@ import * as React from "react";
 import * as SheetPrimitive from "@radix-ui/react-dialog";
 import { cva, type VariantProps } from "class-variance-authority";
 import { X } from "lucide-react";
-
 import { cn } from "@/lib/utils";
 
 const Sheet = SheetPrimitive.Root;
-
 const SheetTrigger = SheetPrimitive.Trigger;
-
 const SheetClose = SheetPrimitive.Close;
-
 const SheetPortal = SheetPrimitive.Portal;
 
 const SheetOverlay = React.forwardRef<
@@ -24,8 +20,8 @@ const SheetOverlay = React.forwardRef<
       "fixed inset-0 z-50 bg-black/80 data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0",
       className
     )}
-    ref={ref}
     {...props}
+    ref={ref}
   />
 ));
 SheetOverlay.displayName = SheetPrimitive.Overlay.displayName;
@@ -56,22 +52,41 @@ interface SheetContentProps
 const SheetContent = React.forwardRef<
   React.ElementRef<typeof SheetPrimitive.Content>,
   SheetContentProps
->(({ side = "right", className, children, ...props }, ref) => (
-  <SheetPortal>
-    <SheetOverlay />
-    <SheetPrimitive.Content
-      ref={ref}
-      className={cn(sheetVariants({ side }), className)}
-      {...props}
-    >
-      <SheetPrimitive.Close className="absolute right-6 top-9 rounded-sm opacity-70 ring-offset-background transition-opacity hover:opacity-100 focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 disabled:pointer-events-none data-[state=open]:bg-secondary">
-        <X className="h-6 w-6" />
-        <span className="sr-only">Close</span>
-      </SheetPrimitive.Close>
-      {children}
-    </SheetPrimitive.Content>
-  </SheetPortal>
-));
+>(({ side = "right", className, children, ...props }, ref) => {
+  const [titleId] = React.useState(
+    () => `sheet-title-${Math.random().toString(36).substring(2)}`
+  );
+  const [descriptionId] = React.useState(
+    () => `sheet-description-${Math.random().toString(36).substring(2)}`
+  );
+
+  return (
+    <SheetPortal>
+      <SheetOverlay />
+      <SheetPrimitive.Content
+        ref={ref}
+        className={cn(sheetVariants({ side }), className)}
+        aria-labelledby={titleId}
+        aria-describedby={descriptionId}
+        {...props}
+      >
+        <SheetPrimitive.Close className="absolute right-6 top-9 rounded-sm opacity-70 ring-offset-background transition-opacity hover:opacity-100 focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 disabled:pointer-events-none data-[state=open]:bg-secondary">
+          <X className="h-6 w-6" />
+          <span className="sr-only">Close</span>
+        </SheetPrimitive.Close>
+        {React.Children.map(children, (child) => {
+          if (React.isValidElement(child)) {
+            return React.cloneElement(child as React.ReactElement<any>, {
+              id: titleId,
+              "aria-describedby": descriptionId,
+            });
+          }
+          return child;
+        })}
+      </SheetPrimitive.Content>
+    </SheetPortal>
+  );
+});
 SheetContent.displayName = SheetPrimitive.Content.displayName;
 
 const SheetHeader = ({

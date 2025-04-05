@@ -58,7 +58,7 @@ export const ParallaxScroll = () => {
         <div className="w-full">
           {/* Reduced gap-8 instead of gap-10 to accommodate wider cards */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-start max-w-6xl mx-auto gap-8 py-20 px-6">
-            <div className="hidden md:grid gap-10">
+            <div className="hidden lg:grid gap-10">
               {firstPart.map((image, idx) => (
                 <motion.div
                   style={{

@@ -8,6 +8,7 @@ import {
   SheetContent,
   SheetHeader,
   SheetTitle,
+  SheetDescription,
   SheetTrigger,
 } from "@/components/ui/sheet";
 import { Logo } from "./Logo";
@@ -23,7 +24,7 @@ export function MobileMenu({ links }: MobileMenuProps) {
   return (
     <Sheet open={open} onOpenChange={setOpen}>
       <SheetTrigger asChild>
-        <Button variant="ghost" size="icon" className="md:hidden">
+        <Button variant="ghost" size="icon" className="lg:hidden">
           <Menu className="h-6 w-6" />
         </Button>
       </SheetTrigger>
@@ -32,10 +33,15 @@ export function MobileMenu({ links }: MobileMenuProps) {
           <SheetTitle>
             <Logo />
           </SheetTitle>
+          <SheetDescription>Website navigation menu</SheetDescription>
         </SheetHeader>
         <nav className="flex flex-col gap-4 mt-8">
           {links.map((link) => (
-            <NavLink key={link.href} href={link.href}>
+            <NavLink
+              key={link.href}
+              href={link.href}
+              onClick={() => setOpen(false)}
+            >
               {link.label}
             </NavLink>
           ))}

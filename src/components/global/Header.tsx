@@ -28,7 +28,7 @@ export default function Header() {
       <div className="container mx-auto px-6 h-20 flex items-center justify-between">
         <Logo />
 
-        <nav className="hidden md:flex items-center space-x-8">
+        <nav className="hidden lg:flex items-center space-x-8">
           {links.map((link) => (
             <NavLink key={link.href} href={link.href}>
               {link.label}
