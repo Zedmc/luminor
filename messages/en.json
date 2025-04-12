@@ -71,7 +71,6 @@
     "cta": "Contact Us",
     "title": "See the Difference",
     "subtitle": "Exquisite spaces that redefine luxury living",
-
     "image1Alt": "Spotless home windows",
     "image1Title": "Residential Excellence",
     "image1Description": "Experience the luxury of perfectly cleaned windows that frame your view and flood your home with natural light.",
@@ -336,5 +335,19 @@
     "nameError": "Please enter your name",
     "emailError": "Please enter your email",
     "messageError": "Please enter your message"
+  },
+  "ContractPage": {
+    "title": "Contract Generator",
+    "clientName": "Client Name",
+    "clientNamePlaceholder": "Enter client name",
+    "clientAddress": "Client Address",
+    "clientAddressPlaceholder": "Enter client address",
+    "executionDate": "Execution Date",
+    "executionDatePlaceholder": "Enter execution date",
+    "price": "Price",
+    "pricePlaceholder": "Enter price",
+    "generateContract": "Generate Contract",
+    "submitting": "Generating...",
+    "generatedContract": "Generated Contract"
   }
 }

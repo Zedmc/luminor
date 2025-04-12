@@ -163,7 +163,7 @@ export default function ContactDialog({ label }: { label: string }) {
             <Button
               type="button"
               variant="outline"
-              className="w-full sm:w-auto flex items-center gap-2 border-[#B8860B] text-[#B8860B] hover:bg-[#B8860B] hover:text-white transition-all text-base md:text-lg"
+              className="w-full sm:w-auto flex items-center gap-2 border-[#B8860B] text-[#B8860B] hover:bg-[#B8860B] hover:text-white transition-all duration-300 text-base md:text-lg rounded-lg"
               onClick={() => window.open("https://wa.me/14385303350", "_blank")}
             >
               <FaWhatsapp className="w-4 h-4 md:w-5 md:h-5" />
@@ -172,7 +172,7 @@ export default function ContactDialog({ label }: { label: string }) {
 
             <Button
               type="submit"
-              className="w-full sm:w-auto bg-gradient-to-r from-[#B8860B] to-[#DAA520] hover:from-[#DAA520] hover:to-[#B8860B] text-white shadow-lg hover:shadow-[#B8860B]/50 transition-all text-base md:text-lg"
+              className="w-full sm:w-auto bg-[#B8860B]/90  hover:bg-[#B8860B] text-white transition-all text-base md:text-lg rounded-lg"
               disabled={isSubmitting}
             >
               {isSubmitting ? t("buttons.sending") : t("buttons.sendMessage")}

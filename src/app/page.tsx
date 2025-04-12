@@ -8,11 +8,13 @@ import Pricing from "@/components/global/Pricing";
 import LuxuryAppealSection from "@/components/global/LuxuryAppealSection";
 import ParallaxScroll from "@/components/global/ParallaxScroll";
 import CTA from "@/components/global/CTA";
+// import ContractPage from "@/components/global/ContractPage";
 
 export default async function Home() {
   return (
     <div className="min-h-screen bg-transparent">
       <main>
+        {/* <ContractPage/> */}
         <Hero />
         <About />
         <Services />

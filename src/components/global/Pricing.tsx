@@ -100,7 +100,7 @@ const ServiceCard: React.FC<ServiceCardProps> = ({
         <div className="flex items-center mb-6 relative z-20">
           <div
             className={`
-            p-3 rounded-lg transition-all duration-300
+            p-3 rounded-lg transition-all duration-500
             ${
               isHovered
                 ? "bg-[#B8860B] text-white"
@@ -309,7 +309,7 @@ export default function Pricing() {
             </p>
 
             {/* Highlighted free quote message */}
-            {/* <div className="bg-[#0A0F1D] p-6 rounded-xl border border-[#B8860B]/30 mb-10 max-w-2xl mx-auto transform hover:scale-105 transition-transform duration-300">
+            {/* <div className="bg-[#0A0F1D] p-6 rounded-xl border border-[#B8860B]/30 mb-10 max-w-2xl mx-auto transform hover:scale-105 transition-transform duration-500">
               <p className="text-balance text-white text-xl leading-relaxed font-medium">
                 <span className="text-[#B8860B]">
                   FREE, no-obligation quote
@@ -321,7 +321,7 @@ export default function Pricing() {
             <Link href="#contact">
               <Button
                 size="default"
-                className="bg-gradient-to-r from-[#B8860B] to-[#DAA520] text-white text-lg rounded-full transition duration-300 ease-in-out transform hover:scale-105 px-8 py-6 shadow-lg"
+                className="bg-gradient-to-r from-[#B8860B] to-[#DAA520] text-white text-lg rounded-full transition duration-500 ease-in-out transform hover:scale-105 px-8 py-6 shadow-lg"
               >
                 {t("contactUs")}
               </Button>
