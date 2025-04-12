@@ -11,11 +11,12 @@ export async function POST(request: Request) {
 
     const data = await resend.emails.send({
       from: "Contact Form <onboarding@resend.dev>",
-      to: "info@luminor.ca",
-      // to: "zie.mc@hotmail.com",
+      // to: "info@luminor.ca",
+      to: "zie.mc@hotmail.com",
       subject: `New Contact Form Submission from ${name}`,
       html: `
         <h2>New Contact Form Submission</h2>
+        <h3>Redirected from info@luminor.ca</h3>
         <p><strong>Name:</strong> ${name}</p>
         <p><strong>Email:</strong> ${email}</p>
         <p><strong>Message:</strong></p>
