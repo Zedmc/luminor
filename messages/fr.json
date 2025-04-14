@@ -223,7 +223,11 @@
     "value2Description": "Intégration de la technologie pour des résultats impeccables.",
     "value3Title": "Engagement Durable",
     "value3Description": "Solutions respectueuses de l'environnement.",
-    "learnMore": "En savoir plus"
+    "regionTitle": "Notre Zone d'Opération",
+    "regionDescription": "Nous desservons fièrement la grande région de Montréal, incluant Montréal et la Rive-Sud.",
+    "learnMore": "En savoir plus",
+    "montreal": "Montréal",
+    "southShore": "Rive-Sud"
   },
   "WhyChooseUs": {
     "title": "POURQUOI NOUS CHOISIR",
@@ -281,16 +285,22 @@
     "labels": {
       "name": "Nom",
       "email": "Courriel",
+      "phone": "Numéro de téléphone",
+      "serviceAddress": "Adresse du service",
       "message": "Message"
     },
     "placeholders": {
       "name": "Entrez votre nom",
       "email": "Entrez votre courriel",
+      "phone": "123-456-7890",
+      "serviceAddress": "Entrez l'adresse pour le nettoyage des vitres",
       "message": "Entrez votre message"
     },
     "errors": {
       "name": "Le nom doit comporter au moins 2 caractères",
       "email": "Adresse courriel invalide",
+      "phone": "Le numéro de téléphone est requis",
+      "serviceAddress": "L'adresse du service est requise",
       "message": "Le message doit comporter au moins 10 caractères"
     },
     "success": {
@@ -307,11 +317,15 @@
       "contactWhatsApp": "Contact via WhatsApp"
     }
   },
-  "FooterContactForm": {
+ "FooterContactForm": {
     "contactFormTitle": "Contactez-nous",
     "contactFormDescription": "Vous avez une question ou souhaitez planifier un nettoyage de vitres? Remplissez le formulaire ci-dessous et nous vous répondrons dès que possible.",
     "namePlaceholder": "Votre Nom",
     "emailPlaceholder": "Votre Courriel",
+    "phonePlaceholder": "Votre Numéro de Téléphone",
+    "serviceAddressPlaceholder": "Adresse de Service",
+    "phoneRequired": "Le numéro de téléphone est requis",
+    "serviceAddressRequired": "L'adresse de service est requise",
     "messagePlaceholder": "Votre Message",
     "sendingButton": "Envoi en cours...",
     "sendButton": "Envoyer le Message",

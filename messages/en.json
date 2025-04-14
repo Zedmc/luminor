@@ -223,7 +223,11 @@
     "value2Description": "Integrating technology for flawless results.",
     "value3Title": "Sustainable Commitment",
     "value3Description": "Environmentally responsible solutions.",
-    "learnMore": "Learn more"
+    "regionTitle": "Where We Operate",
+    "regionDescription": "Proudly serving the greater Montreal region, including Montreal and the South Shore.",
+    "learnMore": "Learn more",
+    "montreal": "Montreal",
+    "southShore": "South Shore"
   },
   "WhyChooseUs": {
     "title": "WHY CHOOSE US",
@@ -281,16 +285,22 @@
     "labels": {
       "name": "Name",
       "email": "Email",
+      "phone": "Phone Number",
+      "serviceAddress": "Service Location Address",
       "message": "Message"
     },
     "placeholders": {
       "name": "Enter your name",
       "email": "Enter your email",
+      "phone": "123-456-7890",
+      "serviceAddress": "Enter the address for window cleaning",
       "message": "Enter your message"
     },
     "errors": {
       "name": "Name must be at least 2 characters",
       "email": "Invalid email address",
+      "phone": "Phone number is required",
+      "serviceAddress": "Service address is required",
       "message": "Message must be at least 10 characters"
     },
     "success": {
@@ -307,11 +317,15 @@
       "contactWhatsApp": "Contact via WhatsApp"
     }
   },
-  "FooterContactForm": {
+ "FooterContactForm": {
     "contactFormTitle": "Contact Us",
     "contactFormDescription": "Have a question or want to schedule window cleaning? Fill out the form below and we'll get back to you as soon as possible.",
     "namePlaceholder": "Your Name",
     "emailPlaceholder": "Your Email",
+    "phonePlaceholder": "Your Phone Number",
+    "serviceAddressPlaceholder": "Service Address",
+    "phoneRequired": "Phone number is required",
+    "serviceAddressRequired": "Service address is required",
     "messagePlaceholder": "Your Message",
     "sendingButton": "Sending...",
     "sendButton": "Send Message",

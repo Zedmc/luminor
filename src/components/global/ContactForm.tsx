@@ -19,11 +19,12 @@ import { Textarea } from "@/components/ui/textarea";
 import { useToast } from "@/hooks/use-toast";
 import { FaWhatsapp } from "react-icons/fa";
 import { useTranslations } from "next-intl";
-import { motion, AnimatePresence } from "framer-motion";
 
 const contactFormSchema = z.object({
   name: z.string().min(2, "Name must be at least 2 characters"),
   email: z.string().email("Invalid email address"),
+  phone: z.string().min(1, "Phone number is required"),
+  serviceAddress: z.string().min(1, "Service address is required"),
   message: z.string().min(10, "Message must be at least 10 characters"),
 });
 
@@ -87,7 +88,7 @@ export default function ContactDialog({ label }: { label: string }) {
         </Button>
       </DialogTrigger>
 
-      <DialogContent className="w-[90vw] max-w-[90vw] md:w-[60vw] md:max-w-[60vw] lg:w-[50vw] lg:max-w-[50vw] xl:w-[40vw] xl:max-w-[40vw] !rounded-2xl bg-gradient-to-br from-[#14213D] to-[#0A0F1D] p-0 overflow-hidden">
+      <DialogContent className="w-[90vw] max-w-[90vw] md:w-[80vw] md:max-w-[80vw] lg:w-[70vw] lg:max-w-[70vw] xl:w-[60vw] xl:max-w-[60vw] !rounded-2xl bg-gradient-to-br from-[#14213D] to-[#0A0F1D] p-0 overflow-hidden">
         <div className="absolute top-0 right-0 w-24 h-24 overflow-hidden">
           <div className="absolute transform rotate-45 translate-x-12 -translate-y-12 w-24 h-24 bg-[#B8860B]" />
         </div>
@@ -103,39 +104,80 @@ export default function ContactDialog({ label }: { label: string }) {
 
         <form onSubmit={handleSubmit(onSubmit)} className="px-8 pb-8">
           <div className="grid gap-6 py-4">
-            <div className="grid gap-2">
+            <div>
               <Label className="text-[#B8860B] font-medium text-base md:text-lg">
                 {t("labels.name")}
               </Label>
-              <Input
-                placeholder={t("placeholders.name")}
-                {...register("name")}
-                className={`h-12 bg-[#232742] border-2 ${
-                  errors.name ? "border-red-500" : "border-[#2A3154]"
-                } text-white text-base md:text-lg focus:ring-2 focus:ring-[#B8860B] focus:border-[#B8860B] placeholder:text-gray-400 placeholder:text-base md:placeholder:text-lg`}
-              />
+              <div className="max-w-1/2">
+                <Input
+                  placeholder={t("placeholders.name")}
+                  {...register("name")}
+                  className={`h-12 bg-[#232742] border-2 mt-2 ${
+                    errors.name ? "border-red-500" : "border-[#2A3154]"
+                  } text-white text-base md:text-lg focus:ring-2 focus:ring-[#B8860B] focus:border-[#B8860B] placeholder:text-gray-400 placeholder:text-base md:placeholder:text-lg`}
+                />
+              </div>
               {errors.name && (
-                <p className="text-sm md:text-base text-red-500">
+                <p className="text-sm md:text-base text-red-500 mt-1">
                   {t("errors.name")}
                 </p>
               )}
             </div>
 
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <div className="grid gap-2">
+                <Label className="text-[#B8860B] font-medium text-base md:text-lg">
+                  {t("labels.email")}
+                </Label>
+                <Input
+                  type="email"
+                  placeholder={t("placeholders.email")}
+                  {...register("email")}
+                  className={`h-12 bg-[#232742] border-2 ${
+                    errors.email ? "border-red-500" : "border-[#2A3154]"
+                  } text-white text-base md:text-lg focus:ring-2 focus:ring-[#B8860B] focus:border-[#B8860B] placeholder:text-gray-400 placeholder:text-base md:placeholder:text-lg`}
+                />
+                {errors.email && (
+                  <p className="text-sm md:text-base text-red-500">
+                    {t("errors.email")}
+                  </p>
+                )}
+              </div>
+
+              <div className="grid gap-2">
+                <Label className="text-[#B8860B] font-medium text-base md:text-lg">
+                  {t("labels.phone")}
+                </Label>
+                <Input
+                  type="tel"
+                  placeholder="123-456-7890"
+                  {...register("phone")}
+                  className={`h-12 bg-[#232742] border-2 ${
+                    errors.phone ? "border-red-500" : "border-[#2A3154]"
+                  } text-white text-base md:text-lg focus:ring-2 focus:ring-[#B8860B] focus:border-[#B8860B] placeholder:text-gray-400 placeholder:text-base md:placeholder:text-lg`}
+                />
+                {errors.phone && (
+                  <p className="text-sm md:text-base text-red-500">
+                    {t("errors.phone")}
+                  </p>
+                )}
+              </div>
+            </div>
+
             <div className="grid gap-2">
               <Label className="text-[#B8860B] font-medium text-base md:text-lg">
-                {t("labels.email")}
+                {t("labels.serviceAddress")}
               </Label>
               <Input
-                type="email"
-                placeholder={t("placeholders.email")}
-                {...register("email")}
+                placeholder={t("placeholders.serviceAddress")}
+                {...register("serviceAddress")}
                 className={`h-12 bg-[#232742] border-2 ${
-                  errors.email ? "border-red-500" : "border-[#2A3154]"
+                  errors.serviceAddress ? "border-red-500" : "border-[#2A3154]"
                 } text-white text-base md:text-lg focus:ring-2 focus:ring-[#B8860B] focus:border-[#B8860B] placeholder:text-gray-400 placeholder:text-base md:placeholder:text-lg`}
               />
-              {errors.email && (
+              {errors.serviceAddress && (
                 <p className="text-sm md:text-base text-red-500">
-                  {t("errors.email")}
+                  {t("errors.serviceAddress")}
                 </p>
               )}
             </div>

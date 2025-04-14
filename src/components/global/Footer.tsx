@@ -18,6 +18,8 @@ import Image from "next/image";
 const contactFormSchema = z.object({
   name: z.string().min(2, "nameMin"),
   email: z.string().email("emailInvalid"),
+  phone: z.string().min(1, "phoneRequired"),
+  serviceAddress: z.string().min(1, "serviceAddressRequired"),
   message: z.string().min(10, "messageMin"),
 });
 
@@ -186,6 +188,42 @@ export function Footer() {
                   {errors.email && (
                     <p className="text-red-400 text-sm">
                       {t(errors.email.message)}
+                    </p>
+                  )}
+                </div>
+
+                {/* Phone Input - Now Required */}
+                <div className="space-y-2">
+                  <Input
+                    type="tel"
+                    placeholder="123-456-7890"
+                    {...register("phone")}
+                    className={cn(
+                      "h-12 bg-white/5 border-white/10 text-white text-lg placeholder:text-white/50 placeholder:text-lg rounded-lg shadow-sm focus:ring-offset-gray-900 focus:ring-[#B8860B]",
+                      errors.phone && "border-red-500 focus-visible:ring-red-500"
+                    )}
+                  />
+                  {errors.phone && (
+                    <p className="text-red-400 text-sm">
+                      {t(errors.phone.message)}
+                    </p>
+                  )}
+                </div>
+
+                {/* Service Address Input - Now Required */}
+                <div className="space-y-2">
+                  <Input
+                    type="text"
+                    placeholder={t("serviceAddressPlaceholder")}
+                    {...register("serviceAddress")}
+                    className={cn(
+                      "h-12 bg-white/5 border-white/10 text-white text-lg placeholder:text-white/50 placeholder:text-lg rounded-lg shadow-sm focus:ring-offset-gray-900 focus:ring-[#B8860B]",
+                      errors.serviceAddress && "border-red-500 focus-visible:ring-red-500"
+                    )}
+                  />
+                  {errors.serviceAddress && (
+                    <p className="text-red-400 text-sm">
+                      {t(errors.serviceAddress.message)}
                     </p>
                   )}
                 </div>

@@ -5,12 +5,26 @@ import { useRef } from "react";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { CircleArrowRight, Leaf, Star } from "lucide-react";
-import Wrapper from "./Wrapper";
+import Wrapper from "@/components/global/Wrapper";
 
 const About = () => {
   const t = useTranslations("About");
-  const ref = useRef(null);
-  const isInView = useInView(ref, { once: true });
+
+  // Ref and hook for Header Section
+  const headerRef = useRef(null);
+  const isHeaderInView = useInView(headerRef, { once: true });
+
+  // Ref and hook for Founders Story Section
+  const foundersRef = useRef(null);
+  const isFoundersInView = useInView(foundersRef, { once: true });
+
+  // Ref and hook for Core Values Section
+  const valuesRef = useRef(null);
+  const areValuesInView = useInView(valuesRef, { once: true });
+
+  // Ref and hook for Where We Operate Section
+  const regionRef = useRef(null);
+  const isRegionInView = useInView(regionRef, { once: true });
 
   const scrollToServices = () => {
     const element = document.getElementById("services");
@@ -20,33 +34,22 @@ const About = () => {
   };
 
   return (
-    <Wrapper id="about"
-        className="relative bg-gradient-to-b from-white via-gray-50 to-white overflow-hidden">
-      <section
-        className="bg-inherit"
-        
-      >
+    <Wrapper
+      id="about"
+      className="relative bg-gradient-to-b from-white via-gray-50 to-white overflow-hidden"
+    >
+      <section className="bg-inherit">
         {/* Decorative elements */}
         <div className="absolute top-0 left-0 w-full h-40 bg-gradient-to-b from-white to-transparent z-0" />
         <div className="absolute -bottom-20 -left-20 w-80 h-80 rounded-full bg-gradient-to-r from-[#F8F4E8] to-transparent blur-3xl opacity-60" />
 
-        <motion.div
-          ref={ref}
-          initial="hidden"
-          animate={isInView ? "visible" : "hidden"}
-          variants={{
-            hidden: { opacity: 0 },
-            visible: { opacity: 1 },
-          }}
-          transition={{ duration: 0.7 }}
-          className="container mx-auto relative z-10"
-        >
+        <div className="container mx-auto relative z-10">
           <div className="flex flex-col gap-20">
             {/* Header Section */}
-            <div className="text-center max-w-4xl mx-auto">
+            <div className="text-center max-w-4xl mx-auto" ref={headerRef}>
               <motion.div
                 initial={{ y: 20 }}
-                animate={isInView ? { y: 0 } : {}}
+                animate={isHeaderInView ? { y: 0 } : {}}
                 transition={{ duration: 0.5 }}
               >
                 <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6">
@@ -60,17 +63,16 @@ const About = () => {
             </div>
 
             {/* Founders Story Section */}
-            <motion.div
-              initial="hidden"
-              animate={isInView ? "visible" : "hidden"}
-              variants={{
-                hidden: { opacity: 0, y: 40 },
-                visible: { opacity: 1, y: 0 },
-              }}
-              transition={{ duration: 0.7, delay: 0.3 }}
+            <div
               className="grid gap-12 md:grid-cols-2 items-center"
+              ref={foundersRef}
             >
-              <div className="relative h-[480px] w-full overflow-hidden rounded-3xl shadow-2xl group">
+              <motion.div
+                initial={{ opacity: 0, y: 40 }}
+                animate={isFoundersInView ? { opacity: 1, y: 0 } : {}}
+                transition={{ duration: 0.7, delay: 0.3 }}
+                className="relative h-[480px] w-full overflow-hidden rounded-3xl shadow-2xl group"
+              >
                 <Image
                   src="/images/about-1.jpg"
                   alt={t("foundersAlt")}
@@ -80,7 +82,7 @@ const About = () => {
                   priority
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/30 via-black/10 to-transparent" />
-              </div>
+              </motion.div>
 
               <div className="space-y-6">
                 <div className="inline-flex items-center gap-3 text-sm font-medium text-[#B8860B] tracking-wider">
@@ -111,19 +113,10 @@ const About = () => {
                   ))}
                 </ul>
               </div>
-            </motion.div>
+            </div>
 
             {/* Core Values Section */}
-            <motion.div
-              initial="hidden"
-              animate={isInView ? "visible" : "hidden"}
-              variants={{
-                hidden: { opacity: 0 },
-                visible: { opacity: 1 },
-              }}
-              transition={{ duration: 0.7, delay: 0.4 }}
-              className="mt-28"
-            >
+            <div className="mt-28" ref={valuesRef}>
               <div className="max-w-2xl mx-auto text-center mb-16">
                 <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
                   {t("valuesTitle")}
@@ -156,7 +149,7 @@ const About = () => {
                   <motion.div
                     key={index}
                     initial={{ opacity: 0, y: 40 }}
-                    animate={isInView ? { opacity: 1, y: 0 } : {}}
+                    animate={areValuesInView ? { opacity: 1, y: 0 } : {}}
                     transition={{ duration: 0.5, delay: item.delay }}
                     whileHover={{ y: -4 }}
                     className="group relative overflow-hidden bg-white rounded-2xl border border-[#B8860B]/20 transition-all duration-300 hover:border-[#B8860B]/30"
@@ -189,9 +182,60 @@ const About = () => {
                   </motion.div>
                 ))}
               </div>
-            </motion.div>
+            </div>
+
+            {/* Where We Operate Section */}
+            <div className="mt-28" ref={regionRef}>
+              <div className="max-w-2xl mx-auto text-center mb-16">
+                <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+                  {t("regionTitle")}
+                </h2>
+                <div className="w-16 h-0.5 bg-[#B8860B] mx-auto mb-6" />
+                <p className="text-gray-500">{t("regionDescription")}</p>
+              </div>
+
+              <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-2">
+                <motion.div
+                  initial={{ opacity: 0, y: 40 }}
+                  animate={isRegionInView ? { opacity: 1, y: 0 } : {}}
+                  transition={{ duration: 0.5, delay: 0.6 }}
+                  className="relative h-96 rounded-3xl overflow-hidden shadow-2xl group"
+                >
+                  <Image
+                    src="/images/location-1.jpg"
+                    alt="Montreal"
+                    fill
+                    className="object-cover transition-all duration-700 group-hover:scale-105"
+                    sizes="(max-width: 768px) 100vw, 50vw"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/30 via-black/10 to-transparent" />
+                  <div className="absolute bottom-6 left-6 text-white text-xl font-bold">
+                    {t("montreal")}
+                  </div>
+                </motion.div>
+
+                <motion.div
+                  initial={{ opacity: 0, y: 40 }}
+                  animate={isRegionInView ? { opacity: 1, y: 0 } : {}}
+                  transition={{ duration: 0.7, delay: 0.3 }}
+                  className="relative h-96 rounded-3xl overflow-hidden shadow-2xl group"
+                >
+                  <Image
+                    src="/images/location-2.jpg"
+                    alt="South Shore"
+                    fill
+                    className="object-cover transition-all duration-700 group-hover:scale-105"
+                    sizes="(max-width: 768px) 100vw, 50vw"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/30 via-black/10 to-transparent" />
+                  <div className="absolute bottom-6 left-6 text-white text-xl font-bold">
+                    {t("southShore")}
+                  </div>
+                </motion.div>
+              </div>
+            </div>
           </div>
-        </motion.div>
+        </div>
       </section>
     </Wrapper>
   );
