@@ -78,7 +78,7 @@ const About = () => {
                   alt={t("foundersAlt")}
                   fill
                   className="object-cover transition-all duration-700 group-hover:scale-105"
-                  sizes="(max-width: 768px) 100vw, 50vw"
+                  sizes="758px"
                   priority
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/30 via-black/10 to-transparent" />
@@ -191,7 +191,9 @@ const About = () => {
                   {t("regionTitle")}
                 </h2>
                 <div className="w-16 h-0.5 bg-[#B8860B] mx-auto mb-6" />
-                <p className="text-gray-500 text-base">{t("regionDescription")}</p>
+                <p className="text-gray-500 text-base">
+                  {t("regionDescription")}
+                </p>
               </div>
 
               <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-2">
@@ -206,7 +208,7 @@ const About = () => {
                     alt="Montreal"
                     fill
                     className="object-cover transition-all duration-700 group-hover:scale-105"
-                    sizes="(max-width: 768px) 100vw, 50vw"
+                    sizes="966px"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/30 via-black/10 to-transparent" />
                   <div className="absolute bottom-6 left-6 text-white text-xl font-bold">
@@ -225,7 +227,7 @@ const About = () => {
                     alt="South Shore"
                     fill
                     className="object-cover transition-all duration-700 group-hover:scale-105"
-                    sizes="(max-width: 768px) 100vw, 50vw"
+                    sizes="(min-width: 1920px) 752px, (min-width: 1100px) calc(45.25vw - 108px), (min-width: 940px) calc(8.57vw + 287px), (min-width: 780px) calc(30vw + 92px), (min-width: 740px) 640px, (min-width: 400px) 90vw, calc(31.25vw + 213px)"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/30 via-black/10 to-transparent" />
                   <div className="absolute bottom-6 left-6 text-white text-xl font-bold">

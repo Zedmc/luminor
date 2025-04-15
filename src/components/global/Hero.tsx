@@ -20,9 +20,11 @@ export default function Hero() {
         fill
         // priority // If this is an above-the-fold image
         // sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" // Responsive sizing
+        sizes="(min-width: 1120px) 100vw, (min-width: 780px) calc(20.94vw + 870px), (min-width: 680px) 100vw, (min-width: 500px) 689px, (min-width: 420px) 734px, calc(-58vw + 960px)"
         quality={100} // Set image quality for better clarity
         style={{ objectFit: "cover" }}
         className="absolute inset-0 transition-transform duration-300 hover:scale-105"
+        
       />
 
       {/* Overlay to darken the image behind the text */}
