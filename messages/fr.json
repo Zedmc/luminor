@@ -192,7 +192,7 @@
     "toasts": {
       "success": {
         "title": "Message envoyé",
-        "description": "Nous vous répondrons bientôt !"
+        "description": "Nous vous répondrons bientôt! Attendez un courriel de info@luminor.ca. Veuillez vérifier votre dossier spam si vous ne le voyez pas."
       },
       "error": {
         "title": "Erreur",

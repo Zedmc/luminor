@@ -191,7 +191,7 @@ const About = () => {
                   {t("regionTitle")}
                 </h2>
                 <div className="w-16 h-0.5 bg-[#B8860B] mx-auto mb-6" />
-                <p className="text-gray-500">{t("regionDescription")}</p>
+                <p className="text-gray-500 text-base">{t("regionDescription")}</p>
               </div>
 
               <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-2">

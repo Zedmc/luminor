@@ -192,7 +192,7 @@
     "toasts": {
       "success": {
         "title": "Message sent",
-        "description": "We'll get back to you soon!"
+        "description": "We'll get back to you soon! Expect an email from info@luminor.ca. Please check your spam folder if you don't see it."
       },
       "error": {
         "title": "Error",
