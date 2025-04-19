@@ -2,7 +2,6 @@
 
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
-import { motion } from "framer-motion";
 import { LanguageToggle } from "@/components/global/LanguageToggle";
 import { Logo } from "@/components/header/Logo";
 import { NavLink } from "@/components/header/NavLink";
@@ -16,10 +15,9 @@ export default function Header() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    // Hide preloader after it completes
     const timer = setTimeout(() => {
       setLoading(false);
-    }, 3300); // Total animation time + a bit extra
+    }, 3300);
 
     return () => clearTimeout(timer);
   }, []);
@@ -31,17 +29,12 @@ export default function Header() {
     { href: "#contact", label: t("contact") },
   ];
 
-  // Show preloader if still loading
   if (loading) {
     return <LuminorPreloader />;
   }
 
   return (
-    <motion.header
-      initial={{ y: -100 }}
-      animate={{ y: 0 }}
-      className="bg-white/80 backdrop-blur-md border-b border-gray-200 sticky top-0 z-50"
-    >
+    <header className="bg-white/80 backdrop-blur-md border-b border-gray-200 sticky top-0 z-50">
       <div className="container mx-auto px-6 h-20 flex items-center justify-between">
         <Logo />
 
@@ -66,6 +59,6 @@ export default function Header() {
           <MobileMenu links={links} />
         </div>
       </div>
-    </motion.header>
+    </header>
   );
 }

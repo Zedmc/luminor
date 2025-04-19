@@ -82,7 +82,7 @@ const LuminorPreloader = () => {
               </div>
 
               {/* Text "LUMINOR" */}
-              <div className="luminor-text">
+              <div className="luminor-text mt-4">
                 <span className="text-4xl sm:text-5xl md:text-6xl font-bold tracking-tight text-[#2A3154]">
                   LUMINOR
                 </span>
@@ -90,10 +90,10 @@ const LuminorPreloader = () => {
 
               {/* Tagline */}
               <div className="luminor-tagline flex flex-col items-center text-center">
-                <div className="text-sm md:text-base font-medium text-[#B8860B]">
+                <div className="text-sm md:text-xl font-medium text-[#B8860B]">
                   Nettoyage de Vitres Premium
                 </div>
-                <div className="text-sm md:text-base font-medium text-[#B8860B]">
+                <div className="text-sm md:text-xl font-medium text-[#B8860B]">
                   Premium Window Cleaning
                 </div>
               </div>
@@ -133,17 +133,20 @@ const LuminorPreloader = () => {
             fillNavy 0.6s cubic-bezier(0.4, 0, 0.2, 1) forwards 1.7s;
         }
 
+        /* Modified text animations to start when SVG drawing begins */
         .luminor-text {
           opacity: 0;
           transform: translateY(10px);
-          animation: fadeIn 0.5s cubic-bezier(0.2, 0.6, 0.35, 1) forwards 1.5s;
+          /* Start text animation when SVG paths begin drawing */
+          animation: fadeIn 1.2s cubic-bezier(0.2, 0.6, 0.35, 1) forwards 0.1s;
           animation-play-state: var(--animation-play-state, running);
         }
 
         .luminor-tagline {
           opacity: 0;
           transform: translateY(10px);
-          animation: fadeIn 0.5s cubic-bezier(0.2, 0.6, 0.35, 1) forwards 1.7s;
+          /* Start tagline animation shortly after the text animation */
+          animation: fadeIn 1.2s cubic-bezier(0.2, 0.6, 0.35, 1) forwards 0.3s;
           animation-play-state: var(--animation-play-state, running);
         }
 
