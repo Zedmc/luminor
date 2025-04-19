@@ -45,10 +45,10 @@ export default function WhyChooseUs() {
   };
 
   return (
-    <Wrapper className="relative z-10 container max-w-6xl mx-auto lg:px-20 bg-white">
+    <Wrapper className="relative z-10 container max-w-6xl mx-auto lg:px-20 bg-white py-16">
       <div className="relative grid gap-16 md:grid-cols-2">
         {/* Left Column - Sticky Content */}
-        <div className="top-24 h-fit md:sticky">
+        <div className="md:sticky md:top-24 md:self-start md:h-auto">
           <h2 className="mt-4 mb-6 text-4xl font-semibold text-gray-900 md:text-5xl capitalize">
             {t("title")}
             <span className="block w-24 h-1 bg-gradient-to-r from-[#B8860B] to-[#DAA520] mt-4 rounded-full" />

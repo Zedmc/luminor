@@ -12,7 +12,7 @@ import CTA from "@/components/global/CTA";
 
 export default async function Home() {
   return (
-    <div className="min-h-screen bg-transparent overflow-hidden">
+    <div className="min-h-screen bg-transparent">
       <main>
         {/* <ContractPage/> */}
         <Hero />

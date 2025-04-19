@@ -1,16 +1,28 @@
 "use client";
 
-import { useTranslations } from "next-intl";
-import { motion } from "framer-motion";
+import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
+import { motion } from "framer-motion";
 import { LanguageToggle } from "@/components/global/LanguageToggle";
 import { Logo } from "@/components/header/Logo";
 import { NavLink } from "@/components/header/NavLink";
 import { MobileMenu } from "@/components/header/MobileMenu";
 import ContactForm from "./ContactForm";
+import { useTranslations } from "next-intl";
+import LuminorPreloader from "@/components/global/LuminorPreloader";
 
 export default function Header() {
   const t = useTranslations("Header");
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    // Hide preloader after it completes
+    const timer = setTimeout(() => {
+      setLoading(false);
+    }, 3300); // Total animation time + a bit extra
+
+    return () => clearTimeout(timer);
+  }, []);
 
   const links = [
     { href: "#services", label: t("services") },
@@ -18,6 +30,11 @@ export default function Header() {
     { href: "#gallery", label: t("showcase") },
     { href: "#contact", label: t("contact") },
   ];
+
+  // Show preloader if still loading
+  if (loading) {
+    return <LuminorPreloader />;
+  }
 
   return (
     <motion.header
@@ -41,7 +58,6 @@ export default function Header() {
             size="sm"
             asChild
             className="bg-[#B8860B] hover:bg-[#DAA520] text-white transition-colors duration-300 px-6 py-2 rounded-full text-base font-semibold
-            
             md:h-12 md:px-8 md:py-4"
           >
             <ContactForm label={t("bookNow")} />
