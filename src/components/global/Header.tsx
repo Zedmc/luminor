@@ -1,24 +1,24 @@
 "use client";
-
-import { useState, useEffect } from "react";
+import { useEffect, useState } from "react";
 import { Button } from "@/components/ui/button";
 import { LanguageToggle } from "@/components/global/LanguageToggle";
 import { Logo } from "@/components/header/Logo";
 import { NavLink } from "@/components/header/NavLink";
 import { MobileMenu } from "@/components/header/MobileMenu";
-import ContactForm from "./ContactForm";
 import { useTranslations } from "next-intl";
-import LuminorPreloader from "@/components/global/LuminorPreloader";
+import { motion } from "framer-motion";
+import ContactForm from "./ContactForm";
 
 export default function Header() {
   const t = useTranslations("Header");
-  const [loading, setLoading] = useState(true);
+  const [isMounted, setIsMounted] = useState(false);
+  const PRELOADER_DURATION = 2; // Must match actual preloader duration
 
   useEffect(() => {
-    const timer = setTimeout(() => {
-      setLoading(false);
-    }, 3300);
-
+    const timer = setTimeout(
+      () => setIsMounted(true),
+      PRELOADER_DURATION * 1000
+    );
     return () => clearTimeout(timer);
   }, []);
 
@@ -29,24 +29,34 @@ export default function Header() {
     { href: "#contact", label: t("contact") },
   ];
 
-  if (loading) {
-    return <LuminorPreloader />;
-  }
-
   return (
-    <header className="bg-white/80 backdrop-blur-md border-b border-gray-200 sticky top-0 z-50">
+    <motion.header
+      initial={{ filter: "blur(8px)", opacity: 0 }}
+      animate={isMounted ? { filter: "blur(0px)", opacity: 1 } : {}}
+      transition={{ duration: 0.8, delay: PRELOADER_DURATION }}
+      className="bg-white/80 backdrop-blur-md border-b border-gray-200 sticky top-0 z-40"
+    >
       <div className="container mx-auto px-6 h-20 flex items-center justify-between">
         <Logo />
 
         <nav className="hidden lg:flex items-center space-x-8">
-          {links.map((link) => (
-            <NavLink key={link.href} href={link.href}>
+          {links.map((link, index) => (
+            <NavLink
+              key={link.href}
+              href={link.href}
+              delayOffset={index * 0.2} // Stagger effect
+            >
               {link.label}
             </NavLink>
           ))}
         </nav>
 
-        <div className="flex items-center space-x-4">
+        <motion.div
+          initial={{ filter: "blur(8px)", opacity: 0 }}
+          animate={isMounted ? { filter: "blur(0px)", opacity: 1 } : {}}
+          transition={{ duration: 0.8, delay: PRELOADER_DURATION + 0.4 }}
+          className="flex items-center space-x-4"
+        >
           <Button
             size="sm"
             asChild
@@ -57,8 +67,8 @@ export default function Header() {
           </Button>
           <LanguageToggle />
           <MobileMenu links={links} />
-        </div>
+        </motion.div>
       </div>
-    </header>
+    </motion.header>
   );
 }

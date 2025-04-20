@@ -6,6 +6,7 @@ import localFont from "next/font/local";
 import "@/styles/globals.css";
 import Header from "@/components/global/Header";
 import { Footer } from "@/components/global/Footer";
+import LuminorPreloader from "@/components/global/LuminorPreloader";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -203,6 +204,7 @@ export default async function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <NextIntlClientProvider locale={locale} messages={messages}>
+          <LuminorPreloader/>
           <Header />
           {children}
           <Toaster />

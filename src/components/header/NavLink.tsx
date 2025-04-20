@@ -1,22 +1,30 @@
 "use client";
-
 import Link from "next/link";
-import { motion } from "framer-motion"; // Import motion
+import { motion } from "framer-motion";
 
 interface NavLinkProps {
   href: string;
   children: React.ReactNode;
   onClick?: () => void;
   className?: string;
+  delayOffset?: number;
 }
 
-export function NavLink({ href, children, onClick, className }: NavLinkProps) {
+export function NavLink({
+  href,
+  children,
+  onClick,
+  className,
+}: NavLinkProps) {
+
   return (
     <motion.div
       initial={{ filter: "blur(8px)", opacity: 0 }}
       whileInView={{ filter: "blur(0px)", opacity: 1 }}
       viewport={{ once: true }}
-      transition={{ duration: 0.5, delay: 0.2 }}
+      transition={{
+        duration: 0.5,
+      }}
       className={`relative group ${className || ""}`}
     >
       <Link href={href} onClick={onClick}>

@@ -43,7 +43,7 @@ export const ParallaxScroll = () => {
     <Wrapper
       ref={sectionRef}
       id="parallax"
-      className="md:py-12 mx-auto md:px-12 lg:px-20 bg-white"
+      className="md:py-12 mx-auto md:px-12 lg:px-20 bg-white overflow-hidden"
     >
       <div className="w-full">
         {/* Enhanced Page Title */}
