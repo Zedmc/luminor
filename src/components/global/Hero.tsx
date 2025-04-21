@@ -9,7 +9,6 @@ export default function Hero() {
   const t = useTranslations("Hero");
   const ref = useRef(null);
   const [isPreloaderDone, setIsPreloaderDone] = useState(false);
-  const [imageLoaded, setImageLoaded] = useState(false);
   const PRELOADER_DURATION = 1.85;
 
   useEffect(() => {
@@ -47,20 +46,14 @@ export default function Hero() {
 
   return (
     <section className="relative bg-primary text-white py-28 md:py-52">
-      {/* Skeleton Loader */}
-      {!imageLoaded && (
-        <div className="absolute inset-0 z-10 bg-gray-300 animate-pulse" />
-      )}
-
       <Image
         src="/images/luxury-home.jpg"
-        alt="Luxury home image"
+        alt="Luxury home window image"
         fill
         sizes="(min-width: 1120px) 100vw, (min-width: 780px) calc(20.94vw + 870px), (min-width: 680px) 100vw, (min-width: 500px) 689px, (min-width: 420px) 734px, calc(-58vw + 960px)"
         quality={100}
         style={{ objectFit: "cover" }}
         className="absolute inset-0 transition-transform duration-300 hover:scale-105"
-        onLoadingComplete={() => setImageLoaded(true)}
       />
 
       <div className="absolute inset-0 bg-black opacity-50 z-0" />
@@ -72,7 +65,7 @@ export default function Hero() {
         animate={isPreloaderDone ? "visible" : "hidden"}
         className="relative container mx-auto px-4 z-10"
       >
-        <div className="text-center  mx-auto">
+        <div className="text-center mx-auto">
           <motion.h1
             variants={itemVariants}
             className="text-2xl text-balance md:text-6xl font-bold mb-6"
